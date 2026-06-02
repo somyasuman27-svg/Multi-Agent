@@ -11,4 +11,6 @@ codebase_dump.md
 draft_coder_test_output.txt
 graphify-out/cache/
 graphify-out/20[0-9][0-9]-[0-9][0-9]-[0-9][0-9]/
+graphify-out/.graphify_root
+
 

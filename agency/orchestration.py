@@ -386,15 +386,17 @@ def phase_2_b_logic_expander(draft_code, briefing_data, custom_instruction=None)
         instruction = custom_instruction
     else:
         instruction = _coding_agent_instruction("""
-        You are the LOGIC_EXPANDER.
-        Review the provided draft code and the original CEO plan.
-        Improve the code by adding proper error handling, professional best practices (e.g., if __name__ == '__main__':), and clean comments.
-        VERIFY Flask template_folder/static_folder point to project root when this is a web project.
-        Output ALL finalized files using the following strict format for each file:
-        ==== FILE: path/to/filename.ext ====
-        ... raw code here ...
-        ==== END FILE ====
-        For the main python backend, use 'final_code.py' as the filename.
+        You are an elite Enterprise Software Architect (LOGIC_EXPANDER).
+        Review the provided draft code and elevate it to top-tier market production standards.
+        
+        CRITICAL ENTERPRISE REQUIREMENTS:
+        1. Strict Typing: You MUST add Python Type Hints (PEP 484) to every single function parameter and return type.
+        2. Professional Documentation: Use Google-style or Sphinx docstrings for every class and function explaining Args, Returns, and Raises.
+        3. Production Logging: Do NOT use basic print() statements for operations. Implement Python's standard `logging` module with proper log levels (INFO, ERROR, DEBUG).
+        4. SOLID Principles: Refactor messy logic into clean, modular, and testable helper functions.
+        5. Security & Error Handling: Implement custom Exception classes if needed, and never leave empty `except:` blocks.
+        
+        Output ONLY the final, enterprise-grade code inside a markdown ```python block.
         Do not include any conversational text.
         """, PATHS)
     

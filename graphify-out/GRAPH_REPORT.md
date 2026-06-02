@@ -1,10 +1,10 @@
 # Graph Report - .  (2026-06-02)
 
 ## Corpus Check
-- Corpus is ~19,497 words - fits in a single context window. You may not need a graph.
+- Corpus is ~19,541 words - fits in a single context window. You may not need a graph.
 
 ## Summary
-- 222 nodes · 599 edges · 15 communities (12 shown, 3 thin omitted)
+- 268 nodes · 656 edges · 15 communities (12 shown, 3 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 4 edges (avg confidence: 0.83)
 - Token cost: 4,926 input · 2,081 output
 
@@ -83,7 +83,7 @@ Cohesion: 0.38
 Nodes (7): get_memory_path(), str, Reads both global and local memory for an agent. Returns combined context., Updates both global and local memory after task completion., Returns path to agent memory file. scope = 'global' or 'local, read_agent_memory(), update_agent_memory()
 
 ## Knowledge Gaps
-- **8 isolated node(s):** `int`, `int`, `int`, `str`, `int` (+3 more)
+- **33 isolated node(s):** `int`, `int`, `int`, `str`, `int` (+28 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -91,13 +91,13 @@ Nodes (7): get_memory_path(), str, Reads both global and local memory for an age
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `TokenTracker` connect `Token Tracker & Foundation Tests` to `Pipeline Execution & Orchestration`, `Sandbox Testing & Destructive Framework Tests`, `Function patching & destructive framework tests`?**
-  _High betweenness centrality (0.090) - this node is a cross-community bridge._
-- **Why does `read_file()` connect `Router & Framework Infrastructure` to `Pipeline Execution & Orchestration`, `Sandbox Testing & Destructive Framework Tests`, `Code block patching & Triage`, `Function patching & destructive framework tests`, `Memory Utilities`?**
-  _High betweenness centrality (0.085) - this node is a cross-community bridge._
-- **Why does `call_agent()` connect `Pipeline Execution & Orchestration` to `Sandbox Testing & Destructive Framework Tests`, `Router & Framework Infrastructure`, `Code block patching & Triage`, `Function patching & destructive framework tests`, `API Bridge & Search Fallbacks`?**
-  _High betweenness centrality (0.066) - this node is a cross-community bridge._
+  _High betweenness centrality (0.064) - this node is a cross-community bridge._
+- **Why does `read_file()` connect `Router & Framework Infrastructure` to `Pipeline Execution & Orchestration`, `Sandbox Testing & Destructive Framework Tests`, `Community None`, `Code block patching & Triage`, `Function patching & destructive framework tests`, `Memory Utilities`?**
+  _High betweenness centrality (0.062) - this node is a cross-community bridge._
+- **Why does `call_agent()` connect `Pipeline Execution & Orchestration` to `Community None`, `Sandbox Testing & Destructive Framework Tests`, `Router & Framework Infrastructure`, `Code block patching & Triage`, `Function patching & destructive framework tests`, `API Bridge & Search Fallbacks`?**
+  _High betweenness centrality (0.055) - this node is a cross-community bridge._
 - **What connects `Helper to log miscellaneous events to Langfuse if enabled.`, `Robust UTF-8 file reader with optional Langfuse tracking.`, `Robust UTF-8 file writer with directory auto-creation and Langfuse tracking.` to the rest of the system?**
-  _88 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _117 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Pipeline Execution & Orchestration` be split into smaller, more focused modules?**
   _Cohesion score 0.10030165912518854 - nodes in this community are weakly interconnected._
 - **Should `Sandbox Testing & Destructive Framework Tests` be split into smaller, more focused modules?**

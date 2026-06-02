@@ -8,666 +8,2241 @@
       "file_type": "code",
       "source_file": "agency/__init__.py",
       "source_location": "L1",
+      "id": "agency_init",
       "community": 8,
-      "norm_label": "__init__.py",
-      "id": "agency_init"
+      "norm_label": "__init__.py"
     },
     {
       "label": "execution.py",
       "file_type": "code",
       "source_file": "agency/execution.py",
       "source_location": "L1",
+      "id": "agency_execution",
       "community": 2,
-      "norm_label": "execution.py",
-      "id": "agency_execution"
+      "norm_label": "execution.py"
     },
     {
       "label": "log_langfuse_event()",
       "file_type": "code",
       "source_file": "agency/execution.py",
       "source_location": "L9",
+      "id": "agency_execution_log_langfuse_event",
       "community": 2,
-      "norm_label": "log_langfuse_event()",
-      "id": "agency_execution_log_langfuse_event"
+      "norm_label": "log_langfuse_event()"
     },
     {
       "label": "str",
       "file_type": "code",
       "source_file": "agency/execution.py",
       "source_location": "L9",
+      "id": "agency_execution_py_str",
       "community": 1,
-      "norm_label": "str",
-      "id": "agency_execution_py_str"
+      "norm_label": "str"
     },
     {
       "label": "read_file()",
       "file_type": "code",
       "source_file": "agency/execution.py",
       "source_location": "L25",
+      "id": "agency_execution_read_file",
       "community": 2,
-      "norm_label": "read_file()",
-      "id": "agency_execution_read_file"
+      "norm_label": "read_file()"
     },
     {
       "label": "write_file()",
       "file_type": "code",
       "source_file": "agency/execution.py",
       "source_location": "L50",
+      "id": "agency_execution_write_file",
       "community": 0,
-      "norm_label": "write_file()",
-      "id": "agency_execution_write_file"
+      "norm_label": "write_file()"
     },
     {
       "label": "append_file()",
       "file_type": "code",
       "source_file": "agency/execution.py",
       "source_location": "L76",
+      "id": "agency_execution_append_file",
       "community": 2,
-      "norm_label": "append_file()",
-      "id": "agency_execution_append_file"
+      "norm_label": "append_file()"
     },
     {
       "label": "HandoffSignal",
       "file_type": "code",
       "source_file": "agency/execution.py",
       "source_location": "L105",
+      "id": "agency_execution_handoffsignal",
       "community": 1,
-      "norm_label": "handoffsignal",
-      "id": "agency_execution_handoffsignal"
+      "norm_label": "handoffsignal"
     },
     {
       "label": "BaseModel",
       "file_type": "code",
       "source_file": "",
       "source_location": "",
+      "id": "basemodel",
       "community": 1,
-      "norm_label": "basemodel",
-      "id": "basemodel"
+      "norm_label": "basemodel"
     },
     {
       "label": "extract_handoff()",
       "file_type": "code",
       "source_file": "agency/execution.py",
       "source_location": "L115",
+      "id": "agency_execution_extract_handoff",
       "community": 1,
-      "norm_label": "extract_handoff()",
-      "id": "agency_execution_extract_handoff"
+      "norm_label": "extract_handoff()"
     },
     {
       "label": "_management_log_path()",
       "file_type": "code",
       "source_file": "agency/execution.py",
       "source_location": "L161",
+      "id": "agency_execution_management_log_path",
       "community": 1,
-      "norm_label": "_management_log_path()",
-      "id": "agency_execution_management_log_path"
+      "norm_label": "_management_log_path()"
     },
     {
       "label": "get_unread_delta()",
       "file_type": "code",
       "source_file": "agency/execution.py",
       "source_location": "L165",
+      "id": "agency_execution_get_unread_delta",
       "community": 1,
-      "norm_label": "get_unread_delta()",
-      "id": "agency_execution_get_unread_delta"
+      "norm_label": "get_unread_delta()"
     },
     {
       "label": "update_read_state()",
       "file_type": "code",
       "source_file": "agency/execution.py",
       "source_location": "L192",
+      "id": "agency_execution_update_read_state",
       "community": 0,
-      "norm_label": "update_read_state()",
-      "id": "agency_execution_update_read_state"
+      "norm_label": "update_read_state()"
     },
     {
       "label": "append_delta_log()",
       "file_type": "code",
       "source_file": "agency/execution.py",
       "source_location": "L216",
+      "id": "agency_execution_append_delta_log",
       "community": 0,
-      "norm_label": "append_delta_log()",
-      "id": "agency_execution_append_delta_log"
+      "norm_label": "append_delta_log()"
     },
     {
       "label": "Helper to log miscellaneous events to Langfuse if enabled.",
       "file_type": "rationale",
       "source_file": "agency/execution.py",
       "source_location": "L10",
+      "id": "agency_execution_rationale_10",
       "community": 2,
-      "norm_label": "helper to log miscellaneous events to langfuse if enabled.",
-      "id": "agency_execution_rationale_10"
+      "norm_label": "helper to log miscellaneous events to langfuse if enabled."
     },
     {
       "label": "Robust UTF-8 file reader with optional Langfuse tracking.",
       "file_type": "rationale",
       "source_file": "agency/execution.py",
       "source_location": "L26",
+      "id": "agency_execution_rationale_26",
       "community": 2,
-      "norm_label": "robust utf-8 file reader with optional langfuse tracking.",
-      "id": "agency_execution_rationale_26"
+      "norm_label": "robust utf-8 file reader with optional langfuse tracking."
     },
     {
       "label": "Robust UTF-8 file writer with directory auto-creation and Langfuse tracking.",
       "file_type": "rationale",
       "source_file": "agency/execution.py",
       "source_location": "L51",
+      "id": "agency_execution_rationale_51",
       "community": 0,
-      "norm_label": "robust utf-8 file writer with directory auto-creation and langfuse tracking.",
-      "id": "agency_execution_rationale_51"
+      "norm_label": "robust utf-8 file writer with directory auto-creation and langfuse tracking."
     },
     {
       "label": "Robust UTF-8 file appender with Langfuse tracking.",
       "file_type": "rationale",
       "source_file": "agency/execution.py",
       "source_location": "L77",
+      "id": "agency_execution_rationale_77",
       "community": 2,
-      "norm_label": "robust utf-8 file appender with langfuse tracking.",
-      "id": "agency_execution_rationale_77"
+      "norm_label": "robust utf-8 file appender with langfuse tracking."
     },
     {
       "label": "Extracts the handoff JSON from agent output using regex and Pydantic validation.",
       "file_type": "rationale",
       "source_file": "agency/execution.py",
       "source_location": "L116",
+      "id": "agency_execution_rationale_116",
       "community": 1,
-      "norm_label": "extracts the handoff json from agent output using regex and pydantic validation.",
-      "id": "agency_execution_rationale_116"
+      "norm_label": "extracts the handoff json from agent output using regex and pydantic validation."
     },
     {
       "label": "Seeks to the last read byte offset for the agent and returns only new text.",
       "file_type": "rationale",
       "source_file": "agency/execution.py",
       "source_location": "L166",
+      "id": "agency_execution_rationale_166",
       "community": 1,
-      "norm_label": "seeks to the last read byte offset for the agent and returns only new text.",
-      "id": "agency_execution_rationale_166"
+      "norm_label": "seeks to the last read byte offset for the agent and returns only new text."
     },
     {
       "label": "Updates the byte offset to the current end of the Master Log.     Only call this",
       "file_type": "rationale",
       "source_file": "agency/execution.py",
       "source_location": "L193",
+      "id": "agency_execution_rationale_193",
       "community": 0,
-      "norm_label": "updates the byte offset to the current end of the master log.     only call this",
-      "id": "agency_execution_rationale_193"
+      "norm_label": "updates the byte offset to the current end of the master log.     only call this"
     },
     {
       "label": "Appends a standardized 3-line template to the Master Log.",
       "file_type": "rationale",
       "source_file": "agency/execution.py",
       "source_location": "L217",
+      "id": "agency_execution_rationale_217",
       "community": 0,
-      "norm_label": "appends a standardized 3-line template to the master log.",
-      "id": "agency_execution_rationale_217"
+      "norm_label": "appends a standardized 3-line template to the master log."
     },
     {
       "label": "governance.py",
       "file_type": "code",
       "source_file": "agency/governance.py",
       "source_location": "L1",
-      "community": 0,
-      "norm_label": "governance.py",
-      "id": "agency_governance"
+      "id": "agency_governance",
+      "community": 2,
+      "norm_label": "governance.py"
     },
     {
       "label": "human_checkpoint()",
       "file_type": "code",
       "source_file": "agency/governance.py",
       "source_location": "L9",
+      "id": "agency_governance_human_checkpoint",
       "community": 0,
-      "norm_label": "human_checkpoint()",
-      "id": "agency_governance_human_checkpoint"
+      "norm_label": "human_checkpoint()"
     },
     {
       "label": "complexity_classifier()",
       "file_type": "code",
       "source_file": "agency/governance.py",
       "source_location": "L30",
+      "id": "agency_governance_complexity_classifier",
       "community": 0,
-      "norm_label": "complexity_classifier()",
-      "id": "agency_governance_complexity_classifier"
+      "norm_label": "complexity_classifier()"
     },
     {
       "label": "TokenTracker",
       "file_type": "code",
       "source_file": "agency/governance.py",
       "source_location": "L72",
+      "id": "agency_governance_tokentracker",
       "community": 6,
-      "norm_label": "tokentracker",
-      "id": "agency_governance_tokentracker"
+      "norm_label": "tokentracker"
     },
     {
       "label": ".__init__()",
       "file_type": "code",
       "source_file": "agency/governance.py",
       "source_location": "L73",
+      "id": "agency_governance_tokentracker_init",
       "community": 6,
-      "norm_label": ".__init__()",
-      "id": "agency_governance_tokentracker_init"
+      "norm_label": ".__init__()"
     },
     {
       "label": ".estimate_tokens()",
       "file_type": "code",
       "source_file": "agency/governance.py",
       "source_location": "L79",
+      "id": "agency_governance_tokentracker_estimate_tokens",
       "community": 6,
-      "norm_label": ".estimate_tokens()",
-      "id": "agency_governance_tokentracker_estimate_tokens"
+      "norm_label": ".estimate_tokens()"
     },
     {
       "label": "str",
       "file_type": "code",
       "source_file": "agency/governance.py",
       "source_location": "L79",
+      "id": "agency_governance_py_str",
       "community": 6,
-      "norm_label": "str",
-      "id": "agency_governance_py_str"
+      "norm_label": "str"
     },
     {
       "label": "int",
       "file_type": "code",
       "source_file": "agency/governance.py",
       "source_location": "L79",
+      "id": "agency_governance_py_int",
       "community": 6,
-      "norm_label": "int",
-      "id": "agency_governance_py_int"
+      "norm_label": "int"
     },
     {
       "label": ".log_call()",
       "file_type": "code",
       "source_file": "agency/governance.py",
       "source_location": "L85",
+      "id": "agency_governance_tokentracker_log_call",
       "community": 6,
-      "norm_label": ".log_call()",
-      "id": "agency_governance_tokentracker_log_call"
+      "norm_label": ".log_call()"
     },
     {
       "label": "._print_call_summary()",
       "file_type": "code",
       "source_file": "agency/governance.py",
       "source_location": "L119",
+      "id": "agency_governance_tokentracker_print_call_summary",
       "community": 6,
-      "norm_label": "._print_call_summary()",
-      "id": "agency_governance_tokentracker_print_call_summary"
+      "norm_label": "._print_call_summary()"
     },
     {
       "label": "._check_budget()",
       "file_type": "code",
       "source_file": "agency/governance.py",
       "source_location": "L127",
+      "id": "agency_governance_tokentracker_check_budget",
       "community": 6,
-      "norm_label": "._check_budget()",
-      "id": "agency_governance_tokentracker_check_budget"
+      "norm_label": "._check_budget()"
     },
     {
       "label": ".print_final_report()",
       "file_type": "code",
       "source_file": "agency/governance.py",
       "source_location": "L142",
+      "id": "agency_governance_tokentracker_print_final_report",
       "community": 6,
-      "norm_label": ".print_final_report()",
-      "id": "agency_governance_tokentracker_print_final_report"
+      "norm_label": ".print_final_report()"
     },
     {
       "label": ".get_rate_limit_status()",
       "file_type": "code",
       "source_file": "agency/governance.py",
       "source_location": "L163",
+      "id": "agency_governance_tokentracker_get_rate_limit_status",
       "community": 6,
-      "norm_label": ".get_rate_limit_status()",
-      "id": "agency_governance_tokentracker_get_rate_limit_status"
+      "norm_label": ".get_rate_limit_status()"
     },
     {
       "label": "Pauses execution for critical decisions.",
       "file_type": "rationale",
       "source_file": "agency/governance.py",
       "source_location": "L10",
+      "id": "agency_governance_rationale_10",
       "community": 0,
-      "norm_label": "pauses execution for critical decisions.",
-      "id": "agency_governance_rationale_10"
+      "norm_label": "pauses execution for critical decisions."
     },
     {
       "label": "memory.py",
       "file_type": "code",
       "source_file": "agency/memory.py",
       "source_location": "L1",
+      "id": "agency_memory",
       "community": 2,
-      "norm_label": "memory.py",
-      "id": "agency_memory"
+      "norm_label": "memory.py"
     },
     {
       "label": "get_memory_path()",
       "file_type": "code",
       "source_file": "agency/memory.py",
       "source_location": "L8",
-      "community": 7,
-      "norm_label": "get_memory_path()",
-      "id": "agency_memory_get_memory_path"
+      "id": "agency_memory_get_memory_path",
+      "community": 2,
+      "norm_label": "get_memory_path()"
     },
     {
       "label": "str",
       "file_type": "code",
       "source_file": "agency/memory.py",
       "source_location": "L8",
-      "community": 7,
-      "norm_label": "str",
-      "id": "agency_memory_py_str"
+      "id": "agency_memory_py_str",
+      "community": 2,
+      "norm_label": "str"
     },
     {
       "label": "read_agent_memory()",
       "file_type": "code",
       "source_file": "agency/memory.py",
       "source_location": "L33",
-      "community": 7,
-      "norm_label": "read_agent_memory()",
-      "id": "agency_memory_read_agent_memory"
+      "id": "agency_memory_read_agent_memory",
+      "community": 2,
+      "norm_label": "read_agent_memory()"
     },
     {
       "label": "update_agent_memory()",
       "file_type": "code",
       "source_file": "agency/memory.py",
       "source_location": "L48",
-      "community": 7,
-      "norm_label": "update_agent_memory()",
-      "id": "agency_memory_update_agent_memory"
+      "id": "agency_memory_update_agent_memory",
+      "community": 2,
+      "norm_label": "update_agent_memory()"
     },
     {
       "label": "inject_memory_into_prompt()",
       "file_type": "code",
       "source_file": "agency/memory.py",
       "source_location": "L68",
+      "id": "agency_memory_inject_memory_into_prompt",
       "community": 0,
-      "norm_label": "inject_memory_into_prompt()",
-      "id": "agency_memory_inject_memory_into_prompt"
+      "norm_label": "inject_memory_into_prompt()"
     },
     {
       "label": "Returns path to agent memory file. scope = 'global' or 'local",
       "file_type": "rationale",
       "source_file": "agency/memory.py",
       "source_location": "L9",
-      "community": 7,
-      "norm_label": "returns path to agent memory file. scope = 'global' or 'local",
-      "id": "agency_memory_rationale_9"
+      "id": "agency_memory_rationale_9",
+      "community": 2,
+      "norm_label": "returns path to agent memory file. scope = 'global' or 'local"
     },
     {
       "label": "Reads both global and local memory for an agent. Returns combined context.",
       "file_type": "rationale",
       "source_file": "agency/memory.py",
       "source_location": "L34",
-      "community": 7,
-      "norm_label": "reads both global and local memory for an agent. returns combined context.",
-      "id": "agency_memory_rationale_34"
+      "id": "agency_memory_rationale_34",
+      "community": 2,
+      "norm_label": "reads both global and local memory for an agent. returns combined context."
     },
     {
       "label": "Updates both global and local memory after task completion.",
       "file_type": "rationale",
       "source_file": "agency/memory.py",
       "source_location": "L51",
-      "community": 7,
-      "norm_label": "updates both global and local memory after task completion.",
-      "id": "agency_memory_rationale_51"
+      "id": "agency_memory_rationale_51",
+      "community": 2,
+      "norm_label": "updates both global and local memory after task completion."
     },
     {
       "label": "Injects agent memory at the start of every agent prompt.",
       "file_type": "rationale",
       "source_file": "agency/memory.py",
       "source_location": "L70",
+      "id": "agency_memory_rationale_70",
       "community": 0,
-      "norm_label": "injects agent memory at the start of every agent prompt.",
-      "id": "agency_memory_rationale_70"
+      "norm_label": "injects agent memory at the start of every agent prompt."
     },
     {
       "label": "orchestration.py",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
       "source_location": "L1",
+      "id": "agency_orchestration",
       "community": 0,
-      "norm_label": "orchestration.py",
-      "id": "agency_orchestration"
+      "norm_label": "orchestration.py"
     },
     {
       "label": "_tests_passed()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
       "source_location": "L31",
+      "id": "agency_orchestration_tests_passed",
       "community": 0,
-      "norm_label": "_tests_passed()",
-      "id": "agency_orchestration_tests_passed"
+      "norm_label": "_tests_passed()"
     },
     {
       "label": "str",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
       "source_location": "L31",
+      "id": "agency_orchestration_py_str",
       "community": 0,
-      "norm_label": "str",
-      "id": "agency_orchestration_py_str"
+      "norm_label": "str"
     },
     {
       "label": "bool",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
       "source_location": "L31",
+      "id": "agency_orchestration_py_bool",
       "community": 0,
-      "norm_label": "bool",
-      "id": "agency_orchestration_py_bool"
+      "norm_label": "bool"
     },
     {
       "label": "_coding_agent_instruction()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
       "source_location": "L35",
+      "id": "agency_orchestration_coding_agent_instruction",
       "community": 0,
-      "norm_label": "_coding_agent_instruction()",
-      "id": "agency_orchestration_coding_agent_instruction"
+      "norm_label": "_coding_agent_instruction()"
     },
     {
       "label": "phase_2_c_post_coding_smoke_gate()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
       "source_location": "L40",
+      "id": "agency_orchestration_phase_2_c_post_coding_smoke_gate",
       "community": 0,
-      "norm_label": "phase_2_c_post_coding_smoke_gate()",
-      "id": "agency_orchestration_phase_2_c_post_coding_smoke_gate"
+      "norm_label": "phase_2_c_post_coding_smoke_gate()"
     },
     {
       "label": "_auto_fix_coding()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
       "source_location": "L76",
+      "id": "agency_orchestration_auto_fix_coding",
       "community": 0,
-      "norm_label": "_auto_fix_coding()",
-      "id": "agency_orchestration_auto_fix_coding"
+      "norm_label": "_auto_fix_coding()"
     },
     {
       "label": "int",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
       "source_location": "L76",
+      "id": "agency_orchestration_py_int",
       "community": 0,
-      "norm_label": "int",
-      "id": "agency_orchestration_py_int"
+      "norm_label": "int"
     },
     {
       "label": "dequeue_completed_task()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
       "source_location": "L94",
+      "id": "agency_orchestration_dequeue_completed_task",
       "community": 0,
-      "norm_label": "dequeue_completed_task()",
-      "id": "agency_orchestration_dequeue_completed_task"
+      "norm_label": "dequeue_completed_task()"
     },
     {
       "label": "_update_pipeline_memories()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
       "source_location": "L115",
+      "id": "agency_orchestration_update_pipeline_memories",
       "community": 0,
-      "norm_label": "_update_pipeline_memories()",
-      "id": "agency_orchestration_update_pipeline_memories"
+      "norm_label": "_update_pipeline_memories()"
     },
     {
       "label": "phase_0_briefing()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
       "source_location": "L142",
+      "id": "agency_orchestration_phase_0_briefing",
       "community": 0,
-      "norm_label": "phase_0_briefing()",
-      "id": "agency_orchestration_phase_0_briefing"
+      "norm_label": "phase_0_briefing()"
     },
     {
       "label": "phase_1_a_research_collection()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
       "source_location": "L224",
+      "id": "agency_orchestration_phase_1_a_research_collection",
       "community": 0,
-      "norm_label": "phase_1_a_research_collection()",
-      "id": "agency_orchestration_phase_1_a_research_collection"
+      "norm_label": "phase_1_a_research_collection()"
     },
     {
       "label": "phase_2_a_draft_coder()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
       "source_location": "L314",
+      "id": "agency_orchestration_phase_2_a_draft_coder",
       "community": 0,
-      "norm_label": "phase_2_a_draft_coder()",
-      "id": "agency_orchestration_phase_2_a_draft_coder"
+      "norm_label": "phase_2_a_draft_coder()"
+    },
+    {
+      "label": "phase_2_b_logic_expander()",
+      "file_type": "code",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L377",
+      "id": "agency_orchestration_phase_2_b_logic_expander",
+      "community": 0,
+      "norm_label": "phase_2_b_logic_expander()"
     },
     {
       "label": "phase_3_a_test_lead()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
-      "source_location": "L436",
+      "source_location": "L438",
+      "id": "agency_orchestration_phase_3_a_test_lead",
       "community": 0,
-      "norm_label": "phase_3_a_test_lead()",
-      "id": "agency_orchestration_phase_3_a_test_lead"
+      "norm_label": "phase_3_a_test_lead()"
     },
     {
       "label": "phase_3_b_deep_tester()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
-      "source_location": "L669",
+      "source_location": "L671",
+      "id": "agency_orchestration_phase_3_b_deep_tester",
       "community": 0,
-      "norm_label": "phase_3_b_deep_tester()",
-      "id": "agency_orchestration_phase_3_b_deep_tester"
+      "norm_label": "phase_3_b_deep_tester()"
     },
     {
       "label": "phase_3_c_assistant_manager()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
-      "source_location": "L764",
+      "source_location": "L766",
+      "id": "agency_orchestration_phase_3_c_assistant_manager",
       "community": 0,
-      "norm_label": "phase_3_c_assistant_manager()",
-      "id": "agency_orchestration_phase_3_c_assistant_manager"
+      "norm_label": "phase_3_c_assistant_manager()"
     },
     {
       "label": "save_localized_markdown_log()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
-      "source_location": "L808",
+      "source_location": "L810",
+      "id": "agency_orchestration_save_localized_markdown_log",
       "community": 0,
-      "norm_label": "save_localized_markdown_log()",
-      "id": "agency_orchestration_save_localized_markdown_log"
+      "norm_label": "save_localized_markdown_log()"
     },
     {
       "label": "update_cross_project_memory()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
-      "source_location": "L825",
+      "source_location": "L827",
+      "id": "agency_orchestration_update_cross_project_memory",
       "community": 0,
-      "norm_label": "update_cross_project_memory()",
-      "id": "agency_orchestration_update_cross_project_memory"
+      "norm_label": "update_cross_project_memory()"
     },
     {
       "label": "phase_2b_logic_expander()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
-      "source_location": "L845",
+      "source_location": "L847",
+      "id": "agency_orchestration_phase_2b_logic_expander",
       "community": 0,
-      "norm_label": "phase_2b_logic_expander()",
-      "id": "agency_orchestration_phase_2b_logic_expander"
+      "norm_label": "phase_2b_logic_expander()"
     },
     {
       "label": "run_full_pipeline()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
-      "source_location": "L857",
+      "source_location": "L859",
+      "id": "agency_orchestration_run_full_pipeline",
       "community": 0,
-      "norm_label": "run_full_pipeline()",
-      "id": "agency_orchestration_run_full_pipeline"
+      "norm_label": "run_full_pipeline()"
     },
     {
       "label": "subprocess_popen_safe()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
-      "source_location": "L952",
+      "source_location": "L954",
+      "id": "agency_orchestration_subprocess_popen_safe",
       "community": 0,
-      "norm_label": "subprocess_popen_safe()",
-      "id": "agency_orchestration_subprocess_popen_safe"
+      "norm_label": "subprocess_popen_safe()"
     },
     {
       "label": "Quick validation after Phase 2 \u2014 catches broken imports/paths before test genera",
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
       "source_location": "L41",
+      "id": "agency_orchestration_rationale_41",
       "community": 0,
-      "norm_label": "quick validation after phase 2 \u2014 catches broken imports/paths before test genera",
-      "id": "agency_orchestration_rationale_41"
+      "norm_label": "quick validation after phase 2 \u2014 catches broken imports/paths before test genera"
     },
     {
       "label": "Remove the completed task from task_queue.json.",
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
       "source_location": "L95",
+      "id": "agency_orchestration_rationale_95",
       "community": 0,
-      "norm_label": "remove the completed task from task_queue.json.",
-      "id": "agency_orchestration_rationale_95"
+      "norm_label": "remove the completed task from task_queue.json."
     },
     {
       "label": "Record honest outcomes \u2014 no 'success' for coders when tests failed.",
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
       "source_location": "L116",
+      "id": "agency_orchestration_rationale_116",
       "community": 0,
-      "norm_label": "record honest outcomes \u2014 no 'success' for coders when tests failed.",
-      "id": "agency_orchestration_rationale_116"
+      "norm_label": "record honest outcomes \u2014 no 'success' for coders when tests failed."
     },
     {
       "label": "CEO reads the next task from the queue, creates an execution plan,     and assig",
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
       "source_location": "L143",
+      "id": "agency_orchestration_rationale_143",
       "community": 0,
-      "norm_label": "ceo reads the next task from the queue, creates an execution plan,     and assig",
-      "id": "agency_orchestration_rationale_143"
+      "norm_label": "ceo reads the next task from the queue, creates an execution plan,     and assig"
     },
     {
       "label": "STEP A: RND_COLLECTOR 1 & 2 search via CLI/API.",
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
       "source_location": "L225",
+      "id": "agency_orchestration_rationale_225",
       "community": 0,
-      "norm_label": "step a: rnd_collector 1 & 2 search via cli/api.",
-      "id": "agency_orchestration_rationale_225"
+      "norm_label": "step a: rnd_collector 1 & 2 search via cli/api."
     },
     {
       "label": "STEP 2A: DRAFT_CODER writes the initial script based on the CEO's plan.",
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
       "source_location": "L315",
+      "id": "agency_orchestration_rationale_315",
       "community": 0,
-      "norm_label": "step 2a: draft_coder writes the initial script based on the ceo's plan.",
-      "id": "agency_orchestration_rationale_315"
+      "norm_label": "step 2a: draft_coder writes the initial script based on the ceo's plan."
     },
     {
       "label": "STEP 2B: LOGIC_EXPANDER reviews the draft, adds best practices, and finalizes lo",
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
       "source_location": "L378",
+      "id": "agency_orchestration_rationale_378",
       "community": 0,
-      "norm_label": "step 2b: logic_expander reviews the draft, adds best practices, and finalizes lo",
-      "id": "agency_orchestration_rationale_378"
+      "norm_label": "step 2b: logic_expander reviews the draft, adds best practices, and finalizes lo"
+    },
+    {
+      "label": "STEP 3A: TEST_LEAD executes a smoke test, reviews execution logs,     and compil",
+      "file_type": "rationale",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L439",
+      "id": "agency_orchestration_rationale_439",
+      "community": 0,
+      "norm_label": "step 3a: test_lead executes a smoke test, reviews execution logs,     and compil"
+    },
+    {
+      "label": "STEP 3B: DEEP_TESTER executes the pre-compiled bytecode test suite (.pyc) direct",
+      "file_type": "rationale",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L672",
+      "id": "agency_orchestration_rationale_672",
+      "community": 0,
+      "norm_label": "step 3b: deep_tester executes the pre-compiled bytecode test suite (.pyc) direct"
+    },
+    {
+      "label": "STEP 3C: ASSISTANT_MANAGER compiles the final delivery report.",
+      "file_type": "rationale",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L767",
+      "id": "agency_orchestration_rationale_767",
+      "community": 0,
+      "norm_label": "step 3c: assistant_manager compiles the final delivery report."
+    },
+    {
+      "label": "Fix-flow wrapper: runs logic expander on current production code after a patch.",
+      "file_type": "rationale",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L848",
+      "id": "agency_orchestration_rationale_848",
+      "community": 0,
+      "norm_label": "fix-flow wrapper: runs logic expander on current production code after a patch."
+    },
+    {
+      "label": "Executes the full pipeline for a project run.",
+      "file_type": "rationale",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L860",
+      "id": "agency_orchestration_rationale_860",
+      "community": 0,
+      "norm_label": "executes the full pipeline for a project run."
+    },
+    {
+      "label": "Helper to launch a subprocess securely without shell=True.",
+      "file_type": "rationale",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L955",
+      "id": "agency_orchestration_rationale_955",
+      "community": 0,
+      "norm_label": "helper to launch a subprocess securely without shell=true."
+    },
+    {
+      "label": "patching.py",
+      "file_type": "code",
+      "source_file": "agency/patching.py",
+      "source_location": "L1",
+      "id": "agency_patching",
+      "community": 2,
+      "norm_label": "patching.py"
+    },
+    {
+      "label": "prune_error()",
+      "file_type": "code",
+      "source_file": "agency/patching.py",
+      "source_location": "L9",
+      "id": "agency_patching_prune_error",
+      "community": 4,
+      "norm_label": "prune_error()"
+    },
+    {
+      "label": "str",
+      "file_type": "code",
+      "source_file": "agency/patching.py",
+      "source_location": "L9",
+      "id": "agency_patching_py_str",
+      "community": 4,
+      "norm_label": "str"
+    },
+    {
+      "label": "int",
+      "file_type": "code",
+      "source_file": "agency/patching.py",
+      "source_location": "L9",
+      "id": "agency_patching_py_int",
+      "community": 4,
+      "norm_label": "int"
+    },
+    {
+      "label": "extract_code_block()",
+      "file_type": "code",
+      "source_file": "agency/patching.py",
+      "source_location": "L18",
+      "id": "agency_patching_extract_code_block",
+      "community": 0,
+      "norm_label": "extract_code_block()"
+    },
+    {
+      "label": "extract_all_files()",
+      "file_type": "code",
+      "source_file": "agency/patching.py",
+      "source_location": "L33",
+      "id": "agency_patching_extract_all_files",
+      "community": 0,
+      "norm_label": "extract_all_files()"
+    },
+    {
+      "label": "extract_function_block()",
+      "file_type": "code",
+      "source_file": "agency/patching.py",
+      "source_location": "L47",
+      "id": "agency_patching_extract_function_block",
+      "community": 4,
+      "norm_label": "extract_function_block()"
+    },
+    {
+      "label": "apply_function_patch()",
+      "file_type": "code",
+      "source_file": "agency/patching.py",
+      "source_location": "L90",
+      "id": "agency_patching_apply_function_patch",
+      "community": 4,
+      "norm_label": "apply_function_patch()"
+    },
+    {
+      "label": "bool",
+      "file_type": "code",
+      "source_file": "agency/patching.py",
+      "source_location": "L90",
+      "id": "agency_patching_py_bool",
+      "community": 4,
+      "norm_label": "bool"
+    },
+    {
+      "label": "identify_broken_functions()",
+      "file_type": "code",
+      "source_file": "agency/patching.py",
+      "source_location": "L140",
+      "id": "agency_patching_identify_broken_functions",
+      "community": 4,
+      "norm_label": "identify_broken_functions()"
+    },
+    {
+      "label": "phase_patch_draft_coder()",
+      "file_type": "code",
+      "source_file": "agency/patching.py",
+      "source_location": "L198",
+      "id": "agency_patching_phase_patch_draft_coder",
+      "community": 4,
+      "norm_label": "phase_patch_draft_coder()"
+    },
+    {
+      "label": "Prunes long error logs or stack traces to save tokens.",
+      "file_type": "rationale",
+      "source_file": "agency/patching.py",
+      "source_location": "L10",
+      "id": "agency_patching_rationale_10",
+      "community": 4,
+      "norm_label": "prunes long error logs or stack traces to save tokens."
+    },
+    {
+      "label": "Extracts raw code from markdown blocks.",
+      "file_type": "rationale",
+      "source_file": "agency/patching.py",
+      "source_location": "L19",
+      "id": "agency_patching_rationale_19",
+      "community": 0,
+      "norm_label": "extracts raw code from markdown blocks."
+    },
+    {
+      "label": "Extracts multiple files from the text using the ==== FILE: ... ==== format.",
+      "file_type": "rationale",
+      "source_file": "agency/patching.py",
+      "source_location": "L34",
+      "id": "agency_patching_rationale_34",
+      "community": 0,
+      "norm_label": "extracts multiple files from the text using the ==== file: ... ==== format."
+    },
+    {
+      "label": "Extracts the complete source code of a specific function from a file.     Uses A",
+      "file_type": "rationale",
+      "source_file": "agency/patching.py",
+      "source_location": "L48",
+      "id": "agency_patching_rationale_48",
+      "community": 4,
+      "norm_label": "extracts the complete source code of a specific function from a file.     uses a"
+    },
+    {
+      "label": "Replaces a specific function in a file with new code.     Uses AST to find exact",
+      "file_type": "rationale",
+      "source_file": "agency/patching.py",
+      "source_location": "L92",
+      "id": "agency_patching_rationale_92",
+      "community": 4,
+      "norm_label": "replaces a specific function in a file with new code.     uses ast to find exact"
+    },
+    {
+      "label": "Parses DEEP_TESTER error report to identify broken function names.     Cross-ref",
+      "file_type": "rationale",
+      "source_file": "agency/patching.py",
+      "source_location": "L141",
+      "id": "agency_patching_rationale_141",
+      "community": 4,
+      "norm_label": "parses deep_tester error report to identify broken function names.     cross-ref"
+    },
+    {
+      "label": "TARGETED PATCH PHASE.     Identifies broken functions from error report.     Sen",
+      "file_type": "rationale",
+      "source_file": "agency/patching.py",
+      "source_location": "L201",
+      "id": "agency_patching_rationale_201",
+      "community": 4,
+      "norm_label": "targeted patch phase.     identifies broken functions from error report.     sen"
+    },
+    {
+      "label": "router.py",
+      "file_type": "code",
+      "source_file": "agency/router.py",
+      "source_location": "L1",
+      "id": "agency_router",
+      "community": 2,
+      "norm_label": "router.py"
+    },
+    {
+      "label": "call_ollama_direct()",
+      "file_type": "code",
+      "source_file": "agency/router.py",
+      "source_location": "L10",
+      "id": "agency_router_call_ollama_direct",
+      "community": 16,
+      "norm_label": "call_ollama_direct()"
+    },
+    {
+      "label": "str",
+      "file_type": "code",
+      "source_file": "agency/router.py",
+      "source_location": "L10",
+      "id": "agency_router_py_str",
+      "community": 16,
+      "norm_label": "str"
+    },
+    {
+      "label": "ollama_classify_action()",
+      "file_type": "code",
+      "source_file": "agency/router.py",
+      "source_location": "L30",
+      "id": "agency_router_ollama_classify_action",
+      "community": 16,
+      "norm_label": "ollama_classify_action()"
+    },
+    {
+      "label": "update_change_log()",
+      "file_type": "code",
+      "source_file": "agency/router.py",
+      "source_location": "L72",
+      "id": "agency_router_update_change_log",
+      "community": 4,
+      "norm_label": "update_change_log()"
+    },
+    {
+      "label": "int",
+      "file_type": "code",
+      "source_file": "agency/router.py",
+      "source_location": "L72",
+      "id": "agency_router_py_int",
+      "community": 4,
+      "norm_label": "int"
+    },
+    {
+      "label": "startup_menu()",
+      "file_type": "code",
+      "source_file": "agency/router.py",
+      "source_location": "L88",
+      "id": "agency_router_startup_menu",
+      "community": 16,
+      "norm_label": "startup_menu()"
+    },
+    {
+      "label": "antigravity_triage_flow()",
+      "file_type": "code",
+      "source_file": "agency/router.py",
+      "source_location": "L173",
+      "id": "agency_router_antigravity_triage_flow",
+      "community": 3,
+      "norm_label": "antigravity_triage_flow()"
+    },
+    {
+      "label": "run_existing_project_pipeline()",
+      "file_type": "code",
+      "source_file": "agency/router.py",
+      "source_location": "L285",
+      "id": "agency_router_run_existing_project_pipeline",
+      "community": 4,
+      "norm_label": "run_existing_project_pipeline()"
+    },
+    {
+      "label": "Direct Ollama API call for routing decisions.",
+      "file_type": "rationale",
+      "source_file": "agency/router.py",
+      "source_location": "L11",
+      "id": "agency_router_rationale_11",
+      "community": 16,
+      "norm_label": "direct ollama api call for routing decisions."
+    },
+    {
+      "label": "Ollama classifies what action to take on existing project.     Returns: patch /",
+      "file_type": "rationale",
+      "source_file": "agency/router.py",
+      "source_location": "L31",
+      "id": "agency_router_rationale_31",
+      "community": 16,
+      "norm_label": "ollama classifies what action to take on existing project.     returns: patch /"
+    },
+    {
+      "label": "Appends entry to project change_log.md",
+      "file_type": "rationale",
+      "source_file": "agency/router.py",
+      "source_location": "L74",
+      "id": "agency_router_rationale_74",
+      "community": 4,
+      "norm_label": "appends entry to project change_log.md"
+    },
+    {
+      "label": "Ollama-powered interactive startup menu.     Returns routing decision: new proje",
+      "file_type": "rationale",
+      "source_file": "agency/router.py",
+      "source_location": "L89",
+      "id": "agency_router_rationale_89",
+      "community": 16,
+      "norm_label": "ollama-powered interactive startup menu.     returns routing decision: new proje"
+    },
+    {
+      "label": "Antigravity Mode: Ollama-powered team triage for existing projects.     Classifi",
+      "file_type": "rationale",
+      "source_file": "agency/router.py",
+      "source_location": "L174",
+      "id": "agency_router_rationale_174",
+      "community": 3,
+      "norm_label": "antigravity mode: ollama-powered team triage for existing projects.     classifi"
+    },
+    {
+      "label": "Runs the correct pipeline for existing project changes.     patch  \u2192 DRAFT_CODER",
+      "file_type": "rationale",
+      "source_file": "agency/router.py",
+      "source_location": "L286",
+      "id": "agency_router_rationale_286",
+      "community": 4,
+      "norm_label": "runs the correct pipeline for existing project changes.     patch  \u2192 draft_coder"
+    },
+    {
+      "label": "testing.py",
+      "file_type": "code",
+      "source_file": "agency/testing.py",
+      "source_location": "L1",
+      "id": "agency_testing",
+      "community": 2,
+      "norm_label": "testing.py"
+    },
+    {
+      "label": "is_web_project()",
+      "file_type": "code",
+      "source_file": "agency/testing.py",
+      "source_location": "L11",
+      "id": "agency_testing_is_web_project",
+      "community": 0,
+      "norm_label": "is_web_project()"
+    },
+    {
+      "label": "bool",
+      "file_type": "code",
+      "source_file": "agency/testing.py",
+      "source_location": "L11",
+      "id": "agency_testing_py_bool",
+      "community": 2,
+      "norm_label": "bool"
+    },
+    {
+      "label": "check_playwright_available()",
+      "file_type": "code",
+      "source_file": "agency/testing.py",
+      "source_location": "L36",
+      "id": "agency_testing_check_playwright_available",
+      "community": 2,
+      "norm_label": "check_playwright_available()"
+    },
+    {
+      "label": "create_local_project_dir()",
+      "file_type": "code",
+      "source_file": "agency/testing.py",
+      "source_location": "L45",
+      "id": "agency_testing_create_local_project_dir",
+      "community": 16,
+      "norm_label": "create_local_project_dir()"
+    },
+    {
+      "label": "execute_in_sandbox()",
+      "file_type": "code",
+      "source_file": "agency/testing.py",
+      "source_location": "L87",
+      "id": "agency_testing_execute_in_sandbox",
+      "community": 1,
+      "norm_label": "execute_in_sandbox()"
+    },
+    {
+      "label": "run_tests_safe()",
+      "file_type": "code",
+      "source_file": "agency/testing.py",
+      "source_location": "L181",
+      "id": "agency_testing_run_tests_safe",
+      "community": 7,
+      "norm_label": "run_tests_safe()"
+    },
+    {
+      "label": "str",
+      "file_type": "code",
+      "source_file": "agency/testing.py",
+      "source_location": "L181",
+      "id": "agency_testing_py_str",
+      "community": 7,
+      "norm_label": "str"
+    },
+    {
+      "label": "Ollama-powered web project detector.     Checks production code for web framewor",
+      "file_type": "rationale",
+      "source_file": "agency/testing.py",
+      "source_location": "L12",
+      "id": "agency_testing_rationale_12",
+      "community": 0,
+      "norm_label": "ollama-powered web project detector.     checks production code for web framewor"
+    },
+    {
+      "label": "Checks if Playwright is installed and Chromium is available.",
+      "file_type": "rationale",
+      "source_file": "agency/testing.py",
+      "source_location": "L37",
+      "id": "agency_testing_rationale_37",
+      "community": 2,
+      "norm_label": "checks if playwright is installed and chromium is available."
+    },
+    {
+      "label": "Creates an isolated local directory for the project.",
+      "file_type": "rationale",
+      "source_file": "agency/testing.py",
+      "source_location": "L46",
+      "id": "agency_testing_rationale_46",
+      "community": 16,
+      "norm_label": "creates an isolated local directory for the project."
+    },
+    {
+      "label": "Executes code, intercepts missing packages, auto-installs, and handles execution",
+      "file_type": "rationale",
+      "source_file": "agency/testing.py",
+      "source_location": "L88",
+      "id": "agency_testing_rationale_88",
+      "community": 1,
+      "norm_label": "executes code, intercepts missing packages, auto-installs, and handles execution"
+    },
+    {
+      "label": "Runs test cases in an isolated temp directory.     Strictly follows: shell=False",
+      "file_type": "rationale",
+      "source_file": "agency/testing.py",
+      "source_location": "L182",
+      "id": "agency_testing_rationale_182",
+      "community": 7,
+      "norm_label": "runs test cases in an isolated temp directory.     strictly follows: shell=false"
+    },
+    {
+      "label": "triage.py",
+      "file_type": "code",
+      "source_file": "agency/triage.py",
+      "source_location": "L1",
+      "id": "agency_triage",
+      "community": 3,
+      "norm_label": "triage.py"
+    },
+    {
+      "label": "ollama_triage_issue()",
+      "file_type": "code",
+      "source_file": "agency/triage.py",
+      "source_location": "L23",
+      "id": "agency_triage_ollama_triage_issue",
+      "community": 3,
+      "norm_label": "ollama_triage_issue()"
+    },
+    {
+      "label": "str",
+      "file_type": "code",
+      "source_file": "agency/triage.py",
+      "source_location": "L23",
+      "id": "agency_triage_py_str",
+      "community": 3,
+      "norm_label": "str"
+    },
+    {
+      "label": "ask_user_triage()",
+      "file_type": "code",
+      "source_file": "agency/triage.py",
+      "source_location": "L79",
+      "id": "agency_triage_ask_user_triage",
+      "community": 3,
+      "norm_label": "ask_user_triage()"
+    },
+    {
+      "label": "_get_log_path()",
+      "file_type": "code",
+      "source_file": "agency/triage.py",
+      "source_location": "L100",
+      "id": "agency_triage_get_log_path",
+      "community": 3,
+      "norm_label": "_get_log_path()"
+    },
+    {
+      "label": "log_issue()",
+      "file_type": "code",
+      "source_file": "agency/triage.py",
+      "source_location": "L111",
+      "id": "agency_triage_log_issue",
+      "community": 3,
+      "norm_label": "log_issue()"
+    },
+    {
+      "label": "read_team_log()",
+      "file_type": "code",
+      "source_file": "agency/triage.py",
+      "source_location": "L129",
+      "id": "agency_triage_read_team_log",
+      "community": 3,
+      "norm_label": "read_team_log()"
+    },
+    {
+      "label": "run_rnd_pipeline()",
+      "file_type": "code",
+      "source_file": "agency/triage.py",
+      "source_location": "L142",
+      "id": "agency_triage_run_rnd_pipeline",
+      "community": 3,
+      "norm_label": "run_rnd_pipeline()"
+    },
+    {
+      "label": "run_uiux_pipeline()",
+      "file_type": "code",
+      "source_file": "agency/triage.py",
+      "source_location": "L226",
+      "id": "agency_triage_run_uiux_pipeline",
+      "community": 0,
+      "norm_label": "run_uiux_pipeline()"
+    },
+    {
+      "label": "display_team_logs()",
+      "file_type": "code",
+      "source_file": "agency/triage.py",
+      "source_location": "L343",
+      "id": "agency_triage_display_team_logs",
+      "community": 3,
+      "norm_label": "display_team_logs()"
+    },
+    {
+      "label": "agency/triage.py \u2014 Antigravity CLI Team Triage System ==========================",
+      "file_type": "rationale",
+      "source_file": "agency/triage.py",
+      "source_location": "L1",
+      "id": "agency_triage_rationale_1",
+      "community": 3,
+      "norm_label": "agency/triage.py \u2014 antigravity cli team triage system =========================="
+    },
+    {
+      "label": "Asks Ollama to classify a user's issue/comment into a department.     Returns: '",
+      "file_type": "rationale",
+      "source_file": "agency/triage.py",
+      "source_location": "L24",
+      "id": "agency_triage_rationale_24",
+      "community": 3,
+      "norm_label": "asks ollama to classify a user's issue/comment into a department.     returns: '"
+    },
+    {
+      "label": "Fallback: ask the user to manually classify the issue.",
+      "file_type": "rationale",
+      "source_file": "agency/triage.py",
+      "source_location": "L80",
+      "id": "agency_triage_rationale_80",
+      "community": 3,
+      "norm_label": "fallback: ask the user to manually classify the issue."
+    },
+    {
+      "label": "Returns the log file path for a specific department.",
+      "file_type": "rationale",
+      "source_file": "agency/triage.py",
+      "source_location": "L101",
+      "id": "agency_triage_rationale_101",
+      "community": 3,
+      "norm_label": "returns the log file path for a specific department."
+    },
+    {
+      "label": "Writes a timestamped entry to the team-specific log file.",
+      "file_type": "rationale",
+      "source_file": "agency/triage.py",
+      "source_location": "L114",
+      "id": "agency_triage_rationale_114",
+      "community": 3,
+      "norm_label": "writes a timestamped entry to the team-specific log file."
+    },
+    {
+      "label": "Reads the log for a specific team. Returns content or 'empty' message.",
+      "file_type": "rationale",
+      "source_file": "agency/triage.py",
+      "source_location": "L130",
+      "id": "agency_triage_rationale_130",
+      "community": 3,
+      "norm_label": "reads the log for a specific team. returns content or 'empty' message."
+    },
+    {
+      "label": "Runs the RnD code-fix pipeline:     DRAFT_CODER \u2192 LOGIC_EXPANDER \u2192 DEEP_TESTER",
+      "file_type": "rationale",
+      "source_file": "agency/triage.py",
+      "source_location": "L143",
+      "id": "agency_triage_rationale_143",
+      "community": 3,
+      "norm_label": "runs the rnd code-fix pipeline:     draft_coder \u2192 logic_expander \u2192 deep_tester"
+    },
+    {
+      "label": "Runs the UI/UX design-fix pipeline:     Targets ONLY CSS/HTML/template files \u2014 n",
+      "file_type": "rationale",
+      "source_file": "agency/triage.py",
+      "source_location": "L227",
+      "id": "agency_triage_rationale_227",
+      "community": 0,
+      "norm_label": "runs the ui/ux design-fix pipeline:     targets only css/html/template files \u2014 n"
+    },
+    {
+      "label": "Interactive viewer for team-specific issue logs.",
+      "file_type": "rationale",
+      "source_file": "agency/triage.py",
+      "source_location": "L344",
+      "id": "agency_triage_rationale_344",
+      "community": 3,
+      "norm_label": "interactive viewer for team-specific issue logs."
+    },
+    {
+      "label": "antigravity.py",
+      "file_type": "code",
+      "source_file": "antigravity.py",
+      "source_location": "L1",
+      "id": "antigravity",
+      "community": 2,
+      "norm_label": "antigravity.py"
+    },
+    {
+      "label": "print_banner()",
+      "file_type": "code",
+      "source_file": "antigravity.py",
+      "source_location": "L30",
+      "id": "antigravity_print_banner",
+      "community": 16,
+      "norm_label": "print_banner()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "antigravity.py",
+      "source_location": "L48",
+      "id": "antigravity_main",
+      "community": 16,
+      "norm_label": "main()"
+    },
+    {
+      "label": "\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557 \u2551          \ud83d\ude80 AN",
+      "file_type": "rationale",
+      "source_file": "antigravity.py",
+      "source_location": "L1",
+      "id": "antigravity_rationale_1",
+      "community": 2,
+      "norm_label": "\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557 \u2551          \ud83d\ude80 an"
+    },
+    {
+      "label": "Print the Antigravity CLI startup banner.",
+      "file_type": "rationale",
+      "source_file": "antigravity.py",
+      "source_location": "L31",
+      "id": "antigravity_rationale_31",
+      "community": 16,
+      "norm_label": "print the antigravity cli startup banner."
+    },
+    {
+      "label": "api_bridge.py",
+      "file_type": "code",
+      "source_file": "api_bridge.py",
+      "source_location": "L1",
+      "id": "api_bridge",
+      "community": 7,
+      "norm_label": "api_bridge.py"
+    },
+    {
+      "label": "search_with_ddg()",
+      "file_type": "code",
+      "source_file": "api_bridge.py",
+      "source_location": "L39",
+      "id": "api_bridge_search_with_ddg",
+      "community": 7,
+      "norm_label": "search_with_ddg()"
+    },
+    {
+      "label": "int",
+      "file_type": "code",
+      "source_file": "api_bridge.py",
+      "source_location": "L39",
+      "id": "api_bridge_py_int",
+      "community": 7,
+      "norm_label": "int"
+    },
+    {
+      "label": "str",
+      "file_type": "code",
+      "source_file": "api_bridge.py",
+      "source_location": "L39",
+      "id": "api_bridge_py_str",
+      "community": 7,
+      "norm_label": "str"
+    },
+    {
+      "label": "_call_cli()",
+      "file_type": "code",
+      "source_file": "api_bridge.py",
+      "source_location": "L58",
+      "id": "api_bridge_call_cli",
+      "community": 7,
+      "norm_label": "_call_cli()"
+    },
+    {
+      "label": "_call_ddg_search()",
+      "file_type": "code",
+      "source_file": "api_bridge.py",
+      "source_location": "L80",
+      "id": "api_bridge_call_ddg_search",
+      "community": 7,
+      "norm_label": "_call_ddg_search()"
+    },
+    {
+      "label": "_call_jina_search()",
+      "file_type": "code",
+      "source_file": "api_bridge.py",
+      "source_location": "L124",
+      "id": "api_bridge_call_jina_search",
+      "community": 7,
+      "norm_label": "_call_jina_search()"
+    },
+    {
+      "label": "inject_research_context()",
+      "file_type": "code",
+      "source_file": "api_bridge.py",
+      "source_location": "L215",
+      "id": "api_bridge_inject_research_context",
+      "community": 7,
+      "norm_label": "inject_research_context()"
+    },
+    {
+      "label": "call_agent()",
+      "file_type": "code",
+      "source_file": "api_bridge.py",
+      "source_location": "L226",
+      "id": "api_bridge_call_agent",
+      "community": 0,
+      "norm_label": "call_agent()"
+    },
+    {
+      "label": "_call_agent_raw()",
+      "file_type": "code",
+      "source_file": "api_bridge.py",
+      "source_location": "L301",
+      "id": "api_bridge_call_agent_raw",
+      "community": 7,
+      "norm_label": "_call_agent_raw()"
+    },
+    {
+      "label": "Automatically attaches the research log to Coders and Testers if it exists.",
+      "file_type": "rationale",
+      "source_file": "api_bridge.py",
+      "source_location": "L216",
+      "id": "api_bridge_rationale_216",
+      "community": 7,
+      "norm_label": "automatically attaches the research log to coders and testers if it exists."
+    },
+    {
+      "label": "Langfuse-wrapped agent caller.",
+      "file_type": "rationale",
+      "source_file": "api_bridge.py",
+      "source_location": "L227",
+      "id": "api_bridge_rationale_227",
+      "community": 0,
+      "norm_label": "langfuse-wrapped agent caller."
+    },
+    {
+      "label": "Hybrid Router: Routes to Sandboxed CLI or Grounded API based on config. Now with",
+      "file_type": "rationale",
+      "source_file": "api_bridge.py",
+      "source_location": "L302",
+      "id": "api_bridge_rationale_302",
+      "community": 7,
+      "norm_label": "hybrid router: routes to sandboxed cli or grounded api based on config. now with"
+    },
+    {
+      "label": "auto_run.py",
+      "file_type": "code",
+      "source_file": "auto_run.py",
+      "source_location": "L1",
+      "id": "auto_run",
+      "community": 2,
+      "norm_label": "auto_run.py"
+    },
+    {
+      "label": "config.py",
+      "file_type": "code",
+      "source_file": "config.py",
+      "source_location": "L1",
+      "id": "config",
+      "community": 2,
+      "norm_label": "config.py"
+    },
+    {
+      "label": "destructive_framework_tests.py",
+      "file_type": "code",
+      "source_file": "destructive_framework_tests.py",
+      "source_location": "L1",
+      "id": "destructive_framework_tests",
+      "community": 1,
+      "norm_label": "destructive_framework_tests.py"
+    },
+    {
+      "label": "test_token_tracker_null_input_crash()",
+      "file_type": "code",
+      "source_file": "destructive_framework_tests.py",
+      "source_location": "L20",
+      "id": "destructive_framework_tests_test_token_tracker_null_input_crash",
+      "community": 6,
+      "norm_label": "test_token_tracker_null_input_crash()"
+    },
+    {
+      "label": "test_extract_handoff_greedy_regex_bug()",
+      "file_type": "code",
+      "source_file": "destructive_framework_tests.py",
+      "source_location": "L27",
+      "id": "destructive_framework_tests_test_extract_handoff_greedy_regex_bug",
+      "community": 1,
+      "norm_label": "test_extract_handoff_greedy_regex_bug()"
+    },
+    {
+      "label": "test_get_unread_delta_corruption_crash()",
+      "file_type": "code",
+      "source_file": "destructive_framework_tests.py",
+      "source_location": "L40",
+      "id": "destructive_framework_tests_test_get_unread_delta_corruption_crash",
+      "community": 1,
+      "norm_label": "test_get_unread_delta_corruption_crash()"
+    },
+    {
+      "label": "test_execute_in_sandbox_timeout_message_inconsistency()",
+      "file_type": "code",
+      "source_file": "destructive_framework_tests.py",
+      "source_location": "L65",
+      "id": "destructive_framework_tests_test_execute_in_sandbox_timeout_message_inconsistency",
+      "community": 1,
+      "norm_label": "test_execute_in_sandbox_timeout_message_inconsistency()"
+    },
+    {
+      "label": "test_api_bridge_unsupported_role()",
+      "file_type": "code",
+      "source_file": "destructive_framework_tests.py",
+      "source_location": "L74",
+      "id": "destructive_framework_tests_test_api_bridge_unsupported_role",
+      "community": 1,
+      "norm_label": "test_api_bridge_unsupported_role()"
+    },
+    {
+      "label": "test_ollama_direct_server_down()",
+      "file_type": "code",
+      "source_file": "destructive_framework_tests.py",
+      "source_location": "L80",
+      "id": "destructive_framework_tests_test_ollama_direct_server_down",
+      "community": 16,
+      "norm_label": "test_ollama_direct_server_down()"
+    },
+    {
+      "label": "test_extract_function_block_syntax_error()",
+      "file_type": "code",
+      "source_file": "destructive_framework_tests.py",
+      "source_location": "L87",
+      "id": "destructive_framework_tests_test_extract_function_block_syntax_error",
+      "community": 1,
+      "norm_label": "test_extract_function_block_syntax_error()"
+    },
+    {
+      "label": "test_apply_function_patch_missing_function()",
+      "file_type": "code",
+      "source_file": "destructive_framework_tests.py",
+      "source_location": "L96",
+      "id": "destructive_framework_tests_test_apply_function_patch_missing_function",
+      "community": 1,
+      "norm_label": "test_apply_function_patch_missing_function()"
+    },
+    {
+      "label": "Verify that TokenTracker.log_call crashes with TypeError when text inputs are No",
+      "file_type": "rationale",
+      "source_file": "destructive_framework_tests.py",
+      "source_location": "L21",
+      "id": "destructive_framework_tests_rationale_21",
+      "community": 6,
+      "norm_label": "verify that tokentracker.log_call crashes with typeerror when text inputs are no"
+    },
+    {
+      "label": "Verify that extract_handoff fails when multiple JSON blocks exist due to greedy",
+      "file_type": "rationale",
+      "source_file": "destructive_framework_tests.py",
+      "source_location": "L28",
+      "id": "destructive_framework_tests_rationale_28",
+      "community": 1,
+      "norm_label": "verify that extract_handoff fails when multiple json blocks exist due to greedy"
+    },
+    {
+      "label": "Verify that get_unread_delta crashes with JSONDecodeError when read states file",
+      "file_type": "rationale",
+      "source_file": "destructive_framework_tests.py",
+      "source_location": "L41",
+      "id": "destructive_framework_tests_rationale_41",
+      "community": 1,
+      "norm_label": "verify that get_unread_delta crashes with jsondecodeerror when read states file"
+    },
+    {
+      "label": "Verify execute_in_sandbox reports a 10s timeout error message even though it run",
+      "file_type": "rationale",
+      "source_file": "destructive_framework_tests.py",
+      "source_location": "L66",
+      "id": "destructive_framework_tests_rationale_66",
+      "community": 1,
+      "norm_label": "verify execute_in_sandbox reports a 10s timeout error message even though it run"
+    },
+    {
+      "label": "Verify calling an unconfigured agent role returns an error string rather than ra",
+      "file_type": "rationale",
+      "source_file": "destructive_framework_tests.py",
+      "source_location": "L75",
+      "id": "destructive_framework_tests_rationale_75",
+      "community": 1,
+      "norm_label": "verify calling an unconfigured agent role returns an error string rather than ra"
+    },
+    {
+      "label": "Verify call_ollama_direct falls back to 'UNSURE' gracefully when Ollama is down.",
+      "file_type": "rationale",
+      "source_file": "destructive_framework_tests.py",
+      "source_location": "L81",
+      "id": "destructive_framework_tests_rationale_81",
+      "community": 16,
+      "norm_label": "verify call_ollama_direct falls back to 'unsure' gracefully when ollama is down."
+    },
+    {
+      "label": "Verify extract_function_block returns empty string when parsing a file with synt",
+      "file_type": "rationale",
+      "source_file": "destructive_framework_tests.py",
+      "source_location": "L88",
+      "id": "destructive_framework_tests_rationale_88",
+      "community": 1,
+      "norm_label": "verify extract_function_block returns empty string when parsing a file with synt"
+    },
+    {
+      "label": "Verify apply_function_patch returns False when function to patch does not exist",
+      "file_type": "rationale",
+      "source_file": "destructive_framework_tests.py",
+      "source_location": "L97",
+      "id": "destructive_framework_tests_rationale_97",
+      "community": 1,
+      "norm_label": "verify apply_function_patch returns false when function to patch does not exist"
+    },
+    {
+      "label": "extreme_destructive_tests.py",
+      "file_type": "code",
+      "source_file": "extreme_destructive_tests.py",
+      "source_location": "L1",
+      "id": "extreme_destructive_tests",
+      "community": 7,
+      "norm_label": "extreme_destructive_tests.py"
+    },
+    {
+      "label": "test_token_tracker_extreme_nulls_and_empty_types()",
+      "file_type": "code",
+      "source_file": "extreme_destructive_tests.py",
+      "source_location": "L22",
+      "id": "extreme_destructive_tests_test_token_tracker_extreme_nulls_and_empty_types",
+      "community": 6,
+      "norm_label": "test_token_tracker_extreme_nulls_and_empty_types()"
+    },
+    {
+      "label": "test_extract_handoff_nested_brackets_and_malformed()",
+      "file_type": "code",
+      "source_file": "extreme_destructive_tests.py",
+      "source_location": "L37",
+      "id": "extreme_destructive_tests_test_extract_handoff_nested_brackets_and_malformed",
+      "community": 1,
+      "norm_label": "test_extract_handoff_nested_brackets_and_malformed()"
+    },
+    {
+      "label": "test_get_unread_delta_extreme_empty_file()",
+      "file_type": "code",
+      "source_file": "extreme_destructive_tests.py",
+      "source_location": "L45",
+      "id": "extreme_destructive_tests_test_get_unread_delta_extreme_empty_file",
+      "community": 1,
+      "norm_label": "test_get_unread_delta_extreme_empty_file()"
+    },
+    {
+      "label": "test_execute_in_sandbox_dynamic_timeout_verification()",
+      "file_type": "code",
+      "source_file": "extreme_destructive_tests.py",
+      "source_location": "L71",
+      "id": "extreme_destructive_tests_test_execute_in_sandbox_dynamic_timeout_verification",
+      "community": 1,
+      "norm_label": "test_execute_in_sandbox_dynamic_timeout_verification()"
+    },
+    {
+      "label": "test_execute_in_sandbox_infinite_loop_timeout()",
+      "file_type": "code",
+      "source_file": "extreme_destructive_tests.py",
+      "source_location": "L80",
+      "id": "extreme_destructive_tests_test_execute_in_sandbox_infinite_loop_timeout",
+      "community": 1,
+      "norm_label": "test_execute_in_sandbox_infinite_loop_timeout()"
+    },
+    {
+      "label": "test_ollama_triage_unclosed_think_tag()",
+      "file_type": "code",
+      "source_file": "extreme_destructive_tests.py",
+      "source_location": "L104",
+      "id": "extreme_destructive_tests_test_ollama_triage_unclosed_think_tag",
+      "community": 7,
+      "norm_label": "test_ollama_triage_unclosed_think_tag()"
+    },
+    {
+      "label": "test_ask_user_triage_loop_resilience()",
+      "file_type": "code",
+      "source_file": "extreme_destructive_tests.py",
+      "source_location": "L120",
+      "id": "extreme_destructive_tests_test_ask_user_triage_loop_resilience",
+      "community": 7,
+      "norm_label": "test_ask_user_triage_loop_resilience()"
+    },
+    {
+      "label": "test_extract_function_block_regex_fallback()",
+      "file_type": "code",
+      "source_file": "extreme_destructive_tests.py",
+      "source_location": "L129",
+      "id": "extreme_destructive_tests_test_extract_function_block_regex_fallback",
+      "community": 7,
+      "norm_label": "test_extract_function_block_regex_fallback()"
+    },
+    {
+      "label": "test_identify_broken_functions_smart_mapping()",
+      "file_type": "code",
+      "source_file": "extreme_destructive_tests.py",
+      "source_location": "L155",
+      "id": "extreme_destructive_tests_test_identify_broken_functions_smart_mapping",
+      "community": 7,
+      "norm_label": "test_identify_broken_functions_smart_mapping()"
+    },
+    {
+      "label": "test_jina_search_fallback_trigger()",
+      "file_type": "code",
+      "source_file": "extreme_destructive_tests.py",
+      "source_location": "L185",
+      "id": "extreme_destructive_tests_test_jina_search_fallback_trigger",
+      "community": 7,
+      "norm_label": "test_jina_search_fallback_trigger()"
+    },
+    {
+      "label": "Verify TokenTracker log_call handles completely polluted inputs defensively with",
+      "file_type": "rationale",
+      "source_file": "extreme_destructive_tests.py",
+      "source_location": "L23",
+      "id": "extreme_destructive_tests_rationale_23",
+      "community": 6,
+      "norm_label": "verify tokentracker log_call handles completely polluted inputs defensively with"
+    },
+    {
+      "label": "Verify extract_handoff handles nested brackets and random braces gracefully with",
+      "file_type": "rationale",
+      "source_file": "extreme_destructive_tests.py",
+      "source_location": "L38",
+      "id": "extreme_destructive_tests_rationale_38",
+      "community": 1,
+      "norm_label": "verify extract_handoff handles nested brackets and random braces gracefully with"
+    },
+    {
+      "label": "Verify get_unread_delta recovers gracefully when read states file contains garba",
+      "file_type": "rationale",
+      "source_file": "extreme_destructive_tests.py",
+      "source_location": "L46",
+      "id": "extreme_destructive_tests_rationale_46",
+      "community": 1,
+      "norm_label": "verify get_unread_delta recovers gracefully when read states file contains garba"
+    },
+    {
+      "label": "Verify execute_in_sandbox reports correct timeout duration in its error response",
+      "file_type": "rationale",
+      "source_file": "extreme_destructive_tests.py",
+      "source_location": "L72",
+      "id": "extreme_destructive_tests_rationale_72",
+      "community": 1,
+      "norm_label": "verify execute_in_sandbox reports correct timeout duration in its error response"
+    },
+    {
+      "label": "Verify execute_in_sandbox aborts an infinite loop in 15 seconds instead of hangi",
+      "file_type": "rationale",
+      "source_file": "extreme_destructive_tests.py",
+      "source_location": "L81",
+      "id": "extreme_destructive_tests_rationale_81",
+      "community": 1,
+      "norm_label": "verify execute_in_sandbox aborts an infinite loop in 15 seconds instead of hangi"
+    },
+    {
+      "label": "Verify triage removes unclosed <think> tags when output is truncated and closing",
+      "file_type": "rationale",
+      "source_file": "extreme_destructive_tests.py",
+      "source_location": "L105",
+      "id": "extreme_destructive_tests_rationale_105",
+      "community": 7,
+      "norm_label": "verify triage removes unclosed <think> tags when output is truncated and closing"
+    },
+    {
+      "label": "Verify ask_user_triage loops on bad/empty inputs and only returns on a valid cho",
+      "file_type": "rationale",
+      "source_file": "extreme_destructive_tests.py",
+      "source_location": "L121",
+      "id": "extreme_destructive_tests_rationale_121",
+      "community": 7,
+      "norm_label": "verify ask_user_triage loops on bad/empty inputs and only returns on a valid cho"
+    },
+    {
+      "label": "Verify extract_function_block falls back to indentation-based regex parsing when",
+      "file_type": "rationale",
+      "source_file": "extreme_destructive_tests.py",
+      "source_location": "L130",
+      "id": "extreme_destructive_tests_rationale_130",
+      "community": 7,
+      "norm_label": "verify extract_function_block falls back to indentation-based regex parsing when"
+    },
+    {
+      "label": "Verify identify_broken_functions maps test signatures to correct production func",
+      "file_type": "rationale",
+      "source_file": "extreme_destructive_tests.py",
+      "source_location": "L156",
+      "id": "extreme_destructive_tests_rationale_156",
+      "community": 7,
+      "norm_label": "verify identify_broken_functions maps test signatures to correct production func"
+    },
+    {
+      "label": "Verify Jina Search triggers DDG fallback if no search content is retrieved (only",
+      "file_type": "rationale",
+      "source_file": "extreme_destructive_tests.py",
+      "source_location": "L186",
+      "id": "extreme_destructive_tests_rationale_186",
+      "community": 7,
+      "norm_label": "verify jina search triggers ddg fallback if no search content is retrieved (only"
+    },
+    {
+      "label": "manager.py",
+      "file_type": "code",
+      "source_file": "manager.py",
+      "source_location": "L1",
+      "id": "manager",
+      "community": 2,
+      "norm_label": "manager.py"
+    },
+    {
+      "label": "sanity_check_v2.py",
+      "file_type": "code",
+      "source_file": "sanity_check_v2.py",
+      "source_location": "L1",
+      "id": "sanity_check_v2",
+      "community": 6,
+      "norm_label": "sanity_check_v2.py"
+    },
+    {
+      "label": "run_foundation_tests()",
+      "file_type": "code",
+      "source_file": "sanity_check_v2.py",
+      "source_location": "L6",
+      "id": "sanity_check_v2_run_foundation_tests",
+      "community": 6,
+      "norm_label": "run_foundation_tests()"
+    },
+    {
+      "label": "test_draft_coder.py",
+      "file_type": "code",
+      "source_file": "test_draft_coder.py",
+      "source_location": "L1",
+      "id": "test_draft_coder",
+      "community": 2,
+      "norm_label": "test_draft_coder.py"
+    },
+    {
+      "label": "test_gem.py",
+      "file_type": "code",
+      "source_file": "test_gem.py",
+      "source_location": "L1",
+      "id": "test_gem",
+      "community": 12,
+      "norm_label": "test_gem.py"
+    },
+    {
+      "label": "update_dump.py",
+      "file_type": "code",
+      "source_file": "update_dump.py",
+      "source_location": "L1",
+      "id": "update_dump",
+      "community": 13,
+      "norm_label": "update_dump.py"
+    },
+    {
+      "label": "update_dump_all.py",
+      "file_type": "code",
+      "source_file": "update_dump_all.py",
+      "source_location": "L1",
+      "id": "update_dump_all",
+      "community": 14,
+      "norm_label": "update_dump_all.py"
+    },
+    {
+      "label": "graphify.md",
+      "file_type": "document",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L1",
+      "id": "rules_graphify",
+      "community": 19,
+      "norm_label": "graphify.md"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L6",
+      "id": "rules_graphify_graphify",
+      "community": 19,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "graphify.md",
+      "file_type": "document",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L1",
+      "id": "workflows_graphify",
+      "community": 20,
+      "norm_label": "graphify.md"
+    },
+    {
+      "label": "Workflow: graphify",
+      "file_type": "document",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L6",
+      "id": "workflows_graphify_workflow_graphify",
+      "community": 20,
+      "norm_label": "workflow: graphify"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "id": "claude",
+      "community": 18,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "id": "claude_claude_md",
+      "community": 18,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "1. Think Before Coding",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L7",
+      "id": "claude_1_think_before_coding",
+      "community": 18,
+      "norm_label": "1. think before coding"
+    },
+    {
+      "label": "2. Simplicity First",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L16",
+      "id": "claude_2_simplicity_first",
+      "community": 18,
+      "norm_label": "2. simplicity first"
+    },
+    {
+      "label": "3. Surgical Changes",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L26",
+      "id": "claude_3_surgical_changes",
+      "community": 18,
+      "norm_label": "3. surgical changes"
+    },
+    {
+      "label": "4. Goal-Driven Execution",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L36",
+      "id": "claude_4_goal_driven_execution",
+      "community": 18,
+      "norm_label": "4. goal-driven execution"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme",
+      "community": 17,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Antigravity Multi-Agent Agency Framework",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_antigravity_multi_agent_agency_framework",
+      "community": 17,
+      "norm_label": "antigravity multi-agent agency framework"
+    },
+    {
+      "label": "\ud83c\udfd7\ufe0f System Architecture & Workflow",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "id": "readme_system_architecture_workflow",
+      "community": 17,
+      "norm_label": "\ud83c\udfd7\ufe0f system architecture & workflow"
+    },
+    {
+      "label": "\ud83d\udcc2 Core Component Registry",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L26",
+      "id": "readme_core_component_registry",
+      "community": 17,
+      "norm_label": "\ud83d\udcc2 core component registry"
+    },
+    {
+      "label": "\ud83d\udee0\ufe0f Recent Improvements & Resilience Fixes",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L40",
+      "id": "readme_recent_improvements_resilience_fixes",
+      "community": 17,
+      "norm_label": "\ud83d\udee0\ufe0f recent improvements & resilience fixes"
+    },
+    {
+      "label": "\ud83d\ude80 Running the Framework",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L53",
+      "id": "readme_running_the_framework",
+      "community": 17,
+      "norm_label": "\ud83d\ude80 running the framework"
+    },
+    {
+      "label": "1. Requirements",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L55",
+      "id": "readme_1_requirements",
+      "community": 17,
+      "norm_label": "1. requirements"
+    },
+    {
+      "label": "2. Startup",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L62",
+      "id": "readme_2_startup",
+      "community": 17,
+      "norm_label": "2. startup"
+    },
+    {
+      "label": "3. Running Framework Tests",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L68",
+      "id": "readme_3_running_framework_tests",
+      "community": 17,
+      "norm_label": "3. running framework tests"
+    },
+    {
+      "label": "framework_bug_report.md",
+      "file_type": "document",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L1",
+      "id": "framework_bug_report",
+      "community": 15,
+      "norm_label": "framework_bug_report.md"
+    },
+    {
+      "label": "Destructive Testing Bug Report: Multi-Agent Agency Framework",
+      "file_type": "document",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L1",
+      "id": "framework_bug_report_destructive_testing_bug_report_multi_agent_agency_framework",
+      "community": 15,
+      "norm_label": "destructive testing bug report: multi-agent agency framework"
+    },
+    {
+      "label": "Executive Summary",
+      "file_type": "document",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L7",
+      "id": "framework_bug_report_executive_summary",
+      "community": 15,
+      "norm_label": "executive summary"
+    },
+    {
+      "label": "Phase 1: Core Utilities & API Bugs",
+      "file_type": "document",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L19",
+      "id": "framework_bug_report_phase_1_core_utilities_api_bugs",
+      "community": 15,
+      "norm_label": "phase 1: core utilities & api bugs"
+    },
+    {
+      "label": "Bug 1.1: Token Tracker Crash on Null Inputs (Critical)",
+      "file_type": "document",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L21",
+      "id": "framework_bug_report_bug_1_1_token_tracker_crash_on_null_inputs_critical",
+      "community": 15,
+      "norm_label": "bug 1.1: token tracker crash on null inputs (critical)"
+    },
+    {
+      "label": "Bug 1.2: Read States JSON Corruption Crash (High)",
+      "file_type": "document",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L35",
+      "id": "framework_bug_report_bug_1_2_read_states_json_corruption_crash_high",
+      "community": 15,
+      "norm_label": "bug 1.2: read states json corruption crash (high)"
+    },
+    {
+      "label": "Bug 1.3: Jina AI Search Fallback Failure (Medium)",
+      "file_type": "document",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L43",
+      "id": "framework_bug_report_bug_1_3_jina_ai_search_fallback_failure_medium",
+      "community": 15,
+      "norm_label": "bug 1.3: jina ai search fallback failure (medium)"
+    },
+    {
+      "label": "Bug 1.4: Double Google Font Imports (Low)",
+      "file_type": "document",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L55",
+      "id": "framework_bug_report_bug_1_4_double_google_font_imports_low",
+      "community": 15,
+      "norm_label": "bug 1.4: double google font imports (low)"
+    },
+    {
+      "label": "Phase 2: Sandbox & Execution Bugs",
+      "file_type": "document",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L65",
+      "id": "framework_bug_report_phase_2_sandbox_execution_bugs",
+      "community": 15,
+      "norm_label": "phase 2: sandbox & execution bugs"
+    },
+    {
+      "label": "Bug 2.1: Timeout Error Message Inconsistency (Medium)",
+      "file_type": "document",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L67",
+      "id": "framework_bug_report_bug_2_1_timeout_error_message_inconsistency_medium",
+      "community": 15,
+      "norm_label": "bug 2.1: timeout error message inconsistency (medium)"
+    },
+    {
+      "label": "Bug 2.2: Non-Portable Python Command Invocations (Medium)",
+      "file_type": "document",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L79",
+      "id": "framework_bug_report_bug_2_2_non_portable_python_command_invocations_medium",
+      "community": 15,
+      "norm_label": "bug 2.2: non-portable python command invocations (medium)"
+    },
+    {
+      "label": "Bug 2.3: Unbounded Infinite Loop Execution in Sandbox (High)",
+      "file_type": "document",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L89",
+      "id": "framework_bug_report_bug_2_3_unbounded_infinite_loop_execution_in_sandbox_high",
+      "community": 15,
+      "norm_label": "bug 2.3: unbounded infinite loop execution in sandbox (high)"
+    },
+    {
+      "label": "Phase 3: Triage & Routing Bugs",
+      "file_type": "document",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L99",
+      "id": "framework_bug_report_phase_3_triage_routing_bugs",
+      "community": 15,
+      "norm_label": "phase 3: triage & routing bugs"
+    },
+    {
+      "label": "Bug 3.1: Greedy Regex Handoff JSON Parser Bug (High)",
+      "file_type": "document",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L101",
+      "id": "framework_bug_report_bug_3_1_greedy_regex_handoff_json_parser_bug_high",
+      "community": 15,
+      "norm_label": "bug 3.1: greedy regex handoff json parser bug (high)"
+    },
+    {
+      "label": "Bug 3.2: Ollama Thinking Tag Triage Vulnerability (Medium)",
+      "file_type": "document",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L109",
+      "id": "framework_bug_report_bug_3_2_ollama_thinking_tag_triage_vulnerability_medium",
+      "community": 15,
+      "norm_label": "bug 3.2: ollama thinking tag triage vulnerability (medium)"
+    },
+    {
+      "label": "Bug 3.3: Empty Input Hang in Manual Triage Fallback (Low)",
+      "file_type": "document",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L117",
+      "id": "framework_bug_report_bug_3_3_empty_input_hang_in_manual_triage_fallback_low",
+      "community": 15,
+      "norm_label": "bug 3.3: empty input hang in manual triage fallback (low)"
+    },
+    {
+      "label": "Phase 4: Patching & AST Bugs",
+      "file_type": "document",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L127",
+      "id": "framework_bug_report_phase_4_patching_ast_bugs",
+      "community": 15,
+      "norm_label": "phase 4: patching & ast bugs"
+    },
+    {
+      "label": "Bug 4.1: Broken Test Function Extraction Logic (Medium)",
+      "file_type": "document",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L129",
+      "id": "framework_bug_report_bug_4_1_broken_test_function_extraction_logic_medium",
+      "community": 15,
+      "norm_label": "bug 4.1: broken test function extraction logic (medium)"
+    },
+    {
+      "label": "Bug 4.2: AST Syntax Error Crash in Patch Extraction (Medium)",
+      "file_type": "document",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L137",
+      "id": "framework_bug_report_bug_4_2_ast_syntax_error_crash_in_patch_extraction_medium",
+      "community": 15,
+      "norm_label": "bug 4.2: ast syntax error crash in patch extraction (medium)"
     },
     {
       "label": "STEP 3A: TEST_LEAD executes a smoke test, reviews execution logs,     and compil",
@@ -722,1167 +2297,6 @@
       "community": 0,
       "norm_label": "helper to launch a subprocess securely without shell=true.",
       "id": "agency_orchestration_rationale_953"
-    },
-    {
-      "label": "patching.py",
-      "file_type": "code",
-      "source_file": "agency/patching.py",
-      "source_location": "L1",
-      "community": 2,
-      "norm_label": "patching.py",
-      "id": "agency_patching"
-    },
-    {
-      "label": "prune_error()",
-      "file_type": "code",
-      "source_file": "agency/patching.py",
-      "source_location": "L9",
-      "community": 4,
-      "norm_label": "prune_error()",
-      "id": "agency_patching_prune_error"
-    },
-    {
-      "label": "str",
-      "file_type": "code",
-      "source_file": "agency/patching.py",
-      "source_location": "L9",
-      "community": 4,
-      "norm_label": "str",
-      "id": "agency_patching_py_str"
-    },
-    {
-      "label": "int",
-      "file_type": "code",
-      "source_file": "agency/patching.py",
-      "source_location": "L9",
-      "community": 4,
-      "norm_label": "int",
-      "id": "agency_patching_py_int"
-    },
-    {
-      "label": "extract_code_block()",
-      "file_type": "code",
-      "source_file": "agency/patching.py",
-      "source_location": "L18",
-      "community": 3,
-      "norm_label": "extract_code_block()",
-      "id": "agency_patching_extract_code_block"
-    },
-    {
-      "label": "extract_all_files()",
-      "file_type": "code",
-      "source_file": "agency/patching.py",
-      "source_location": "L33",
-      "community": 3,
-      "norm_label": "extract_all_files()",
-      "id": "agency_patching_extract_all_files"
-    },
-    {
-      "label": "extract_function_block()",
-      "file_type": "code",
-      "source_file": "agency/patching.py",
-      "source_location": "L47",
-      "community": 4,
-      "norm_label": "extract_function_block()",
-      "id": "agency_patching_extract_function_block"
-    },
-    {
-      "label": "apply_function_patch()",
-      "file_type": "code",
-      "source_file": "agency/patching.py",
-      "source_location": "L90",
-      "community": 4,
-      "norm_label": "apply_function_patch()",
-      "id": "agency_patching_apply_function_patch"
-    },
-    {
-      "label": "bool",
-      "file_type": "code",
-      "source_file": "agency/patching.py",
-      "source_location": "L90",
-      "community": 4,
-      "norm_label": "bool",
-      "id": "agency_patching_py_bool"
-    },
-    {
-      "label": "identify_broken_functions()",
-      "file_type": "code",
-      "source_file": "agency/patching.py",
-      "source_location": "L140",
-      "community": 4,
-      "norm_label": "identify_broken_functions()",
-      "id": "agency_patching_identify_broken_functions"
-    },
-    {
-      "label": "phase_patch_draft_coder()",
-      "file_type": "code",
-      "source_file": "agency/patching.py",
-      "source_location": "L198",
-      "community": 4,
-      "norm_label": "phase_patch_draft_coder()",
-      "id": "agency_patching_phase_patch_draft_coder"
-    },
-    {
-      "label": "Prunes long error logs or stack traces to save tokens.",
-      "file_type": "rationale",
-      "source_file": "agency/patching.py",
-      "source_location": "L10",
-      "community": 4,
-      "norm_label": "prunes long error logs or stack traces to save tokens.",
-      "id": "agency_patching_rationale_10"
-    },
-    {
-      "label": "Extracts raw code from markdown blocks.",
-      "file_type": "rationale",
-      "source_file": "agency/patching.py",
-      "source_location": "L19",
-      "community": 3,
-      "norm_label": "extracts raw code from markdown blocks.",
-      "id": "agency_patching_rationale_19"
-    },
-    {
-      "label": "Extracts multiple files from the text using the ==== FILE: ... ==== format.",
-      "file_type": "rationale",
-      "source_file": "agency/patching.py",
-      "source_location": "L34",
-      "community": 3,
-      "norm_label": "extracts multiple files from the text using the ==== file: ... ==== format.",
-      "id": "agency_patching_rationale_34"
-    },
-    {
-      "label": "Extracts the complete source code of a specific function from a file.     Uses A",
-      "file_type": "rationale",
-      "source_file": "agency/patching.py",
-      "source_location": "L48",
-      "community": 4,
-      "norm_label": "extracts the complete source code of a specific function from a file.     uses a",
-      "id": "agency_patching_rationale_48"
-    },
-    {
-      "label": "Replaces a specific function in a file with new code.     Uses AST to find exact",
-      "file_type": "rationale",
-      "source_file": "agency/patching.py",
-      "source_location": "L92",
-      "community": 4,
-      "norm_label": "replaces a specific function in a file with new code.     uses ast to find exact",
-      "id": "agency_patching_rationale_92"
-    },
-    {
-      "label": "Parses DEEP_TESTER error report to identify broken function names.     Cross-ref",
-      "file_type": "rationale",
-      "source_file": "agency/patching.py",
-      "source_location": "L141",
-      "community": 4,
-      "norm_label": "parses deep_tester error report to identify broken function names.     cross-ref",
-      "id": "agency_patching_rationale_141"
-    },
-    {
-      "label": "TARGETED PATCH PHASE.     Identifies broken functions from error report.     Sen",
-      "file_type": "rationale",
-      "source_file": "agency/patching.py",
-      "source_location": "L201",
-      "community": 4,
-      "norm_label": "targeted patch phase.     identifies broken functions from error report.     sen",
-      "id": "agency_patching_rationale_201"
-    },
-    {
-      "label": "router.py",
-      "file_type": "code",
-      "source_file": "agency/router.py",
-      "source_location": "L1",
-      "community": 2,
-      "norm_label": "router.py",
-      "id": "agency_router"
-    },
-    {
-      "label": "call_ollama_direct()",
-      "file_type": "code",
-      "source_file": "agency/router.py",
-      "source_location": "L10",
-      "community": 2,
-      "norm_label": "call_ollama_direct()",
-      "id": "agency_router_call_ollama_direct"
-    },
-    {
-      "label": "str",
-      "file_type": "code",
-      "source_file": "agency/router.py",
-      "source_location": "L10",
-      "community": 2,
-      "norm_label": "str",
-      "id": "agency_router_py_str"
-    },
-    {
-      "label": "ollama_classify_action()",
-      "file_type": "code",
-      "source_file": "agency/router.py",
-      "source_location": "L30",
-      "community": 2,
-      "norm_label": "ollama_classify_action()",
-      "id": "agency_router_ollama_classify_action"
-    },
-    {
-      "label": "update_change_log()",
-      "file_type": "code",
-      "source_file": "agency/router.py",
-      "source_location": "L72",
-      "community": 2,
-      "norm_label": "update_change_log()",
-      "id": "agency_router_update_change_log"
-    },
-    {
-      "label": "int",
-      "file_type": "code",
-      "source_file": "agency/router.py",
-      "source_location": "L72",
-      "community": 2,
-      "norm_label": "int",
-      "id": "agency_router_py_int"
-    },
-    {
-      "label": "startup_menu()",
-      "file_type": "code",
-      "source_file": "agency/router.py",
-      "source_location": "L88",
-      "community": 2,
-      "norm_label": "startup_menu()",
-      "id": "agency_router_startup_menu"
-    },
-    {
-      "label": "antigravity_triage_flow()",
-      "file_type": "code",
-      "source_file": "agency/router.py",
-      "source_location": "L173",
-      "community": 3,
-      "norm_label": "antigravity_triage_flow()",
-      "id": "agency_router_antigravity_triage_flow"
-    },
-    {
-      "label": "run_existing_project_pipeline()",
-      "file_type": "code",
-      "source_file": "agency/router.py",
-      "source_location": "L285",
-      "community": 2,
-      "norm_label": "run_existing_project_pipeline()",
-      "id": "agency_router_run_existing_project_pipeline"
-    },
-    {
-      "label": "Direct Ollama API call for routing decisions.",
-      "file_type": "rationale",
-      "source_file": "agency/router.py",
-      "source_location": "L11",
-      "community": 2,
-      "norm_label": "direct ollama api call for routing decisions.",
-      "id": "agency_router_rationale_11"
-    },
-    {
-      "label": "Ollama classifies what action to take on existing project.     Returns: patch /",
-      "file_type": "rationale",
-      "source_file": "agency/router.py",
-      "source_location": "L31",
-      "community": 2,
-      "norm_label": "ollama classifies what action to take on existing project.     returns: patch /",
-      "id": "agency_router_rationale_31"
-    },
-    {
-      "label": "Appends entry to project change_log.md",
-      "file_type": "rationale",
-      "source_file": "agency/router.py",
-      "source_location": "L74",
-      "community": 2,
-      "norm_label": "appends entry to project change_log.md",
-      "id": "agency_router_rationale_74"
-    },
-    {
-      "label": "Ollama-powered interactive startup menu.     Returns routing decision: new proje",
-      "file_type": "rationale",
-      "source_file": "agency/router.py",
-      "source_location": "L89",
-      "community": 2,
-      "norm_label": "ollama-powered interactive startup menu.     returns routing decision: new proje",
-      "id": "agency_router_rationale_89"
-    },
-    {
-      "label": "Antigravity Mode: Ollama-powered team triage for existing projects.     Classifi",
-      "file_type": "rationale",
-      "source_file": "agency/router.py",
-      "source_location": "L174",
-      "community": 3,
-      "norm_label": "antigravity mode: ollama-powered team triage for existing projects.     classifi",
-      "id": "agency_router_rationale_174"
-    },
-    {
-      "label": "Runs the correct pipeline for existing project changes.     patch  \u2192 DRAFT_CODER",
-      "file_type": "rationale",
-      "source_file": "agency/router.py",
-      "source_location": "L286",
-      "community": 2,
-      "norm_label": "runs the correct pipeline for existing project changes.     patch  \u2192 draft_coder",
-      "id": "agency_router_rationale_286"
-    },
-    {
-      "label": "testing.py",
-      "file_type": "code",
-      "source_file": "agency/testing.py",
-      "source_location": "L1",
-      "community": 2,
-      "norm_label": "testing.py",
-      "id": "agency_testing"
-    },
-    {
-      "label": "is_web_project()",
-      "file_type": "code",
-      "source_file": "agency/testing.py",
-      "source_location": "L11",
-      "community": 0,
-      "norm_label": "is_web_project()",
-      "id": "agency_testing_is_web_project"
-    },
-    {
-      "label": "bool",
-      "file_type": "code",
-      "source_file": "agency/testing.py",
-      "source_location": "L11",
-      "community": 0,
-      "norm_label": "bool",
-      "id": "agency_testing_py_bool"
-    },
-    {
-      "label": "check_playwright_available()",
-      "file_type": "code",
-      "source_file": "agency/testing.py",
-      "source_location": "L36",
-      "community": 2,
-      "norm_label": "check_playwright_available()",
-      "id": "agency_testing_check_playwright_available"
-    },
-    {
-      "label": "create_local_project_dir()",
-      "file_type": "code",
-      "source_file": "agency/testing.py",
-      "source_location": "L45",
-      "community": 2,
-      "norm_label": "create_local_project_dir()",
-      "id": "agency_testing_create_local_project_dir"
-    },
-    {
-      "label": "execute_in_sandbox()",
-      "file_type": "code",
-      "source_file": "agency/testing.py",
-      "source_location": "L87",
-      "community": 1,
-      "norm_label": "execute_in_sandbox()",
-      "id": "agency_testing_execute_in_sandbox"
-    },
-    {
-      "label": "run_tests_safe()",
-      "file_type": "code",
-      "source_file": "agency/testing.py",
-      "source_location": "L181",
-      "community": 1,
-      "norm_label": "run_tests_safe()",
-      "id": "agency_testing_run_tests_safe"
-    },
-    {
-      "label": "str",
-      "file_type": "code",
-      "source_file": "agency/testing.py",
-      "source_location": "L181",
-      "community": 1,
-      "norm_label": "str",
-      "id": "agency_testing_py_str"
-    },
-    {
-      "label": "Ollama-powered web project detector.     Checks production code for web framewor",
-      "file_type": "rationale",
-      "source_file": "agency/testing.py",
-      "source_location": "L12",
-      "community": 0,
-      "norm_label": "ollama-powered web project detector.     checks production code for web framewor",
-      "id": "agency_testing_rationale_12"
-    },
-    {
-      "label": "Checks if Playwright is installed and Chromium is available.",
-      "file_type": "rationale",
-      "source_file": "agency/testing.py",
-      "source_location": "L37",
-      "community": 2,
-      "norm_label": "checks if playwright is installed and chromium is available.",
-      "id": "agency_testing_rationale_37"
-    },
-    {
-      "label": "Creates an isolated local directory for the project.",
-      "file_type": "rationale",
-      "source_file": "agency/testing.py",
-      "source_location": "L46",
-      "community": 2,
-      "norm_label": "creates an isolated local directory for the project.",
-      "id": "agency_testing_rationale_46"
-    },
-    {
-      "label": "Executes code, intercepts missing packages, auto-installs, and handles execution",
-      "file_type": "rationale",
-      "source_file": "agency/testing.py",
-      "source_location": "L88",
-      "community": 1,
-      "norm_label": "executes code, intercepts missing packages, auto-installs, and handles execution",
-      "id": "agency_testing_rationale_88"
-    },
-    {
-      "label": "Runs test cases in an isolated temp directory.     Strictly follows: shell=False",
-      "file_type": "rationale",
-      "source_file": "agency/testing.py",
-      "source_location": "L182",
-      "community": 1,
-      "norm_label": "runs test cases in an isolated temp directory.     strictly follows: shell=false",
-      "id": "agency_testing_rationale_182"
-    },
-    {
-      "label": "triage.py",
-      "file_type": "code",
-      "source_file": "agency/triage.py",
-      "source_location": "L1",
-      "community": 3,
-      "norm_label": "triage.py",
-      "id": "agency_triage"
-    },
-    {
-      "label": "ollama_triage_issue()",
-      "file_type": "code",
-      "source_file": "agency/triage.py",
-      "source_location": "L23",
-      "community": 3,
-      "norm_label": "ollama_triage_issue()",
-      "id": "agency_triage_ollama_triage_issue"
-    },
-    {
-      "label": "str",
-      "file_type": "code",
-      "source_file": "agency/triage.py",
-      "source_location": "L23",
-      "community": 3,
-      "norm_label": "str",
-      "id": "agency_triage_py_str"
-    },
-    {
-      "label": "ask_user_triage()",
-      "file_type": "code",
-      "source_file": "agency/triage.py",
-      "source_location": "L79",
-      "community": 1,
-      "norm_label": "ask_user_triage()",
-      "id": "agency_triage_ask_user_triage"
-    },
-    {
-      "label": "_get_log_path()",
-      "file_type": "code",
-      "source_file": "agency/triage.py",
-      "source_location": "L100",
-      "community": 3,
-      "norm_label": "_get_log_path()",
-      "id": "agency_triage_get_log_path"
-    },
-    {
-      "label": "log_issue()",
-      "file_type": "code",
-      "source_file": "agency/triage.py",
-      "source_location": "L111",
-      "community": 3,
-      "norm_label": "log_issue()",
-      "id": "agency_triage_log_issue"
-    },
-    {
-      "label": "read_team_log()",
-      "file_type": "code",
-      "source_file": "agency/triage.py",
-      "source_location": "L129",
-      "community": 3,
-      "norm_label": "read_team_log()",
-      "id": "agency_triage_read_team_log"
-    },
-    {
-      "label": "run_rnd_pipeline()",
-      "file_type": "code",
-      "source_file": "agency/triage.py",
-      "source_location": "L142",
-      "community": 3,
-      "norm_label": "run_rnd_pipeline()",
-      "id": "agency_triage_run_rnd_pipeline"
-    },
-    {
-      "label": "run_uiux_pipeline()",
-      "file_type": "code",
-      "source_file": "agency/triage.py",
-      "source_location": "L226",
-      "community": 3,
-      "norm_label": "run_uiux_pipeline()",
-      "id": "agency_triage_run_uiux_pipeline"
-    },
-    {
-      "label": "display_team_logs()",
-      "file_type": "code",
-      "source_file": "agency/triage.py",
-      "source_location": "L343",
-      "community": 3,
-      "norm_label": "display_team_logs()",
-      "id": "agency_triage_display_team_logs"
-    },
-    {
-      "label": "agency/triage.py \u2014 Antigravity CLI Team Triage System ==========================",
-      "file_type": "rationale",
-      "source_file": "agency/triage.py",
-      "source_location": "L1",
-      "community": 3,
-      "norm_label": "agency/triage.py \u2014 antigravity cli team triage system ==========================",
-      "id": "agency_triage_rationale_1"
-    },
-    {
-      "label": "Asks Ollama to classify a user's issue/comment into a department.     Returns: '",
-      "file_type": "rationale",
-      "source_file": "agency/triage.py",
-      "source_location": "L24",
-      "community": 3,
-      "norm_label": "asks ollama to classify a user's issue/comment into a department.     returns: '",
-      "id": "agency_triage_rationale_24"
-    },
-    {
-      "label": "Fallback: ask the user to manually classify the issue.",
-      "file_type": "rationale",
-      "source_file": "agency/triage.py",
-      "source_location": "L80",
-      "community": 1,
-      "norm_label": "fallback: ask the user to manually classify the issue.",
-      "id": "agency_triage_rationale_80"
-    },
-    {
-      "label": "Returns the log file path for a specific department.",
-      "file_type": "rationale",
-      "source_file": "agency/triage.py",
-      "source_location": "L101",
-      "community": 3,
-      "norm_label": "returns the log file path for a specific department.",
-      "id": "agency_triage_rationale_101"
-    },
-    {
-      "label": "Writes a timestamped entry to the team-specific log file.",
-      "file_type": "rationale",
-      "source_file": "agency/triage.py",
-      "source_location": "L114",
-      "community": 3,
-      "norm_label": "writes a timestamped entry to the team-specific log file.",
-      "id": "agency_triage_rationale_114"
-    },
-    {
-      "label": "Reads the log for a specific team. Returns content or 'empty' message.",
-      "file_type": "rationale",
-      "source_file": "agency/triage.py",
-      "source_location": "L130",
-      "community": 3,
-      "norm_label": "reads the log for a specific team. returns content or 'empty' message.",
-      "id": "agency_triage_rationale_130"
-    },
-    {
-      "label": "Runs the RnD code-fix pipeline:     DRAFT_CODER \u2192 LOGIC_EXPANDER \u2192 DEEP_TESTER",
-      "file_type": "rationale",
-      "source_file": "agency/triage.py",
-      "source_location": "L143",
-      "community": 3,
-      "norm_label": "runs the rnd code-fix pipeline:     draft_coder \u2192 logic_expander \u2192 deep_tester",
-      "id": "agency_triage_rationale_143"
-    },
-    {
-      "label": "Runs the UI/UX design-fix pipeline:     Targets ONLY CSS/HTML/template files \u2014 n",
-      "file_type": "rationale",
-      "source_file": "agency/triage.py",
-      "source_location": "L227",
-      "community": 3,
-      "norm_label": "runs the ui/ux design-fix pipeline:     targets only css/html/template files \u2014 n",
-      "id": "agency_triage_rationale_227"
-    },
-    {
-      "label": "Interactive viewer for team-specific issue logs.",
-      "file_type": "rationale",
-      "source_file": "agency/triage.py",
-      "source_location": "L344",
-      "community": 3,
-      "norm_label": "interactive viewer for team-specific issue logs.",
-      "id": "agency_triage_rationale_344"
-    },
-    {
-      "label": "antigravity.py",
-      "file_type": "code",
-      "source_file": "antigravity.py",
-      "source_location": "L1",
-      "community": 2,
-      "norm_label": "antigravity.py",
-      "id": "antigravity"
-    },
-    {
-      "label": "print_banner()",
-      "file_type": "code",
-      "source_file": "antigravity.py",
-      "source_location": "L30",
-      "community": 2,
-      "norm_label": "print_banner()",
-      "id": "antigravity_print_banner"
-    },
-    {
-      "label": "main()",
-      "file_type": "code",
-      "source_file": "antigravity.py",
-      "source_location": "L48",
-      "community": 2,
-      "norm_label": "main()",
-      "id": "antigravity_main"
-    },
-    {
-      "label": "\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557 \u2551          \ud83d\ude80 AN",
-      "file_type": "rationale",
-      "source_file": "antigravity.py",
-      "source_location": "L1",
-      "community": 2,
-      "norm_label": "\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557 \u2551          \ud83d\ude80 an",
-      "id": "antigravity_rationale_1"
-    },
-    {
-      "label": "Print the Antigravity CLI startup banner.",
-      "file_type": "rationale",
-      "source_file": "antigravity.py",
-      "source_location": "L31",
-      "community": 2,
-      "norm_label": "print the antigravity cli startup banner.",
-      "id": "antigravity_rationale_31"
-    },
-    {
-      "label": "api_bridge.py",
-      "file_type": "code",
-      "source_file": "api_bridge.py",
-      "source_location": "L1",
-      "community": 5,
-      "norm_label": "api_bridge.py",
-      "id": "api_bridge"
-    },
-    {
-      "label": "search_with_ddg()",
-      "file_type": "code",
-      "source_file": "api_bridge.py",
-      "source_location": "L39",
-      "community": 5,
-      "norm_label": "search_with_ddg()",
-      "id": "api_bridge_search_with_ddg"
-    },
-    {
-      "label": "int",
-      "file_type": "code",
-      "source_file": "api_bridge.py",
-      "source_location": "L39",
-      "community": 5,
-      "norm_label": "int",
-      "id": "api_bridge_py_int"
-    },
-    {
-      "label": "str",
-      "file_type": "code",
-      "source_file": "api_bridge.py",
-      "source_location": "L39",
-      "community": 5,
-      "norm_label": "str",
-      "id": "api_bridge_py_str"
-    },
-    {
-      "label": "_call_cli()",
-      "file_type": "code",
-      "source_file": "api_bridge.py",
-      "source_location": "L58",
-      "community": 5,
-      "norm_label": "_call_cli()",
-      "id": "api_bridge_call_cli"
-    },
-    {
-      "label": "_call_ddg_search()",
-      "file_type": "code",
-      "source_file": "api_bridge.py",
-      "source_location": "L80",
-      "community": 5,
-      "norm_label": "_call_ddg_search()",
-      "id": "api_bridge_call_ddg_search"
-    },
-    {
-      "label": "_call_jina_search()",
-      "file_type": "code",
-      "source_file": "api_bridge.py",
-      "source_location": "L124",
-      "community": 5,
-      "norm_label": "_call_jina_search()",
-      "id": "api_bridge_call_jina_search"
-    },
-    {
-      "label": "inject_research_context()",
-      "file_type": "code",
-      "source_file": "api_bridge.py",
-      "source_location": "L215",
-      "community": 5,
-      "norm_label": "inject_research_context()",
-      "id": "api_bridge_inject_research_context"
-    },
-    {
-      "label": "call_agent()",
-      "file_type": "code",
-      "source_file": "api_bridge.py",
-      "source_location": "L226",
-      "community": 0,
-      "norm_label": "call_agent()",
-      "id": "api_bridge_call_agent"
-    },
-    {
-      "label": "Automatically attaches the research log to Coders and Testers if it exists.",
-      "file_type": "rationale",
-      "source_file": "api_bridge.py",
-      "source_location": "L216",
-      "community": 5,
-      "norm_label": "automatically attaches the research log to coders and testers if it exists.",
-      "id": "api_bridge_rationale_216"
-    },
-    {
-      "label": "Langfuse-wrapped agent caller.",
-      "file_type": "rationale",
-      "source_file": "api_bridge.py",
-      "source_location": "L227",
-      "community": 0,
-      "norm_label": "langfuse-wrapped agent caller.",
-      "id": "api_bridge_rationale_227"
-    },
-    {
-      "label": "Hybrid Router: Routes to Sandboxed CLI or Grounded API based on config. Now with",
-      "file_type": "rationale",
-      "source_file": "api_bridge.py",
-      "source_location": "L302",
-      "community": 0,
-      "norm_label": "hybrid router: routes to sandboxed cli or grounded api based on config. now with",
-      "id": "api_bridge_rationale_302"
-    },
-    {
-      "label": "auto_run.py",
-      "file_type": "code",
-      "source_file": "auto_run.py",
-      "source_location": "L1",
-      "community": 2,
-      "norm_label": "auto_run.py",
-      "id": "auto_run"
-    },
-    {
-      "label": "config.py",
-      "file_type": "code",
-      "source_file": "config.py",
-      "source_location": "L1",
-      "community": 2,
-      "norm_label": "config.py",
-      "id": "config"
-    },
-    {
-      "label": "destructive_framework_tests.py",
-      "file_type": "code",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L1",
-      "community": 4,
-      "norm_label": "destructive_framework_tests.py",
-      "id": "destructive_framework_tests"
-    },
-    {
-      "label": "test_token_tracker_null_input_crash()",
-      "file_type": "code",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L20",
-      "community": 6,
-      "norm_label": "test_token_tracker_null_input_crash()",
-      "id": "destructive_framework_tests_test_token_tracker_null_input_crash"
-    },
-    {
-      "label": "test_extract_handoff_greedy_regex_bug()",
-      "file_type": "code",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L27",
-      "community": 1,
-      "norm_label": "test_extract_handoff_greedy_regex_bug()",
-      "id": "destructive_framework_tests_test_extract_handoff_greedy_regex_bug"
-    },
-    {
-      "label": "test_get_unread_delta_corruption_crash()",
-      "file_type": "code",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L40",
-      "community": 1,
-      "norm_label": "test_get_unread_delta_corruption_crash()",
-      "id": "destructive_framework_tests_test_get_unread_delta_corruption_crash"
-    },
-    {
-      "label": "test_execute_in_sandbox_timeout_message_inconsistency()",
-      "file_type": "code",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L65",
-      "community": 1,
-      "norm_label": "test_execute_in_sandbox_timeout_message_inconsistency()",
-      "id": "destructive_framework_tests_test_execute_in_sandbox_timeout_message_inconsistency"
-    },
-    {
-      "label": "test_api_bridge_unsupported_role()",
-      "file_type": "code",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L74",
-      "community": 4,
-      "norm_label": "test_api_bridge_unsupported_role()",
-      "id": "destructive_framework_tests_test_api_bridge_unsupported_role"
-    },
-    {
-      "label": "test_ollama_direct_server_down()",
-      "file_type": "code",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L80",
-      "community": 4,
-      "norm_label": "test_ollama_direct_server_down()",
-      "id": "destructive_framework_tests_test_ollama_direct_server_down"
-    },
-    {
-      "label": "test_extract_function_block_syntax_error()",
-      "file_type": "code",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L87",
-      "community": 4,
-      "norm_label": "test_extract_function_block_syntax_error()",
-      "id": "destructive_framework_tests_test_extract_function_block_syntax_error"
-    },
-    {
-      "label": "test_apply_function_patch_missing_function()",
-      "file_type": "code",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L96",
-      "community": 4,
-      "norm_label": "test_apply_function_patch_missing_function()",
-      "id": "destructive_framework_tests_test_apply_function_patch_missing_function"
-    },
-    {
-      "label": "Verify that TokenTracker.log_call crashes with TypeError when text inputs are No",
-      "file_type": "rationale",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L21",
-      "community": 6,
-      "norm_label": "verify that tokentracker.log_call crashes with typeerror when text inputs are no",
-      "id": "destructive_framework_tests_rationale_21"
-    },
-    {
-      "label": "Verify that extract_handoff fails when multiple JSON blocks exist due to greedy",
-      "file_type": "rationale",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L28",
-      "community": 1,
-      "norm_label": "verify that extract_handoff fails when multiple json blocks exist due to greedy",
-      "id": "destructive_framework_tests_rationale_28"
-    },
-    {
-      "label": "Verify that get_unread_delta crashes with JSONDecodeError when read states file",
-      "file_type": "rationale",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L41",
-      "community": 1,
-      "norm_label": "verify that get_unread_delta crashes with jsondecodeerror when read states file",
-      "id": "destructive_framework_tests_rationale_41"
-    },
-    {
-      "label": "Verify execute_in_sandbox reports a 10s timeout error message even though it run",
-      "file_type": "rationale",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L66",
-      "community": 1,
-      "norm_label": "verify execute_in_sandbox reports a 10s timeout error message even though it run",
-      "id": "destructive_framework_tests_rationale_66"
-    },
-    {
-      "label": "Verify calling an unconfigured agent role returns an error string rather than ra",
-      "file_type": "rationale",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L75",
-      "community": 4,
-      "norm_label": "verify calling an unconfigured agent role returns an error string rather than ra",
-      "id": "destructive_framework_tests_rationale_75"
-    },
-    {
-      "label": "Verify call_ollama_direct falls back to 'UNSURE' gracefully when Ollama is down.",
-      "file_type": "rationale",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L81",
-      "community": 4,
-      "norm_label": "verify call_ollama_direct falls back to 'unsure' gracefully when ollama is down.",
-      "id": "destructive_framework_tests_rationale_81"
-    },
-    {
-      "label": "Verify extract_function_block returns empty string when parsing a file with synt",
-      "file_type": "rationale",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L88",
-      "community": 4,
-      "norm_label": "verify extract_function_block returns empty string when parsing a file with synt",
-      "id": "destructive_framework_tests_rationale_88"
-    },
-    {
-      "label": "Verify apply_function_patch returns False when function to patch does not exist",
-      "file_type": "rationale",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L97",
-      "community": 4,
-      "norm_label": "verify apply_function_patch returns false when function to patch does not exist",
-      "id": "destructive_framework_tests_rationale_97"
-    },
-    {
-      "label": "extreme_destructive_tests.py",
-      "file_type": "code",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L1",
-      "community": 1,
-      "norm_label": "extreme_destructive_tests.py",
-      "id": "extreme_destructive_tests"
-    },
-    {
-      "label": "test_token_tracker_extreme_nulls_and_empty_types()",
-      "file_type": "code",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L22",
-      "community": 6,
-      "norm_label": "test_token_tracker_extreme_nulls_and_empty_types()",
-      "id": "extreme_destructive_tests_test_token_tracker_extreme_nulls_and_empty_types"
-    },
-    {
-      "label": "test_extract_handoff_nested_brackets_and_malformed()",
-      "file_type": "code",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L37",
-      "community": 1,
-      "norm_label": "test_extract_handoff_nested_brackets_and_malformed()",
-      "id": "extreme_destructive_tests_test_extract_handoff_nested_brackets_and_malformed"
-    },
-    {
-      "label": "test_get_unread_delta_extreme_empty_file()",
-      "file_type": "code",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L45",
-      "community": 1,
-      "norm_label": "test_get_unread_delta_extreme_empty_file()",
-      "id": "extreme_destructive_tests_test_get_unread_delta_extreme_empty_file"
-    },
-    {
-      "label": "test_execute_in_sandbox_dynamic_timeout_verification()",
-      "file_type": "code",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L71",
-      "community": 1,
-      "norm_label": "test_execute_in_sandbox_dynamic_timeout_verification()",
-      "id": "extreme_destructive_tests_test_execute_in_sandbox_dynamic_timeout_verification"
-    },
-    {
-      "label": "test_execute_in_sandbox_infinite_loop_timeout()",
-      "file_type": "code",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L80",
-      "community": 1,
-      "norm_label": "test_execute_in_sandbox_infinite_loop_timeout()",
-      "id": "extreme_destructive_tests_test_execute_in_sandbox_infinite_loop_timeout"
-    },
-    {
-      "label": "test_ollama_triage_unclosed_think_tag()",
-      "file_type": "code",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L104",
-      "community": 1,
-      "norm_label": "test_ollama_triage_unclosed_think_tag()",
-      "id": "extreme_destructive_tests_test_ollama_triage_unclosed_think_tag"
-    },
-    {
-      "label": "test_ask_user_triage_loop_resilience()",
-      "file_type": "code",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L120",
-      "community": 1,
-      "norm_label": "test_ask_user_triage_loop_resilience()",
-      "id": "extreme_destructive_tests_test_ask_user_triage_loop_resilience"
-    },
-    {
-      "label": "test_extract_function_block_regex_fallback()",
-      "file_type": "code",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L129",
-      "community": 1,
-      "norm_label": "test_extract_function_block_regex_fallback()",
-      "id": "extreme_destructive_tests_test_extract_function_block_regex_fallback"
-    },
-    {
-      "label": "test_identify_broken_functions_smart_mapping()",
-      "file_type": "code",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L155",
-      "community": 1,
-      "norm_label": "test_identify_broken_functions_smart_mapping()",
-      "id": "extreme_destructive_tests_test_identify_broken_functions_smart_mapping"
-    },
-    {
-      "label": "test_jina_search_fallback_trigger()",
-      "file_type": "code",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L185",
-      "community": 1,
-      "norm_label": "test_jina_search_fallback_trigger()",
-      "id": "extreme_destructive_tests_test_jina_search_fallback_trigger"
-    },
-    {
-      "label": "Verify TokenTracker log_call handles completely polluted inputs defensively with",
-      "file_type": "rationale",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L23",
-      "community": 6,
-      "norm_label": "verify tokentracker log_call handles completely polluted inputs defensively with",
-      "id": "extreme_destructive_tests_rationale_23"
-    },
-    {
-      "label": "Verify extract_handoff handles nested brackets and random braces gracefully with",
-      "file_type": "rationale",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L38",
-      "community": 1,
-      "norm_label": "verify extract_handoff handles nested brackets and random braces gracefully with",
-      "id": "extreme_destructive_tests_rationale_38"
-    },
-    {
-      "label": "Verify get_unread_delta recovers gracefully when read states file contains garba",
-      "file_type": "rationale",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L46",
-      "community": 1,
-      "norm_label": "verify get_unread_delta recovers gracefully when read states file contains garba",
-      "id": "extreme_destructive_tests_rationale_46"
-    },
-    {
-      "label": "Verify execute_in_sandbox reports correct timeout duration in its error response",
-      "file_type": "rationale",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L72",
-      "community": 1,
-      "norm_label": "verify execute_in_sandbox reports correct timeout duration in its error response",
-      "id": "extreme_destructive_tests_rationale_72"
-    },
-    {
-      "label": "Verify execute_in_sandbox aborts an infinite loop in 15 seconds instead of hangi",
-      "file_type": "rationale",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L81",
-      "community": 1,
-      "norm_label": "verify execute_in_sandbox aborts an infinite loop in 15 seconds instead of hangi",
-      "id": "extreme_destructive_tests_rationale_81"
-    },
-    {
-      "label": "Verify triage removes unclosed <think> tags when output is truncated and closing",
-      "file_type": "rationale",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L105",
-      "community": 1,
-      "norm_label": "verify triage removes unclosed <think> tags when output is truncated and closing",
-      "id": "extreme_destructive_tests_rationale_105"
-    },
-    {
-      "label": "Verify ask_user_triage loops on bad/empty inputs and only returns on a valid cho",
-      "file_type": "rationale",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L121",
-      "community": 1,
-      "norm_label": "verify ask_user_triage loops on bad/empty inputs and only returns on a valid cho",
-      "id": "extreme_destructive_tests_rationale_121"
-    },
-    {
-      "label": "Verify extract_function_block falls back to indentation-based regex parsing when",
-      "file_type": "rationale",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L130",
-      "community": 1,
-      "norm_label": "verify extract_function_block falls back to indentation-based regex parsing when",
-      "id": "extreme_destructive_tests_rationale_130"
-    },
-    {
-      "label": "Verify identify_broken_functions maps test signatures to correct production func",
-      "file_type": "rationale",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L156",
-      "community": 1,
-      "norm_label": "verify identify_broken_functions maps test signatures to correct production func",
-      "id": "extreme_destructive_tests_rationale_156"
-    },
-    {
-      "label": "Verify Jina Search triggers DDG fallback if no search content is retrieved (only",
-      "file_type": "rationale",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L186",
-      "community": 1,
-      "norm_label": "verify jina search triggers ddg fallback if no search content is retrieved (only",
-      "id": "extreme_destructive_tests_rationale_186"
-    },
-    {
-      "label": "manager.py",
-      "file_type": "code",
-      "source_file": "manager.py",
-      "source_location": "L1",
-      "community": 2,
-      "norm_label": "manager.py",
-      "id": "manager"
-    },
-    {
-      "label": "sanity_check_v2.py",
-      "file_type": "code",
-      "source_file": "sanity_check_v2.py",
-      "source_location": "L1",
-      "community": 6,
-      "norm_label": "sanity_check_v2.py",
-      "id": "sanity_check_v2"
-    },
-    {
-      "label": "run_foundation_tests()",
-      "file_type": "code",
-      "source_file": "sanity_check_v2.py",
-      "source_location": "L6",
-      "community": 6,
-      "norm_label": "run_foundation_tests()",
-      "id": "sanity_check_v2_run_foundation_tests"
-    },
-    {
-      "label": "test_draft_coder.py",
-      "file_type": "code",
-      "source_file": "test_draft_coder.py",
-      "source_location": "L1",
-      "community": 2,
-      "norm_label": "test_draft_coder.py",
-      "id": "test_draft_coder"
-    },
-    {
-      "label": "test_gem.py",
-      "file_type": "code",
-      "source_file": "test_gem.py",
-      "source_location": "L1",
-      "community": 12,
-      "norm_label": "test_gem.py",
-      "id": "test_gem"
-    },
-    {
-      "label": "update_dump.py",
-      "file_type": "code",
-      "source_file": "update_dump.py",
-      "source_location": "L1",
-      "community": 13,
-      "norm_label": "update_dump.py",
-      "id": "update_dump"
-    },
-    {
-      "label": "update_dump_all.py",
-      "file_type": "code",
-      "source_file": "update_dump_all.py",
-      "source_location": "L1",
-      "community": 14,
-      "norm_label": "update_dump_all.py",
-      "id": "update_dump_all"
     },
     {
       "label": "Think Before Coding",
@@ -2576,6 +2990,17 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "agency/orchestration.py",
+      "source_location": "L431",
+      "weight": 1.0,
+      "source": "agency_orchestration_phase_2_b_logic_expander",
+      "target": "agency_execution_read_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
       "source_location": "L850",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -2877,6 +3302,17 @@
       "confidence_score": 1.0,
       "source": "agency_orchestration_phase_2_a_draft_coder",
       "target": "agency_execution_write_file"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L427",
+      "weight": 1.0,
+      "source": "agency_orchestration_phase_2_b_logic_expander",
+      "target": "agency_execution_write_file",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -3384,6 +3820,17 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "agency/orchestration.py",
+      "source_location": "L434",
+      "weight": 1.0,
+      "source": "agency_orchestration_phase_2_b_logic_expander",
+      "target": "agency_execution_update_read_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
       "source_location": "L432",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -3487,6 +3934,17 @@
       "confidence_score": 1.0,
       "source": "agency_orchestration_phase_2_a_draft_coder",
       "target": "agency_execution_append_delta_log"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L433",
+      "weight": 1.0,
+      "source": "agency_orchestration_phase_2_b_logic_expander",
+      "target": "agency_execution_append_delta_log",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -4288,6 +4746,17 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "agency/orchestration.py",
+      "source_location": "L406",
+      "weight": 1.0,
+      "source": "agency_orchestration_phase_2_b_logic_expander",
+      "target": "agency_memory_inject_memory_into_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
       "source_location": "L404",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -4430,6 +4899,16 @@
       "confidence_score": 1.0,
       "source": "agency_orchestration",
       "target": "agency_orchestration_phase_2_a_draft_coder"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L377",
+      "weight": 1.0,
+      "source": "agency_orchestration",
+      "target": "agency_orchestration_phase_2_b_logic_expander",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4878,6 +5357,17 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L388",
       "weight": 1.0,
+      "source": "agency_orchestration_phase_2_b_logic_expander",
+      "target": "agency_orchestration_coding_agent_instruction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L388",
+      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "agency_orchestration_phase_2b_logic_expander",
       "target": "agency_orchestration_coding_agent_instruction"
@@ -4935,6 +5425,17 @@
       "confidence_score": 1.0,
       "source": "agency_orchestration_run_full_pipeline",
       "target": "agency_orchestration_phase_2_c_post_coding_smoke_gate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "agency_orchestration_auto_fix_coding",
+      "target": "agency_orchestration_phase_2_b_logic_expander",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5156,6 +5657,71 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "agency/orchestration.py",
+      "source_location": "L410",
+      "weight": 1.0,
+      "source": "agency_orchestration_phase_2_b_logic_expander",
+      "target": "agency_patching_extract_all_files",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L413",
+      "weight": 1.0,
+      "source": "agency_orchestration_phase_2_b_logic_expander",
+      "target": "agency_patching_extract_code_block",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L407",
+      "weight": 1.0,
+      "source": "agency_orchestration_phase_2_b_logic_expander",
+      "target": "api_bridge_call_agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L856",
+      "weight": 1.0,
+      "source": "agency_orchestration_phase_2b_logic_expander",
+      "target": "agency_orchestration_phase_2_b_logic_expander",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L378",
+      "weight": 1.0,
+      "source": "agency_orchestration_rationale_378",
+      "target": "agency_orchestration_phase_2_b_logic_expander",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L887",
+      "weight": 1.0,
+      "source": "agency_orchestration_run_full_pipeline",
+      "target": "agency_orchestration_phase_2_b_logic_expander",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
       "source_location": "L451",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -5215,6 +5781,16 @@
       "confidence_score": 1.0,
       "source": "agency_orchestration_rationale_437",
       "target": "agency_orchestration_phase_3_a_test_lead"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L439",
+      "weight": 1.0,
+      "source": "agency_orchestration_rationale_439",
+      "target": "agency_orchestration_phase_3_a_test_lead",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5326,6 +5902,16 @@
       "target": "agency_orchestration_phase_3_b_deep_tester"
     },
     {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L672",
+      "weight": 1.0,
+      "source": "agency_orchestration_rationale_672",
+      "target": "agency_orchestration_phase_3_b_deep_tester",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -5400,6 +5986,16 @@
       "confidence_score": 1.0,
       "source": "agency_orchestration_rationale_765",
       "target": "agency_orchestration_phase_3_c_assistant_manager"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L767",
+      "weight": 1.0,
+      "source": "agency_orchestration_rationale_767",
+      "target": "agency_orchestration_phase_3_c_assistant_manager",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5488,6 +6084,16 @@
       "target": "agency_orchestration_phase_2b_logic_expander"
     },
     {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L848",
+      "weight": 1.0,
+      "source": "agency_orchestration_rationale_848",
+      "target": "agency_orchestration_phase_2b_logic_expander",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -5551,6 +6157,16 @@
       "confidence_score": 1.0,
       "source": "agency_orchestration_rationale_858",
       "target": "agency_orchestration_run_full_pipeline"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L860",
+      "weight": 1.0,
+      "source": "agency_orchestration_rationale_860",
+      "target": "agency_orchestration_run_full_pipeline",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5638,6 +6254,16 @@
       "confidence_score": 1.0,
       "source": "agency_orchestration_rationale_953",
       "target": "agency_orchestration_subprocess_popen_safe"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L955",
+      "weight": 1.0,
+      "source": "agency_orchestration_rationale_955",
+      "target": "agency_orchestration_subprocess_popen_safe",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7587,6 +8213,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "api_bridge.py",
+      "source_location": "L301",
+      "weight": 1.0,
+      "source": "api_bridge",
+      "target": "api_bridge_call_agent_raw",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api_bridge.py",
       "source_location": "L58",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -7786,6 +8422,17 @@
       "target": "api_bridge_inject_research_context"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api_bridge.py",
+      "source_location": "L312",
+      "weight": 1.0,
+      "source": "api_bridge_call_agent_raw",
+      "target": "api_bridge_inject_research_context",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "api_bridge.py",
@@ -7794,6 +8441,17 @@
       "confidence_score": 1.0,
       "source": "api_bridge_rationale_216",
       "target": "api_bridge_inject_research_context"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api_bridge.py",
+      "source_location": "L265",
+      "weight": 1.0,
+      "source": "api_bridge_call_agent",
+      "target": "api_bridge_call_agent_raw",
+      "confidence_score": 1.0
     },
     {
       "relation": "rationale_for",
@@ -7858,6 +8516,16 @@
       "confidence_score": 1.0,
       "source": "test_draft_coder",
       "target": "api_bridge_call_agent"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "api_bridge.py",
+      "source_location": "L302",
+      "weight": 1.0,
+      "source": "api_bridge_rationale_302",
+      "target": "api_bridge_call_agent_raw",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -8304,6 +8972,336 @@
       "target": "sanity_check_v2_run_foundation_tests"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "rules_graphify",
+      "target": "rules_graphify_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "workflows_graphify",
+      "target": "workflows_graphify_workflow_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude",
+      "target": "claude_claude_md",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_1_think_before_coding",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_2_simplicity_first",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_3_surgical_changes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_4_goal_driven_execution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_antigravity_multi_agent_agency_framework",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "readme_antigravity_multi_agent_agency_framework",
+      "target": "readme_core_component_registry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "readme_antigravity_multi_agent_agency_framework",
+      "target": "readme_recent_improvements_resilience_fixes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "readme_antigravity_multi_agent_agency_framework",
+      "target": "readme_running_the_framework",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "readme_antigravity_multi_agent_agency_framework",
+      "target": "readme_system_architecture_workflow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "readme_running_the_framework",
+      "target": "readme_1_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "readme_running_the_framework",
+      "target": "readme_2_startup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "readme_running_the_framework",
+      "target": "readme_3_running_framework_tests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "framework_bug_report",
+      "target": "framework_bug_report_destructive_testing_bug_report_multi_agent_agency_framework",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "framework_bug_report_destructive_testing_bug_report_multi_agent_agency_framework",
+      "target": "framework_bug_report_executive_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "framework_bug_report_destructive_testing_bug_report_multi_agent_agency_framework",
+      "target": "framework_bug_report_phase_1_core_utilities_api_bugs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "framework_bug_report_destructive_testing_bug_report_multi_agent_agency_framework",
+      "target": "framework_bug_report_phase_2_sandbox_execution_bugs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "framework_bug_report_destructive_testing_bug_report_multi_agent_agency_framework",
+      "target": "framework_bug_report_phase_3_triage_routing_bugs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L127",
+      "weight": 1.0,
+      "source": "framework_bug_report_destructive_testing_bug_report_multi_agent_agency_framework",
+      "target": "framework_bug_report_phase_4_patching_ast_bugs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "framework_bug_report_phase_1_core_utilities_api_bugs",
+      "target": "framework_bug_report_bug_1_1_token_tracker_crash_on_null_inputs_critical",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "framework_bug_report_phase_1_core_utilities_api_bugs",
+      "target": "framework_bug_report_bug_1_2_read_states_json_corruption_crash_high",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "framework_bug_report_phase_1_core_utilities_api_bugs",
+      "target": "framework_bug_report_bug_1_3_jina_ai_search_fallback_failure_medium",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "framework_bug_report_phase_1_core_utilities_api_bugs",
+      "target": "framework_bug_report_bug_1_4_double_google_font_imports_low",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "framework_bug_report_phase_2_sandbox_execution_bugs",
+      "target": "framework_bug_report_bug_2_1_timeout_error_message_inconsistency_medium",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "framework_bug_report_phase_2_sandbox_execution_bugs",
+      "target": "framework_bug_report_bug_2_2_non_portable_python_command_invocations_medium",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "framework_bug_report_phase_2_sandbox_execution_bugs",
+      "target": "framework_bug_report_bug_2_3_unbounded_infinite_loop_execution_in_sandbox_high",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "framework_bug_report_phase_3_triage_routing_bugs",
+      "target": "framework_bug_report_bug_3_1_greedy_regex_handoff_json_parser_bug_high",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "framework_bug_report_phase_3_triage_routing_bugs",
+      "target": "framework_bug_report_bug_3_2_ollama_thinking_tag_triage_vulnerability_medium",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "framework_bug_report_phase_3_triage_routing_bugs",
+      "target": "framework_bug_report_bug_3_3_empty_input_hang_in_manual_triage_fallback_low",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "framework_bug_report_phase_4_patching_ast_bugs",
+      "target": "framework_bug_report_bug_4_1_broken_test_function_extraction_logic_medium",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "framework_bug_report.md",
+      "source_location": "L137",
+      "weight": 1.0,
+      "source": "framework_bug_report_phase_4_patching_ast_bugs",
+      "target": "framework_bug_report_bug_4_2_ast_syntax_error_crash_in_patch_extraction_medium",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.9,
@@ -8455,5 +9453,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "92b80ac9c7033773771b5dc3200a92d4a93a0a3d"
+  "built_at_commit": "42b0eda28798bd68c54c48fc00ee9475ad46af33"
 }
