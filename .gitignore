@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+*.log
+.system_generated/
+Active_Projects/
+0_Management/
+AI_Agency_Learning_Manual.pdf
+codebase_dump.md
+draft_coder_test_output.txt

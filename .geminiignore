@@ -1,0 +1,23 @@
+# AI Agency — .geminiignore
+# Prevents Gemini CLI from scanning irrelevant files
+
+__pycache__/
+*.pyc
+.env
+.git/
+*.log
+*.tmp
+
+# Global management — agents shouldn't read global context by default
+0_Management/Active_Project_Sync.md
+0_Management/Agency_Lessons.md
+0_Management/agent_read_states.json
+0_Management/Archive/
+
+# Draft and test artifacts — too noisy
+Active_Projects/*/2_Source_Control/02_Drafts/
+Active_Projects/*/3_Testing/*.log
+Active_Projects/*/3_Testing/*.pyc
+
+# Old research vault if it still exists
+1_Research_Vault/
