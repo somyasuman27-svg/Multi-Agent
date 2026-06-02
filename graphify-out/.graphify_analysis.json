@@ -1,0 +1,386 @@
+{
+  "communities": {
+    "0": [
+      "agency_execution_append_delta_log",
+      "agency_execution_rationale_193",
+      "agency_execution_rationale_217",
+      "agency_execution_rationale_51",
+      "agency_execution_update_read_state",
+      "agency_execution_write_file",
+      "agency_governance",
+      "agency_governance_complexity_classifier",
+      "agency_governance_human_checkpoint",
+      "agency_governance_rationale_10",
+      "agency_memory_inject_memory_into_prompt",
+      "agency_memory_rationale_70",
+      "agency_orchestration",
+      "agency_orchestration_auto_fix_coding",
+      "agency_orchestration_coding_agent_instruction",
+      "agency_orchestration_dequeue_completed_task",
+      "agency_orchestration_phase_0_briefing",
+      "agency_orchestration_phase_1_a_research_collection",
+      "agency_orchestration_phase_2_a_draft_coder",
+      "agency_orchestration_phase_2_c_post_coding_smoke_gate",
+      "agency_orchestration_phase_2b_logic_expander",
+      "agency_orchestration_phase_3_a_test_lead",
+      "agency_orchestration_phase_3_b_deep_tester",
+      "agency_orchestration_phase_3_c_assistant_manager",
+      "agency_orchestration_py_bool",
+      "agency_orchestration_py_int",
+      "agency_orchestration_py_str",
+      "agency_orchestration_rationale_116",
+      "agency_orchestration_rationale_143",
+      "agency_orchestration_rationale_225",
+      "agency_orchestration_rationale_315",
+      "agency_orchestration_rationale_378",
+      "agency_orchestration_rationale_41",
+      "agency_orchestration_rationale_437",
+      "agency_orchestration_rationale_670",
+      "agency_orchestration_rationale_765",
+      "agency_orchestration_rationale_846",
+      "agency_orchestration_rationale_858",
+      "agency_orchestration_rationale_95",
+      "agency_orchestration_rationale_953",
+      "agency_orchestration_run_full_pipeline",
+      "agency_orchestration_save_localized_markdown_log",
+      "agency_orchestration_subprocess_popen_safe",
+      "agency_orchestration_tests_passed",
+      "agency_orchestration_update_cross_project_memory",
+      "agency_orchestration_update_pipeline_memories",
+      "agency_testing_is_web_project",
+      "agency_testing_py_bool",
+      "agency_testing_rationale_12",
+      "api_bridge_call_agent",
+      "api_bridge_rationale_227",
+      "api_bridge_rationale_302"
+    ],
+    "1": [
+      "agency_execution_extract_handoff",
+      "agency_execution_get_unread_delta",
+      "agency_execution_handoffsignal",
+      "agency_execution_management_log_path",
+      "agency_execution_py_str",
+      "agency_execution_rationale_116",
+      "agency_execution_rationale_166",
+      "agency_testing_execute_in_sandbox",
+      "agency_testing_py_str",
+      "agency_testing_rationale_182",
+      "agency_testing_rationale_88",
+      "agency_testing_run_tests_safe",
+      "agency_triage_ask_user_triage",
+      "agency_triage_rationale_80",
+      "basemodel",
+      "destructive_framework_tests_rationale_28",
+      "destructive_framework_tests_rationale_41",
+      "destructive_framework_tests_rationale_66",
+      "destructive_framework_tests_test_execute_in_sandbox_timeout_message_inconsistency",
+      "destructive_framework_tests_test_extract_handoff_greedy_regex_bug",
+      "destructive_framework_tests_test_get_unread_delta_corruption_crash",
+      "extreme_destructive_tests",
+      "extreme_destructive_tests_rationale_105",
+      "extreme_destructive_tests_rationale_121",
+      "extreme_destructive_tests_rationale_130",
+      "extreme_destructive_tests_rationale_156",
+      "extreme_destructive_tests_rationale_186",
+      "extreme_destructive_tests_rationale_38",
+      "extreme_destructive_tests_rationale_46",
+      "extreme_destructive_tests_rationale_72",
+      "extreme_destructive_tests_rationale_81",
+      "extreme_destructive_tests_test_ask_user_triage_loop_resilience",
+      "extreme_destructive_tests_test_execute_in_sandbox_dynamic_timeout_verification",
+      "extreme_destructive_tests_test_execute_in_sandbox_infinite_loop_timeout",
+      "extreme_destructive_tests_test_extract_function_block_regex_fallback",
+      "extreme_destructive_tests_test_extract_handoff_nested_brackets_and_malformed",
+      "extreme_destructive_tests_test_get_unread_delta_extreme_empty_file",
+      "extreme_destructive_tests_test_identify_broken_functions_smart_mapping",
+      "extreme_destructive_tests_test_jina_search_fallback_trigger",
+      "extreme_destructive_tests_test_ollama_triage_unclosed_think_tag"
+    ],
+    "2": [
+      "agency_execution",
+      "agency_execution_append_file",
+      "agency_execution_log_langfuse_event",
+      "agency_execution_rationale_10",
+      "agency_execution_rationale_26",
+      "agency_execution_rationale_77",
+      "agency_execution_read_file",
+      "agency_memory",
+      "agency_patching",
+      "agency_router",
+      "agency_router_call_ollama_direct",
+      "agency_router_ollama_classify_action",
+      "agency_router_py_int",
+      "agency_router_py_str",
+      "agency_router_rationale_11",
+      "agency_router_rationale_286",
+      "agency_router_rationale_31",
+      "agency_router_rationale_74",
+      "agency_router_rationale_89",
+      "agency_router_run_existing_project_pipeline",
+      "agency_router_startup_menu",
+      "agency_router_update_change_log",
+      "agency_testing",
+      "agency_testing_check_playwright_available",
+      "agency_testing_create_local_project_dir",
+      "agency_testing_rationale_37",
+      "agency_testing_rationale_46",
+      "antigravity",
+      "antigravity_main",
+      "antigravity_print_banner",
+      "antigravity_rationale_1",
+      "antigravity_rationale_31",
+      "auto_run",
+      "config",
+      "manager",
+      "test_draft_coder"
+    ],
+    "3": [
+      "agency_patching_extract_all_files",
+      "agency_patching_extract_code_block",
+      "agency_patching_rationale_19",
+      "agency_patching_rationale_34",
+      "agency_router_antigravity_triage_flow",
+      "agency_router_rationale_174",
+      "agency_triage",
+      "agency_triage_display_team_logs",
+      "agency_triage_get_log_path",
+      "agency_triage_log_issue",
+      "agency_triage_ollama_triage_issue",
+      "agency_triage_py_str",
+      "agency_triage_rationale_1",
+      "agency_triage_rationale_101",
+      "agency_triage_rationale_114",
+      "agency_triage_rationale_130",
+      "agency_triage_rationale_143",
+      "agency_triage_rationale_227",
+      "agency_triage_rationale_24",
+      "agency_triage_rationale_344",
+      "agency_triage_read_team_log",
+      "agency_triage_run_rnd_pipeline",
+      "agency_triage_run_uiux_pipeline"
+    ],
+    "4": [
+      "agency_patching_apply_function_patch",
+      "agency_patching_extract_function_block",
+      "agency_patching_identify_broken_functions",
+      "agency_patching_phase_patch_draft_coder",
+      "agency_patching_prune_error",
+      "agency_patching_py_bool",
+      "agency_patching_py_int",
+      "agency_patching_py_str",
+      "agency_patching_rationale_10",
+      "agency_patching_rationale_141",
+      "agency_patching_rationale_201",
+      "agency_patching_rationale_48",
+      "agency_patching_rationale_92",
+      "destructive_framework_tests",
+      "destructive_framework_tests_rationale_75",
+      "destructive_framework_tests_rationale_81",
+      "destructive_framework_tests_rationale_88",
+      "destructive_framework_tests_rationale_97",
+      "destructive_framework_tests_test_api_bridge_unsupported_role",
+      "destructive_framework_tests_test_apply_function_patch_missing_function",
+      "destructive_framework_tests_test_extract_function_block_syntax_error",
+      "destructive_framework_tests_test_ollama_direct_server_down"
+    ],
+    "5": [
+      "api_bridge",
+      "api_bridge_call_cli",
+      "api_bridge_call_ddg_search",
+      "api_bridge_call_jina_search",
+      "api_bridge_inject_research_context",
+      "api_bridge_py_int",
+      "api_bridge_py_str",
+      "api_bridge_rationale_216",
+      "api_bridge_search_with_ddg",
+      "bug_report_destructive_testing",
+      "claude_surgical_changes",
+      "execution_py",
+      "governance_py",
+      "memory_py",
+      "orchestration_py",
+      "patching_py",
+      "readme_antigravity_framework",
+      "testing_py",
+      "triage_py"
+    ],
+    "6": [
+      "agency_governance_py_int",
+      "agency_governance_py_str",
+      "agency_governance_tokentracker",
+      "agency_governance_tokentracker_check_budget",
+      "agency_governance_tokentracker_estimate_tokens",
+      "agency_governance_tokentracker_get_rate_limit_status",
+      "agency_governance_tokentracker_init",
+      "agency_governance_tokentracker_log_call",
+      "agency_governance_tokentracker_print_call_summary",
+      "agency_governance_tokentracker_print_final_report",
+      "destructive_framework_tests_rationale_21",
+      "destructive_framework_tests_test_token_tracker_null_input_crash",
+      "extreme_destructive_tests_rationale_23",
+      "extreme_destructive_tests_test_token_tracker_extreme_nulls_and_empty_types",
+      "sanity_check_v2",
+      "sanity_check_v2_run_foundation_tests"
+    ],
+    "7": [
+      "agency_memory_get_memory_path",
+      "agency_memory_py_str",
+      "agency_memory_rationale_34",
+      "agency_memory_rationale_51",
+      "agency_memory_rationale_9",
+      "agency_memory_read_agent_memory",
+      "agency_memory_update_agent_memory"
+    ],
+    "8": [
+      "agency_init"
+    ],
+    "9": [
+      "claude_goal_driven_execution"
+    ],
+    "10": [
+      "claude_simplicity_first"
+    ],
+    "11": [
+      "claude_think_before_coding"
+    ],
+    "12": [
+      "test_gem"
+    ],
+    "13": [
+      "update_dump"
+    ],
+    "14": [
+      "update_dump_all"
+    ]
+  },
+  "cohesion": {
+    "0": 0.10030165912518854,
+    "1": 0.05897435897435897,
+    "2": 0.1380952380952381,
+    "3": 0.14624505928853754,
+    "4": 0.12987012987012986,
+    "5": 0.16374269005847952,
+    "6": 0.175,
+    "7": 0.38095238095238093,
+    "8": 1.0,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0
+  },
+  "gods": [
+    {
+      "id": "agency_execution_read_file",
+      "label": "read_file()",
+      "degree": 33
+    },
+    {
+      "id": "agency_orchestration_run_full_pipeline",
+      "label": "run_full_pipeline()",
+      "degree": 23
+    },
+    {
+      "id": "agency_patching_phase_patch_draft_coder",
+      "label": "phase_patch_draft_coder()",
+      "degree": 23
+    },
+    {
+      "id": "agency_execution_write_file",
+      "label": "write_file()",
+      "degree": 22
+    },
+    {
+      "id": "api_bridge_call_agent",
+      "label": "call_agent()",
+      "degree": 22
+    },
+    {
+      "id": "agency_memory_inject_memory_into_prompt",
+      "label": "inject_memory_into_prompt()",
+      "degree": 18
+    },
+    {
+      "id": "agency_orchestration_phase_2b_logic_expander",
+      "label": "phase_2b_logic_expander()",
+      "degree": 18
+    },
+    {
+      "id": "agency_orchestration_phase_3_a_test_lead",
+      "label": "phase_3_a_test_lead()",
+      "degree": 17
+    },
+    {
+      "id": "agency_orchestration_phase_3_b_deep_tester",
+      "label": "phase_3_b_deep_tester()",
+      "degree": 16
+    },
+    {
+      "id": "agency_execution_update_read_state",
+      "label": "update_read_state()",
+      "degree": 15
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Surgical Changes",
+      "target": "agency/patching.py",
+      "source_files": [
+        "CLAUDE.md",
+        "agency/patching.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc \u2194 code); connects across different repos/directories"
+    },
+    {
+      "source": "Antigravity Multi-Agent Agency Framework",
+      "target": "agency/governance.py",
+      "source_files": [
+        "README.md",
+        "agency/governance.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc \u2194 code); connects across different repos/directories; peripheral node `agency/governance.py` unexpectedly reaches hub `Antigravity Multi-Agent Agency Framework`"
+    },
+    {
+      "source": "Antigravity Multi-Agent Agency Framework",
+      "target": "agency/memory.py",
+      "source_files": [
+        "README.md",
+        "agency/memory.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc \u2194 code); connects across different repos/directories; peripheral node `agency/memory.py` unexpectedly reaches hub `Antigravity Multi-Agent Agency Framework`"
+    },
+    {
+      "source": "Destructive Testing Bug Report",
+      "target": "agency/governance.py",
+      "source_files": [
+        "framework_bug_report.md",
+        "agency/governance.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (code \u2194 doc); connects across different repos/directories; peripheral node `agency/governance.py` unexpectedly reaches hub `Destructive Testing Bug Report`"
+    },
+    {
+      "source": "Destructive Testing Bug Report",
+      "target": "agency/execution.py",
+      "source_files": [
+        "framework_bug_report.md",
+        "agency/execution.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (code \u2194 doc); connects across different repos/directories; peripheral node `agency/execution.py` unexpectedly reaches hub `Destructive Testing Bug Report`"
+    }
+  ],
+  "tokens": {
+    "input": 4926,
+    "output": 2081
+  }
+}

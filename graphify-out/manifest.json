@@ -1,0 +1,107 @@
+{
+  "E:\\Mult_agent\\agency\\__init__.py": {
+    "mtime": 1780007353.6728978,
+    "ast_hash": "104008688fb973e36e5fcc0c94d65d2c",
+    "semantic_hash": "104008688fb973e36e5fcc0c94d65d2c"
+  },
+  "E:\\Mult_agent\\agency\\execution.py": {
+    "mtime": 1780391979.7187681,
+    "ast_hash": "d944ee695c2c0ae0843719972e78c7b6",
+    "semantic_hash": "d944ee695c2c0ae0843719972e78c7b6"
+  },
+  "E:\\Mult_agent\\agency\\governance.py": {
+    "mtime": 1780391969.1780183,
+    "ast_hash": "2556fcb035e75f9b913e4c89564c91bf",
+    "semantic_hash": "2556fcb035e75f9b913e4c89564c91bf"
+  },
+  "E:\\Mult_agent\\agency\\memory.py": {
+    "mtime": 1780007309.7518663,
+    "ast_hash": "fb498d10022eb2e2ef5ff35cd367ee15",
+    "semantic_hash": "fb498d10022eb2e2ef5ff35cd367ee15"
+  },
+  "E:\\Mult_agent\\agency\\orchestration.py": {
+    "mtime": 1780255730.837132,
+    "ast_hash": "bf2c21b95e94de15cf716834e235101c",
+    "semantic_hash": "bf2c21b95e94de15cf716834e235101c"
+  },
+  "E:\\Mult_agent\\agency\\patching.py": {
+    "mtime": 1780392029.951393,
+    "ast_hash": "9f65d6349a47899d7e177e5631f67a2d",
+    "semantic_hash": "9f65d6349a47899d7e177e5631f67a2d"
+  },
+  "E:\\Mult_agent\\agency\\router.py": {
+    "mtime": 1780239537.0229802,
+    "ast_hash": "1e19001bc5758b0ff4ff4290a57df657",
+    "semantic_hash": "1e19001bc5758b0ff4ff4290a57df657"
+  },
+  "E:\\Mult_agent\\agency\\testing.py": {
+    "mtime": 1780392009.343281,
+    "ast_hash": "2d09db4a59d6fd3634782c8bf2e79277",
+    "semantic_hash": "2d09db4a59d6fd3634782c8bf2e79277"
+  },
+  "E:\\Mult_agent\\agency\\triage.py": {
+    "mtime": 1780392017.3557422,
+    "ast_hash": "cc15d4ed37aeac441520318180167075",
+    "semantic_hash": "cc15d4ed37aeac441520318180167075"
+  },
+  "E:\\Mult_agent\\antigravity.py": {
+    "mtime": 1780239565.456397,
+    "ast_hash": "0a99ffdb630492cb2d23cf235163f5c8",
+    "semantic_hash": "0a99ffdb630492cb2d23cf235163f5c8"
+  },
+  "E:\\Mult_agent\\api_bridge.py": {
+    "mtime": 1780391987.8982246,
+    "ast_hash": "5910102e6c4fd7b936471b1aefed1a10",
+    "semantic_hash": "5910102e6c4fd7b936471b1aefed1a10"
+  },
+  "E:\\Mult_agent\\auto_run.py": {
+    "mtime": 1780103406.8929346,
+    "ast_hash": "2f8f7a1008fc4fdd08c6b54d6e18c385",
+    "semantic_hash": "2f8f7a1008fc4fdd08c6b54d6e18c385"
+  },
+  "E:\\Mult_agent\\config.py": {
+    "mtime": 1780391999.6643655,
+    "ast_hash": "79235441f2ec6d24dce732fbdcb0ba97",
+    "semantic_hash": "79235441f2ec6d24dce732fbdcb0ba97"
+  },
+  "E:\\Mult_agent\\destructive_framework_tests.py": {
+    "mtime": 1780391030.023231,
+    "ast_hash": "f308862809c6f926d722e7c566335f89",
+    "semantic_hash": "f308862809c6f926d722e7c566335f89"
+  },
+  "E:\\Mult_agent\\extreme_destructive_tests.py": {
+    "mtime": 1780392041.667592,
+    "ast_hash": "efeb4295b7fc23e49007abfbff209c56",
+    "semantic_hash": "efeb4295b7fc23e49007abfbff209c56"
+  },
+  "E:\\Mult_agent\\manager.py": {
+    "mtime": 1780239602.890561,
+    "ast_hash": "b9264a5e1b980b28b32a0b2afde0e7cf",
+    "semantic_hash": "b9264a5e1b980b28b32a0b2afde0e7cf"
+  },
+  "E:\\Mult_agent\\sanity_check_v2.py": {
+    "mtime": 1780242566.8542283,
+    "ast_hash": "a4d255a8ddf47289486a3f3e9b7d09fe",
+    "semantic_hash": "a4d255a8ddf47289486a3f3e9b7d09fe"
+  },
+  "E:\\Mult_agent\\test_draft_coder.py": {
+    "mtime": 1780104034.3663607,
+    "ast_hash": "6f3d0c09bf1dbf156e355da9a134ec1c",
+    "semantic_hash": "6f3d0c09bf1dbf156e355da9a134ec1c"
+  },
+  "E:\\Mult_agent\\test_gem.py": {
+    "mtime": 1780103964.1599283,
+    "ast_hash": "92c6b43f23278390612c81b255ef60de",
+    "semantic_hash": "92c6b43f23278390612c81b255ef60de"
+  },
+  "E:\\Mult_agent\\update_dump.py": {
+    "mtime": 1780147331.7267385,
+    "ast_hash": "e6d85fd001927a11ec5b2063c1c104cc",
+    "semantic_hash": "e6d85fd001927a11ec5b2063c1c104cc"
+  },
+  "E:\\Mult_agent\\update_dump_all.py": {
+    "mtime": 1780147402.94517,
+    "ast_hash": "ccc41f8561f4f93d2255d495b606d714",
+    "semantic_hash": "ccc41f8561f4f93d2255d495b606d714"
+  }
+}
