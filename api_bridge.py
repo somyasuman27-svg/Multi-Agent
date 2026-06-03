@@ -223,6 +223,19 @@ def inject_research_context(role_key, base_prompt):
         return f"{base_prompt}\n\n=== MANDATORY RESEARCH CONTEXT ===\n{research_data}"
     return base_prompt
 
+def inject_quality_standards(role_key, system_instruction):
+    """Automatically attaches agency-wide quality standards to coding, designing, testing and reviewing roles."""
+    roles_needing_standards = ["DRAFT_CODER", "LOGIC_EXPANDER", "DEEP_TESTER", "TEST_LEAD", "ANTIGRAVITY_DESIGNER", "QUALITY_REVIEWER"]
+    standards_path = os.path.join(PATHS["root"], "0_Management", "quality_standards.md")
+    if role_key in roles_needing_standards and os.path.exists(standards_path):
+        try:
+            with open(standards_path, 'r', encoding='utf-8') as f:
+                standards_data = f.read()
+            return f"{system_instruction}\n\n=== AGENCY QUALITY STANDARDS ===\n{standards_data}"
+        except Exception as e:
+            print(f"⚠️ Failed to read quality standards: {e}")
+    return system_instruction
+
 def call_agent(role_key, system_instruction, user_prompt="", project_dir=None, phase="unknown", trial=1):
     """Langfuse-wrapped agent caller."""
     import time
@@ -307,6 +320,9 @@ def _call_agent_raw(role_key, system_instruction, user_prompt="", project_dir=No
     agent = AGENCY_ROSTER[role_key]
     model_name = agent["model"]
     route_type = agent["type"]
+    
+    # Auto-inject quality standards for coding/reviewing roles
+    system_instruction = inject_quality_standards(role_key, system_instruction)
     
     # Auto-inject research log for coding/testing roles
     full_prompt = inject_research_context(role_key, user_prompt)

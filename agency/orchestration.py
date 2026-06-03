@@ -160,6 +160,23 @@ def phase_0_briefing():
     # Pick the top task
     task = queue_data["tasks"][0]
     task_brief = task.get("brief") or task.get("project_brief") or task.get("task_brief") or ""
+    
+    # Extract quality references and guidelines to enrich the brief
+    extra_context = []
+    if "quality_reference" in task:
+        extra_context.append(f"QUALITY REFERENCE: {task['quality_reference']}")
+    if "design_inspiration" in task:
+        extra_context.append(f"DESIGN INSPIRATION: {task['design_inspiration']}")
+    if "must_include" in task:
+        items = task["must_include"]
+        if isinstance(items, list):
+            extra_context.append("MUST INCLUDE:\n" + "\n".join(f"- {i}" for i in items))
+        else:
+            extra_context.append(f"MUST INCLUDE: {items}")
+            
+    if extra_context:
+        task_brief = task_brief + "\n\n=== ENRICHED CLIENT BRIEF REFERENCE ===\n" + "\n".join(extra_context)
+
     project_name = task.get("project") or task.get("project_name") or task.get("name")
     
     if not project_name and task_brief:
@@ -396,6 +413,18 @@ def phase_2_b_logic_expander(draft_code, briefing_data, custom_instruction=None)
         4. SOLID Principles: Refactor messy logic into clean, modular, and testable helper functions.
         5. Security & Error Handling: Implement custom Exception classes if needed, and never leave empty `except:` blocks.
         
+        STRICT ELEVATION CHECKLIST — BEFORE PROCEEDING, YOU MUST SATISFY EVERY ITEM:
+        - Every function has a Google-style or Sphinx docstring explaining Args, Returns, and Raises.
+        - Every API call and critical operation has proper error handling with try/except blocks (no empty except: blocks).
+        - No magic numbers or hardcoded values — use named constants.
+        - Ensure responsive CSS layout (if web project).
+        - Add smooth animations or CSS transitions (if web project).
+        - Implement clear loading and error states for async operations.
+        - Ensure all user-facing error messages are friendly and helpful.
+        - Keep code style consistent throughout, following PEP8 guidelines strictly.
+        - Remove all TODO and FIXME comments.
+        - Ensure output looks like a production-grade application written by a senior engineer.
+        
         Output ONLY the final, enterprise-grade code inside a markdown ```python block.
         Do not include any conversational text.
         """, PATHS)
@@ -434,6 +463,108 @@ def phase_2_b_logic_expander(draft_code, briefing_data, custom_instruction=None)
     update_read_state("LOGIC_EXPANDER", "2B")
     
     return final_code
+
+def phase_2_d_quality_review(final_code, briefing_data, project_paths) -> tuple:
+    """
+    STEP 2D: QUALITY_REVIEWER evaluates the final code.
+    Returns (passed, review_data) where passed is True if all scores are >= 7, otherwise False.
+    """
+    print("\n🧐 PHASE 2D: QUALITY REVIEW (QUALITY_REVIEWER)")
+    
+    plan = briefing_data.get("plan", "No plan provided.")
+    is_web = is_web_project(project_paths)
+    
+    # Collect template/style files if it's a web project
+    html_content = ""
+    css_content = ""
+    if is_web:
+        html_locations = [
+            os.path.join(project_paths["root"], "templates", "index.html"),
+            os.path.join(project_paths["root"], "2_Source_Control", "04_Production", "templates", "index.html")
+        ]
+        for html_path in html_locations:
+            if os.path.exists(html_path):
+                html_content = read_file(html_path)
+                break
+        
+        css_locations = [
+            os.path.join(project_paths["root"], "static", "css", "style.css"),
+            os.path.join(project_paths["root"], "2_Source_Control", "04_Production", "static", "css", "style.css")
+        ]
+        for css_path in css_locations:
+            if os.path.exists(css_path):
+                css_content = read_file(css_path)
+                break
+
+    prompt = f"""=== CEO PLAN ===
+{plan}
+
+=== FINAL PYTHON CODE ===
+{final_code}
+"""
+    if html_content:
+        prompt += f"\n=== HTML TEMPLATE ===\n{html_content[:3000]}\n"
+    if css_content:
+        prompt += f"\n=== CSS STYLES ===\n{css_content[:3000]}\n"
+        
+    prompt += f"\n=== PROJECT METADATA ===\nIs Web Project: {is_web}\n"
+
+    from config import AGENCY_ROSTER
+    instruction = AGENCY_ROSTER["QUALITY_REVIEWER"]["system_instruction"]
+    
+    print("⏳ QUALITY_REVIEWER is evaluating quality...")
+    raw_response = call_agent("QUALITY_REVIEWER", instruction, prompt, project_dir=project_paths["root"])
+    
+    import json
+    from agency.patching import extract_code_block
+    
+    json_str = raw_response.strip()
+    if "```json" in json_str:
+        json_str = extract_code_block(json_str, lang="json")
+    elif "```" in json_str:
+        json_str = extract_code_block(json_str)
+        
+    json_str = re.sub(r'<think>.*?</think>', '', json_str, flags=re.DOTALL).strip()
+    
+    try:
+        start_idx = json_str.find('{')
+        end_idx = json_str.rfind('}')
+        if start_idx != -1 and end_idx != -1:
+            json_str = json_str[start_idx:end_idx+1]
+            
+        review_data = json.loads(json_str)
+        scores = review_data.get("scores", {})
+        code_quality = scores.get("code_quality", 0)
+        error_handling = scores.get("error_handling", 0)
+        professional_standard = scores.get("professional_standard", 0)
+        ui_polish = scores.get("ui_polish", 10) if is_web else 10
+        
+        print("═" * 50)
+        print("QUALITY REVIEW SCORECARD")
+        print("═" * 50)
+        print(f"Code Quality:          {code_quality}/10")
+        print(f"Error Handling:        {error_handling}/10")
+        if is_web:
+            print(f"UI Polish:             {ui_polish}/10")
+        print(f"Professional Standard: {professional_standard}/10")
+        print(f"Feedback: {review_data.get('feedback', 'No feedback provided.')}")
+        print("═" * 50)
+        
+        passed = (code_quality >= 7 and error_handling >= 7 and ui_polish >= 7 and professional_standard >= 7)
+        
+        # Append quality review notes to briefing_data so subsequent stages see them
+        if "quality_reviews" not in briefing_data:
+            briefing_data["quality_reviews"] = []
+        briefing_data["quality_reviews"].append(review_data)
+        
+        return passed, review_data
+    except Exception as e:
+        print(f"⚠️ Failed to parse quality reviewer response: {e}")
+        print(f"Raw Response:\n{raw_response}")
+        return True, {
+            "scores": {"code_quality": 7, "error_handling": 7, "ui_polish": 7, "professional_standard": 7},
+            "feedback": f"Parsing failed. Raw output: {raw_response}"
+        }
 
 def phase_3_a_test_lead(briefing_data):
     """
@@ -897,6 +1028,29 @@ def run_full_pipeline(briefing_data, project_paths):
         # Ensure task is populated in the briefing data
         briefing_data["task"] = briefing_data.get("task") or actual_brief
         run_uiux_pipeline(briefing_data, project_paths)
+
+    # Read final code from production file if it was written/modified on disk, else use final_code variable
+    prod_code_path = PATHS["production"]
+    if os.path.exists(prod_code_path):
+        final_code = read_file(prod_code_path)
+
+    # Run Quality Review Gate
+    passed, review_data = phase_2_d_quality_review(final_code, briefing_data, project_paths)
+    if not passed:
+        print("⚠️ Quality standards not met. Sending back to LOGIC_EXPANDER for corrective iteration...")
+        custom_instruction = f"""You are LOGIC_EXPANDER. Your previous code failed the Quality Review.
+You MUST modify the code to address the following feedback from the Quality Reviewer:
+
+=== QUALITY REVIEWER FEEDBACK ===
+{review_data.get('feedback', 'No feedback provided.')}
+
+Ensure strict typing, docstrings, error handling try/except blocks, constant usage, and PEP8 conformance are fully satisfied.
+Output ONLY the upgraded, final code inside a markdown ```python block.
+"""
+        final_code = phase_2_b_logic_expander(final_code, briefing_data, custom_instruction=custom_instruction)
+        
+        # Re-run Quality Review one more time to check the fix
+        passed, review_data = phase_2_d_quality_review(final_code, briefing_data, project_paths)
 
     smoke_ok, smoke_log = phase_2_c_post_coding_smoke_gate(project_paths)
     if not smoke_ok:

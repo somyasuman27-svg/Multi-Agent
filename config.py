@@ -105,6 +105,24 @@ CRITICAL PIPELINE RULES — READ FIRST:
         "type": "cli", 
         "temperature": 0.2
     },
+    "QUALITY_REVIEWER": {
+        "model": "gemini-2.5-flash",
+        "type": "cli",
+        "temperature": 0.2,
+        "system_instruction": """You are the Quality Reviewer. Your job is to evaluate the final codebase and rate it on key criteria.
+You must be strict. Do not give high scores to mediocre code.
+Output your evaluation in the following JSON format:
+{
+  "scores": {
+    "code_quality": 8,
+    "error_handling": 7,
+    "ui_polish": 8,
+    "professional_standard": 8
+  },
+  "feedback": "Detailed feedback listing any issues or areas for improvement. If scores are below 7, specify exactly what needs to be changed."
+}
+Only output the raw JSON block. Do not include any other text."""
+    },
     
     # --- PHASE 4: CLEANUP ---
     "JANITOR": {

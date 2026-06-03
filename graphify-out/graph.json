@@ -27,7 +27,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L9",
       "id": "agency_execution_log_langfuse_event",
-      "community": 2,
+      "community": 4,
       "norm_label": "log_langfuse_event()"
     },
     {
@@ -36,7 +36,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L9",
       "id": "agency_execution_py_str",
-      "community": 1,
+      "community": 21,
       "norm_label": "str"
     },
     {
@@ -45,7 +45,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L25",
       "id": "agency_execution_read_file",
-      "community": 2,
+      "community": 4,
       "norm_label": "read_file()"
     },
     {
@@ -54,7 +54,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L50",
       "id": "agency_execution_write_file",
-      "community": 0,
+      "community": 4,
       "norm_label": "write_file()"
     },
     {
@@ -72,7 +72,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L105",
       "id": "agency_execution_handoffsignal",
-      "community": 1,
+      "community": 2,
       "norm_label": "handoffsignal"
     },
     {
@@ -81,7 +81,7 @@
       "source_file": "",
       "source_location": "",
       "id": "basemodel",
-      "community": 1,
+      "community": 2,
       "norm_label": "basemodel"
     },
     {
@@ -90,7 +90,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L115",
       "id": "agency_execution_extract_handoff",
-      "community": 1,
+      "community": 2,
       "norm_label": "extract_handoff()"
     },
     {
@@ -99,7 +99,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L161",
       "id": "agency_execution_management_log_path",
-      "community": 1,
+      "community": 21,
       "norm_label": "_management_log_path()"
     },
     {
@@ -108,7 +108,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L165",
       "id": "agency_execution_get_unread_delta",
-      "community": 1,
+      "community": 21,
       "norm_label": "get_unread_delta()"
     },
     {
@@ -117,7 +117,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L192",
       "id": "agency_execution_update_read_state",
-      "community": 0,
+      "community": 21,
       "norm_label": "update_read_state()"
     },
     {
@@ -126,7 +126,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L216",
       "id": "agency_execution_append_delta_log",
-      "community": 0,
+      "community": 2,
       "norm_label": "append_delta_log()"
     },
     {
@@ -135,7 +135,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L10",
       "id": "agency_execution_rationale_10",
-      "community": 2,
+      "community": 4,
       "norm_label": "helper to log miscellaneous events to langfuse if enabled."
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L26",
       "id": "agency_execution_rationale_26",
-      "community": 2,
+      "community": 4,
       "norm_label": "robust utf-8 file reader with optional langfuse tracking."
     },
     {
@@ -153,7 +153,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L51",
       "id": "agency_execution_rationale_51",
-      "community": 0,
+      "community": 4,
       "norm_label": "robust utf-8 file writer with directory auto-creation and langfuse tracking."
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L116",
       "id": "agency_execution_rationale_116",
-      "community": 1,
+      "community": 2,
       "norm_label": "extracts the handoff json from agent output using regex and pydantic validation."
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L166",
       "id": "agency_execution_rationale_166",
-      "community": 1,
+      "community": 21,
       "norm_label": "seeks to the last read byte offset for the agent and returns only new text."
     },
     {
@@ -189,7 +189,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L193",
       "id": "agency_execution_rationale_193",
-      "community": 0,
+      "community": 21,
       "norm_label": "updates the byte offset to the current end of the master log.     only call this"
     },
     {
@@ -198,7 +198,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L217",
       "id": "agency_execution_rationale_217",
-      "community": 0,
+      "community": 2,
       "norm_label": "appends a standardized 3-line template to the master log."
     },
     {
@@ -216,7 +216,7 @@
       "source_file": "agency/governance.py",
       "source_location": "L9",
       "id": "agency_governance_human_checkpoint",
-      "community": 0,
+      "community": 7,
       "norm_label": "human_checkpoint()"
     },
     {
@@ -225,7 +225,7 @@
       "source_file": "agency/governance.py",
       "source_location": "L30",
       "id": "agency_governance_complexity_classifier",
-      "community": 0,
+      "community": 7,
       "norm_label": "complexity_classifier()"
     },
     {
@@ -324,7 +324,7 @@
       "source_file": "agency/governance.py",
       "source_location": "L10",
       "id": "agency_governance_rationale_10",
-      "community": 0,
+      "community": 7,
       "norm_label": "pauses execution for critical decisions."
     },
     {
@@ -342,7 +342,7 @@
       "source_file": "agency/memory.py",
       "source_location": "L8",
       "id": "agency_memory_get_memory_path",
-      "community": 2,
+      "community": 22,
       "norm_label": "get_memory_path()"
     },
     {
@@ -351,7 +351,7 @@
       "source_file": "agency/memory.py",
       "source_location": "L8",
       "id": "agency_memory_py_str",
-      "community": 2,
+      "community": 22,
       "norm_label": "str"
     },
     {
@@ -360,7 +360,7 @@
       "source_file": "agency/memory.py",
       "source_location": "L33",
       "id": "agency_memory_read_agent_memory",
-      "community": 2,
+      "community": 22,
       "norm_label": "read_agent_memory()"
     },
     {
@@ -369,7 +369,7 @@
       "source_file": "agency/memory.py",
       "source_location": "L48",
       "id": "agency_memory_update_agent_memory",
-      "community": 2,
+      "community": 22,
       "norm_label": "update_agent_memory()"
     },
     {
@@ -378,7 +378,7 @@
       "source_file": "agency/memory.py",
       "source_location": "L68",
       "id": "agency_memory_inject_memory_into_prompt",
-      "community": 0,
+      "community": 22,
       "norm_label": "inject_memory_into_prompt()"
     },
     {
@@ -387,7 +387,7 @@
       "source_file": "agency/memory.py",
       "source_location": "L9",
       "id": "agency_memory_rationale_9",
-      "community": 2,
+      "community": 22,
       "norm_label": "returns path to agent memory file. scope = 'global' or 'local"
     },
     {
@@ -396,7 +396,7 @@
       "source_file": "agency/memory.py",
       "source_location": "L34",
       "id": "agency_memory_rationale_34",
-      "community": 2,
+      "community": 22,
       "norm_label": "reads both global and local memory for an agent. returns combined context."
     },
     {
@@ -405,7 +405,7 @@
       "source_file": "agency/memory.py",
       "source_location": "L51",
       "id": "agency_memory_rationale_51",
-      "community": 2,
+      "community": 22,
       "norm_label": "updates both global and local memory after task completion."
     },
     {
@@ -414,7 +414,7 @@
       "source_file": "agency/memory.py",
       "source_location": "L70",
       "id": "agency_memory_rationale_70",
-      "community": 0,
+      "community": 22,
       "norm_label": "injects agent memory at the start of every agent prompt."
     },
     {
@@ -513,14 +513,14 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L142",
       "id": "agency_orchestration_phase_0_briefing",
-      "community": 0,
+      "community": 7,
       "norm_label": "phase_0_briefing()"
     },
     {
       "label": "phase_1_a_research_collection()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
-      "source_location": "L224",
+      "source_location": "L241",
       "id": "agency_orchestration_phase_1_a_research_collection",
       "community": 0,
       "norm_label": "phase_1_a_research_collection()"
@@ -529,7 +529,7 @@
       "label": "phase_2_a_draft_coder()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
-      "source_location": "L314",
+      "source_location": "L331",
       "id": "agency_orchestration_phase_2_a_draft_coder",
       "community": 0,
       "norm_label": "phase_2_a_draft_coder()"
@@ -538,43 +538,52 @@
       "label": "phase_2_b_logic_expander()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
-      "source_location": "L377",
+      "source_location": "L394",
       "id": "agency_orchestration_phase_2_b_logic_expander",
       "community": 0,
       "norm_label": "phase_2_b_logic_expander()"
     },
     {
+      "label": "phase_2_d_quality_review()",
+      "file_type": "code",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L467",
+      "id": "agency_orchestration_phase_2_d_quality_review",
+      "community": 0,
+      "norm_label": "phase_2_d_quality_review()"
+    },
+    {
       "label": "phase_3_a_test_lead()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
-      "source_location": "L438",
+      "source_location": "L569",
       "id": "agency_orchestration_phase_3_a_test_lead",
-      "community": 0,
+      "community": 1,
       "norm_label": "phase_3_a_test_lead()"
     },
     {
       "label": "phase_3_b_deep_tester()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
-      "source_location": "L671",
+      "source_location": "L802",
       "id": "agency_orchestration_phase_3_b_deep_tester",
-      "community": 0,
+      "community": 1,
       "norm_label": "phase_3_b_deep_tester()"
     },
     {
       "label": "phase_3_c_assistant_manager()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
-      "source_location": "L766",
+      "source_location": "L897",
       "id": "agency_orchestration_phase_3_c_assistant_manager",
-      "community": 0,
+      "community": 21,
       "norm_label": "phase_3_c_assistant_manager()"
     },
     {
       "label": "save_localized_markdown_log()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
-      "source_location": "L810",
+      "source_location": "L941",
       "id": "agency_orchestration_save_localized_markdown_log",
       "community": 0,
       "norm_label": "save_localized_markdown_log()"
@@ -583,7 +592,7 @@
       "label": "update_cross_project_memory()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
-      "source_location": "L827",
+      "source_location": "L958",
       "id": "agency_orchestration_update_cross_project_memory",
       "community": 0,
       "norm_label": "update_cross_project_memory()"
@@ -592,7 +601,7 @@
       "label": "phase_2b_logic_expander()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
-      "source_location": "L847",
+      "source_location": "L978",
       "id": "agency_orchestration_phase_2b_logic_expander",
       "community": 0,
       "norm_label": "phase_2b_logic_expander()"
@@ -601,7 +610,7 @@
       "label": "run_full_pipeline()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
-      "source_location": "L859",
+      "source_location": "L990",
       "id": "agency_orchestration_run_full_pipeline",
       "community": 0,
       "norm_label": "run_full_pipeline()"
@@ -610,9 +619,9 @@
       "label": "subprocess_popen_safe()",
       "file_type": "code",
       "source_file": "agency/orchestration.py",
-      "source_location": "L954",
+      "source_location": "L1108",
       "id": "agency_orchestration_subprocess_popen_safe",
-      "community": 0,
+      "community": 1,
       "norm_label": "subprocess_popen_safe()"
     },
     {
@@ -648,15 +657,15 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L143",
       "id": "agency_orchestration_rationale_143",
-      "community": 0,
+      "community": 7,
       "norm_label": "ceo reads the next task from the queue, creates an execution plan,     and assig"
     },
     {
       "label": "STEP A: RND_COLLECTOR 1 & 2 search via CLI/API.",
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
-      "source_location": "L225",
-      "id": "agency_orchestration_rationale_225",
+      "source_location": "L242",
+      "id": "agency_orchestration_rationale_242",
       "community": 0,
       "norm_label": "step a: rnd_collector 1 & 2 search via cli/api."
     },
@@ -664,8 +673,8 @@
       "label": "STEP 2A: DRAFT_CODER writes the initial script based on the CEO's plan.",
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
-      "source_location": "L315",
-      "id": "agency_orchestration_rationale_315",
+      "source_location": "L332",
+      "id": "agency_orchestration_rationale_332",
       "community": 0,
       "norm_label": "step 2a: draft_coder writes the initial script based on the ceo's plan."
     },
@@ -673,44 +682,53 @@
       "label": "STEP 2B: LOGIC_EXPANDER reviews the draft, adds best practices, and finalizes lo",
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
-      "source_location": "L378",
-      "id": "agency_orchestration_rationale_378",
+      "source_location": "L395",
+      "id": "agency_orchestration_rationale_395",
       "community": 0,
       "norm_label": "step 2b: logic_expander reviews the draft, adds best practices, and finalizes lo"
+    },
+    {
+      "label": "STEP 2D: QUALITY_REVIEWER evaluates the final code.     Returns (passed, review_",
+      "file_type": "rationale",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L468",
+      "id": "agency_orchestration_rationale_468",
+      "community": 0,
+      "norm_label": "step 2d: quality_reviewer evaluates the final code.     returns (passed, review_"
     },
     {
       "label": "STEP 3A: TEST_LEAD executes a smoke test, reviews execution logs,     and compil",
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
-      "source_location": "L439",
-      "id": "agency_orchestration_rationale_439",
-      "community": 0,
+      "source_location": "L570",
+      "id": "agency_orchestration_rationale_570",
+      "community": 1,
       "norm_label": "step 3a: test_lead executes a smoke test, reviews execution logs,     and compil"
     },
     {
       "label": "STEP 3B: DEEP_TESTER executes the pre-compiled bytecode test suite (.pyc) direct",
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
-      "source_location": "L672",
-      "id": "agency_orchestration_rationale_672",
-      "community": 0,
+      "source_location": "L803",
+      "id": "agency_orchestration_rationale_803",
+      "community": 1,
       "norm_label": "step 3b: deep_tester executes the pre-compiled bytecode test suite (.pyc) direct"
     },
     {
       "label": "STEP 3C: ASSISTANT_MANAGER compiles the final delivery report.",
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
-      "source_location": "L767",
-      "id": "agency_orchestration_rationale_767",
-      "community": 0,
+      "source_location": "L898",
+      "id": "agency_orchestration_rationale_898",
+      "community": 21,
       "norm_label": "step 3c: assistant_manager compiles the final delivery report."
     },
     {
       "label": "Fix-flow wrapper: runs logic expander on current production code after a patch.",
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
-      "source_location": "L848",
-      "id": "agency_orchestration_rationale_848",
+      "source_location": "L979",
+      "id": "agency_orchestration_rationale_979",
       "community": 0,
       "norm_label": "fix-flow wrapper: runs logic expander on current production code after a patch."
     },
@@ -718,8 +736,8 @@
       "label": "Executes the full pipeline for a project run.",
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
-      "source_location": "L860",
-      "id": "agency_orchestration_rationale_860",
+      "source_location": "L991",
+      "id": "agency_orchestration_rationale_991",
       "community": 0,
       "norm_label": "executes the full pipeline for a project run."
     },
@@ -727,9 +745,9 @@
       "label": "Helper to launch a subprocess securely without shell=True.",
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
-      "source_location": "L955",
-      "id": "agency_orchestration_rationale_955",
-      "community": 0,
+      "source_location": "L1109",
+      "id": "agency_orchestration_rationale_1109",
+      "community": 1,
       "norm_label": "helper to launch a subprocess securely without shell=true."
     },
     {
@@ -774,7 +792,7 @@
       "source_file": "agency/patching.py",
       "source_location": "L18",
       "id": "agency_patching_extract_code_block",
-      "community": 0,
+      "community": 4,
       "norm_label": "extract_code_block()"
     },
     {
@@ -846,7 +864,7 @@
       "source_file": "agency/patching.py",
       "source_location": "L19",
       "id": "agency_patching_rationale_19",
-      "community": 0,
+      "community": 4,
       "norm_label": "extracts raw code from markdown blocks."
     },
     {
@@ -900,7 +918,7 @@
       "source_file": "agency/router.py",
       "source_location": "L1",
       "id": "agency_router",
-      "community": 2,
+      "community": 3,
       "norm_label": "router.py"
     },
     {
@@ -936,7 +954,7 @@
       "source_file": "agency/router.py",
       "source_location": "L72",
       "id": "agency_router_update_change_log",
-      "community": 4,
+      "community": 16,
       "norm_label": "update_change_log()"
     },
     {
@@ -945,7 +963,7 @@
       "source_file": "agency/router.py",
       "source_location": "L72",
       "id": "agency_router_py_int",
-      "community": 4,
+      "community": 16,
       "norm_label": "int"
     },
     {
@@ -972,7 +990,7 @@
       "source_file": "agency/router.py",
       "source_location": "L285",
       "id": "agency_router_run_existing_project_pipeline",
-      "community": 4,
+      "community": 16,
       "norm_label": "run_existing_project_pipeline()"
     },
     {
@@ -999,7 +1017,7 @@
       "source_file": "agency/router.py",
       "source_location": "L74",
       "id": "agency_router_rationale_74",
-      "community": 4,
+      "community": 16,
       "norm_label": "appends entry to project change_log.md"
     },
     {
@@ -1026,7 +1044,7 @@
       "source_file": "agency/router.py",
       "source_location": "L286",
       "id": "agency_router_rationale_286",
-      "community": 4,
+      "community": 16,
       "norm_label": "runs the correct pipeline for existing project changes.     patch  \u2192 draft_coder"
     },
     {
@@ -1053,7 +1071,7 @@
       "source_file": "agency/testing.py",
       "source_location": "L11",
       "id": "agency_testing_py_bool",
-      "community": 2,
+      "community": 3,
       "norm_label": "bool"
     },
     {
@@ -1062,7 +1080,7 @@
       "source_file": "agency/testing.py",
       "source_location": "L36",
       "id": "agency_testing_check_playwright_available",
-      "community": 2,
+      "community": 3,
       "norm_label": "check_playwright_available()"
     },
     {
@@ -1089,7 +1107,7 @@
       "source_file": "agency/testing.py",
       "source_location": "L181",
       "id": "agency_testing_run_tests_safe",
-      "community": 7,
+      "community": 3,
       "norm_label": "run_tests_safe()"
     },
     {
@@ -1098,7 +1116,7 @@
       "source_file": "agency/testing.py",
       "source_location": "L181",
       "id": "agency_testing_py_str",
-      "community": 7,
+      "community": 3,
       "norm_label": "str"
     },
     {
@@ -1116,7 +1134,7 @@
       "source_file": "agency/testing.py",
       "source_location": "L37",
       "id": "agency_testing_rationale_37",
-      "community": 2,
+      "community": 3,
       "norm_label": "checks if playwright is installed and chromium is available."
     },
     {
@@ -1143,7 +1161,7 @@
       "source_file": "agency/testing.py",
       "source_location": "L182",
       "id": "agency_testing_rationale_182",
-      "community": 7,
+      "community": 3,
       "norm_label": "runs test cases in an isolated temp directory.     strictly follows: shell=false"
     },
     {
@@ -1224,7 +1242,7 @@
       "source_file": "agency/triage.py",
       "source_location": "L226",
       "id": "agency_triage_run_uiux_pipeline",
-      "community": 0,
+      "community": 3,
       "norm_label": "run_uiux_pipeline()"
     },
     {
@@ -1305,7 +1323,7 @@
       "source_file": "agency/triage.py",
       "source_location": "L227",
       "id": "agency_triage_rationale_227",
-      "community": 0,
+      "community": 3,
       "norm_label": "runs the ui/ux design-fix pipeline:     targets only css/html/template files \u2014 n"
     },
     {
@@ -1435,19 +1453,28 @@
       "norm_label": "inject_research_context()"
     },
     {
-      "label": "call_agent()",
+      "label": "inject_quality_standards()",
       "file_type": "code",
       "source_file": "api_bridge.py",
       "source_location": "L226",
+      "id": "api_bridge_inject_quality_standards",
+      "community": 7,
+      "norm_label": "inject_quality_standards()"
+    },
+    {
+      "label": "call_agent()",
+      "file_type": "code",
+      "source_file": "api_bridge.py",
+      "source_location": "L239",
       "id": "api_bridge_call_agent",
-      "community": 0,
+      "community": 7,
       "norm_label": "call_agent()"
     },
     {
       "label": "_call_agent_raw()",
       "file_type": "code",
       "source_file": "api_bridge.py",
-      "source_location": "L301",
+      "source_location": "L314",
       "id": "api_bridge_call_agent_raw",
       "community": 7,
       "norm_label": "_call_agent_raw()"
@@ -1462,20 +1489,29 @@
       "norm_label": "automatically attaches the research log to coders and testers if it exists."
     },
     {
-      "label": "Langfuse-wrapped agent caller.",
+      "label": "Automatically attaches agency-wide quality standards to coding, designing, testi",
       "file_type": "rationale",
       "source_file": "api_bridge.py",
       "source_location": "L227",
       "id": "api_bridge_rationale_227",
-      "community": 0,
+      "community": 7,
+      "norm_label": "automatically attaches agency-wide quality standards to coding, designing, testi"
+    },
+    {
+      "label": "Langfuse-wrapped agent caller.",
+      "file_type": "rationale",
+      "source_file": "api_bridge.py",
+      "source_location": "L240",
+      "id": "api_bridge_rationale_240",
+      "community": 7,
       "norm_label": "langfuse-wrapped agent caller."
     },
     {
       "label": "Hybrid Router: Routes to Sandboxed CLI or Grounded API based on config. Now with",
       "file_type": "rationale",
       "source_file": "api_bridge.py",
-      "source_location": "L302",
-      "id": "api_bridge_rationale_302",
+      "source_location": "L315",
+      "id": "api_bridge_rationale_315",
       "community": 7,
       "norm_label": "hybrid router: routes to sandboxed cli or grounded api based on config. now with"
     },
@@ -1503,7 +1539,7 @@
       "source_file": "destructive_framework_tests.py",
       "source_location": "L1",
       "id": "destructive_framework_tests",
-      "community": 1,
+      "community": 2,
       "norm_label": "destructive_framework_tests.py"
     },
     {
@@ -1521,7 +1557,7 @@
       "source_file": "destructive_framework_tests.py",
       "source_location": "L27",
       "id": "destructive_framework_tests_test_extract_handoff_greedy_regex_bug",
-      "community": 1,
+      "community": 2,
       "norm_label": "test_extract_handoff_greedy_regex_bug()"
     },
     {
@@ -1530,7 +1566,7 @@
       "source_file": "destructive_framework_tests.py",
       "source_location": "L40",
       "id": "destructive_framework_tests_test_get_unread_delta_corruption_crash",
-      "community": 1,
+      "community": 21,
       "norm_label": "test_get_unread_delta_corruption_crash()"
     },
     {
@@ -1548,7 +1584,7 @@
       "source_file": "destructive_framework_tests.py",
       "source_location": "L74",
       "id": "destructive_framework_tests_test_api_bridge_unsupported_role",
-      "community": 1,
+      "community": 7,
       "norm_label": "test_api_bridge_unsupported_role()"
     },
     {
@@ -1566,7 +1602,7 @@
       "source_file": "destructive_framework_tests.py",
       "source_location": "L87",
       "id": "destructive_framework_tests_test_extract_function_block_syntax_error",
-      "community": 1,
+      "community": 4,
       "norm_label": "test_extract_function_block_syntax_error()"
     },
     {
@@ -1575,7 +1611,7 @@
       "source_file": "destructive_framework_tests.py",
       "source_location": "L96",
       "id": "destructive_framework_tests_test_apply_function_patch_missing_function",
-      "community": 1,
+      "community": 4,
       "norm_label": "test_apply_function_patch_missing_function()"
     },
     {
@@ -1593,7 +1629,7 @@
       "source_file": "destructive_framework_tests.py",
       "source_location": "L28",
       "id": "destructive_framework_tests_rationale_28",
-      "community": 1,
+      "community": 2,
       "norm_label": "verify that extract_handoff fails when multiple json blocks exist due to greedy"
     },
     {
@@ -1602,7 +1638,7 @@
       "source_file": "destructive_framework_tests.py",
       "source_location": "L41",
       "id": "destructive_framework_tests_rationale_41",
-      "community": 1,
+      "community": 21,
       "norm_label": "verify that get_unread_delta crashes with jsondecodeerror when read states file"
     },
     {
@@ -1620,7 +1656,7 @@
       "source_file": "destructive_framework_tests.py",
       "source_location": "L75",
       "id": "destructive_framework_tests_rationale_75",
-      "community": 1,
+      "community": 7,
       "norm_label": "verify calling an unconfigured agent role returns an error string rather than ra"
     },
     {
@@ -1638,7 +1674,7 @@
       "source_file": "destructive_framework_tests.py",
       "source_location": "L88",
       "id": "destructive_framework_tests_rationale_88",
-      "community": 1,
+      "community": 4,
       "norm_label": "verify extract_function_block returns empty string when parsing a file with synt"
     },
     {
@@ -1647,7 +1683,7 @@
       "source_file": "destructive_framework_tests.py",
       "source_location": "L97",
       "id": "destructive_framework_tests_rationale_97",
-      "community": 1,
+      "community": 4,
       "norm_label": "verify apply_function_patch returns false when function to patch does not exist"
     },
     {
@@ -1656,7 +1692,7 @@
       "source_file": "extreme_destructive_tests.py",
       "source_location": "L1",
       "id": "extreme_destructive_tests",
-      "community": 7,
+      "community": 3,
       "norm_label": "extreme_destructive_tests.py"
     },
     {
@@ -1674,7 +1710,7 @@
       "source_file": "extreme_destructive_tests.py",
       "source_location": "L37",
       "id": "extreme_destructive_tests_test_extract_handoff_nested_brackets_and_malformed",
-      "community": 1,
+      "community": 3,
       "norm_label": "test_extract_handoff_nested_brackets_and_malformed()"
     },
     {
@@ -1683,7 +1719,7 @@
       "source_file": "extreme_destructive_tests.py",
       "source_location": "L45",
       "id": "extreme_destructive_tests_test_get_unread_delta_extreme_empty_file",
-      "community": 1,
+      "community": 21,
       "norm_label": "test_get_unread_delta_extreme_empty_file()"
     },
     {
@@ -1710,7 +1746,7 @@
       "source_file": "extreme_destructive_tests.py",
       "source_location": "L104",
       "id": "extreme_destructive_tests_test_ollama_triage_unclosed_think_tag",
-      "community": 7,
+      "community": 3,
       "norm_label": "test_ollama_triage_unclosed_think_tag()"
     },
     {
@@ -1719,7 +1755,7 @@
       "source_file": "extreme_destructive_tests.py",
       "source_location": "L120",
       "id": "extreme_destructive_tests_test_ask_user_triage_loop_resilience",
-      "community": 7,
+      "community": 3,
       "norm_label": "test_ask_user_triage_loop_resilience()"
     },
     {
@@ -1728,7 +1764,7 @@
       "source_file": "extreme_destructive_tests.py",
       "source_location": "L129",
       "id": "extreme_destructive_tests_test_extract_function_block_regex_fallback",
-      "community": 7,
+      "community": 4,
       "norm_label": "test_extract_function_block_regex_fallback()"
     },
     {
@@ -1737,7 +1773,7 @@
       "source_file": "extreme_destructive_tests.py",
       "source_location": "L155",
       "id": "extreme_destructive_tests_test_identify_broken_functions_smart_mapping",
-      "community": 7,
+      "community": 4,
       "norm_label": "test_identify_broken_functions_smart_mapping()"
     },
     {
@@ -1764,7 +1800,7 @@
       "source_file": "extreme_destructive_tests.py",
       "source_location": "L38",
       "id": "extreme_destructive_tests_rationale_38",
-      "community": 1,
+      "community": 3,
       "norm_label": "verify extract_handoff handles nested brackets and random braces gracefully with"
     },
     {
@@ -1773,7 +1809,7 @@
       "source_file": "extreme_destructive_tests.py",
       "source_location": "L46",
       "id": "extreme_destructive_tests_rationale_46",
-      "community": 1,
+      "community": 21,
       "norm_label": "verify get_unread_delta recovers gracefully when read states file contains garba"
     },
     {
@@ -1800,7 +1836,7 @@
       "source_file": "extreme_destructive_tests.py",
       "source_location": "L105",
       "id": "extreme_destructive_tests_rationale_105",
-      "community": 7,
+      "community": 3,
       "norm_label": "verify triage removes unclosed <think> tags when output is truncated and closing"
     },
     {
@@ -1809,7 +1845,7 @@
       "source_file": "extreme_destructive_tests.py",
       "source_location": "L121",
       "id": "extreme_destructive_tests_rationale_121",
-      "community": 7,
+      "community": 3,
       "norm_label": "verify ask_user_triage loops on bad/empty inputs and only returns on a valid cho"
     },
     {
@@ -1818,7 +1854,7 @@
       "source_file": "extreme_destructive_tests.py",
       "source_location": "L130",
       "id": "extreme_destructive_tests_rationale_130",
-      "community": 7,
+      "community": 4,
       "norm_label": "verify extract_function_block falls back to indentation-based regex parsing when"
     },
     {
@@ -1827,7 +1863,7 @@
       "source_file": "extreme_destructive_tests.py",
       "source_location": "L156",
       "id": "extreme_destructive_tests_rationale_156",
-      "community": 7,
+      "community": 4,
       "norm_label": "verify identify_broken_functions maps test signatures to correct production func"
     },
     {
@@ -2245,11 +2281,101 @@
       "norm_label": "bug 4.2: ast syntax error crash in patch extraction (medium)"
     },
     {
+      "label": "STEP A: RND_COLLECTOR 1 & 2 search via CLI/API.",
+      "file_type": "rationale",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L225",
+      "community": 0,
+      "norm_label": "step a: rnd_collector 1 & 2 search via cli/api.",
+      "id": "agency_orchestration_rationale_225"
+    },
+    {
+      "label": "STEP 2A: DRAFT_CODER writes the initial script based on the CEO's plan.",
+      "file_type": "rationale",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L315",
+      "community": 0,
+      "norm_label": "step 2a: draft_coder writes the initial script based on the ceo's plan.",
+      "id": "agency_orchestration_rationale_315"
+    },
+    {
+      "label": "STEP 2B: LOGIC_EXPANDER reviews the draft, adds best practices, and finalizes lo",
+      "file_type": "rationale",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L378",
+      "community": 0,
+      "norm_label": "step 2b: logic_expander reviews the draft, adds best practices, and finalizes lo",
+      "id": "agency_orchestration_rationale_378"
+    },
+    {
+      "label": "STEP 3A: TEST_LEAD executes a smoke test, reviews execution logs,     and compil",
+      "file_type": "rationale",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L439",
+      "community": 1,
+      "norm_label": "step 3a: test_lead executes a smoke test, reviews execution logs,     and compil",
+      "id": "agency_orchestration_rationale_439"
+    },
+    {
+      "label": "STEP 3B: DEEP_TESTER executes the pre-compiled bytecode test suite (.pyc) direct",
+      "file_type": "rationale",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L672",
+      "community": 1,
+      "norm_label": "step 3b: deep_tester executes the pre-compiled bytecode test suite (.pyc) direct",
+      "id": "agency_orchestration_rationale_672"
+    },
+    {
+      "label": "STEP 3C: ASSISTANT_MANAGER compiles the final delivery report.",
+      "file_type": "rationale",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L767",
+      "community": 21,
+      "norm_label": "step 3c: assistant_manager compiles the final delivery report.",
+      "id": "agency_orchestration_rationale_767"
+    },
+    {
+      "label": "Fix-flow wrapper: runs logic expander on current production code after a patch.",
+      "file_type": "rationale",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L848",
+      "community": 0,
+      "norm_label": "fix-flow wrapper: runs logic expander on current production code after a patch.",
+      "id": "agency_orchestration_rationale_848"
+    },
+    {
+      "label": "Executes the full pipeline for a project run.",
+      "file_type": "rationale",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L860",
+      "community": 0,
+      "norm_label": "executes the full pipeline for a project run.",
+      "id": "agency_orchestration_rationale_860"
+    },
+    {
+      "label": "Helper to launch a subprocess securely without shell=True.",
+      "file_type": "rationale",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L955",
+      "community": 1,
+      "norm_label": "helper to launch a subprocess securely without shell=true.",
+      "id": "agency_orchestration_rationale_955"
+    },
+    {
+      "label": "Hybrid Router: Routes to Sandboxed CLI or Grounded API based on config. Now with",
+      "file_type": "rationale",
+      "source_file": "api_bridge.py",
+      "source_location": "L302",
+      "community": 7,
+      "norm_label": "hybrid router: routes to sandboxed cli or grounded api based on config. now with",
+      "id": "api_bridge_rationale_302"
+    },
+    {
       "label": "STEP 3A: TEST_LEAD executes a smoke test, reviews execution logs,     and compil",
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
       "source_location": "L437",
-      "community": 0,
+      "community": 1,
       "norm_label": "step 3a: test_lead executes a smoke test, reviews execution logs,     and compil",
       "id": "agency_orchestration_rationale_437"
     },
@@ -2258,7 +2384,7 @@
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
       "source_location": "L670",
-      "community": 0,
+      "community": 1,
       "norm_label": "step 3b: deep_tester executes the pre-compiled bytecode test suite (.pyc) direct",
       "id": "agency_orchestration_rationale_670"
     },
@@ -2267,7 +2393,7 @@
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
       "source_location": "L765",
-      "community": 0,
+      "community": 21,
       "norm_label": "step 3c: assistant_manager compiles the final delivery report.",
       "id": "agency_orchestration_rationale_765"
     },
@@ -2294,7 +2420,7 @@
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
       "source_location": "L953",
-      "community": 0,
+      "community": 1,
       "norm_label": "helper to launch a subprocess securely without shell=true.",
       "id": "agency_orchestration_rationale_953"
     },
@@ -2992,7 +3118,18 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L431",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_phase_2_b_logic_expander",
+      "target": "agency_execution_read_file"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L487",
+      "weight": 1.0,
+      "source": "agency_orchestration_phase_2_d_quality_review",
       "target": "agency_execution_read_file",
       "confidence_score": 1.0
     },
@@ -3310,9 +3447,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L427",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_phase_2_b_logic_expander",
-      "target": "agency_execution_write_file",
-      "confidence_score": 1.0
+      "target": "agency_execution_write_file"
     },
     {
       "relation": "calls",
@@ -3822,9 +3959,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L434",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_phase_2_b_logic_expander",
-      "target": "agency_execution_update_read_state",
-      "confidence_score": 1.0
+      "target": "agency_execution_update_read_state"
     },
     {
       "relation": "calls",
@@ -3942,9 +4079,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L433",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_phase_2_b_logic_expander",
-      "target": "agency_execution_append_delta_log",
-      "confidence_score": 1.0
+      "target": "agency_execution_append_delta_log"
     },
     {
       "relation": "calls",
@@ -4748,9 +4885,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L406",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_phase_2_b_logic_expander",
-      "target": "agency_memory_inject_memory_into_prompt",
-      "confidence_score": 1.0
+      "target": "agency_memory_inject_memory_into_prompt"
     },
     {
       "relation": "calls",
@@ -4906,9 +5043,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L377",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration",
-      "target": "agency_orchestration_phase_2_b_logic_expander",
-      "confidence_score": 1.0
+      "target": "agency_orchestration_phase_2_b_logic_expander"
     },
     {
       "relation": "contains",
@@ -4919,6 +5056,16 @@
       "confidence_score": 1.0,
       "source": "agency_orchestration",
       "target": "agency_orchestration_phase_2_c_post_coding_smoke_gate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L467",
+      "weight": 1.0,
+      "source": "agency_orchestration",
+      "target": "agency_orchestration_phase_2_d_quality_review",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5357,9 +5504,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L388",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_phase_2_b_logic_expander",
-      "target": "agency_orchestration_coding_agent_instruction",
-      "confidence_score": 1.0
+      "target": "agency_orchestration_coding_agent_instruction"
     },
     {
       "relation": "calls",
@@ -5433,9 +5580,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L87",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_auto_fix_coding",
-      "target": "agency_orchestration_phase_2_b_logic_expander",
-      "confidence_score": 1.0
+      "target": "agency_orchestration_phase_2_b_logic_expander"
     },
     {
       "relation": "calls",
@@ -5588,6 +5735,16 @@
       "target": "agency_orchestration_phase_1_a_research_collection"
     },
     {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L242",
+      "weight": 1.0,
+      "source": "agency_orchestration_rationale_242",
+      "target": "agency_orchestration_phase_1_a_research_collection",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -5642,6 +5799,16 @@
       "target": "agency_orchestration_phase_2_a_draft_coder"
     },
     {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L332",
+      "weight": 1.0,
+      "source": "agency_orchestration_rationale_332",
+      "target": "agency_orchestration_phase_2_a_draft_coder",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -5659,9 +5826,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L410",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_phase_2_b_logic_expander",
-      "target": "agency_patching_extract_all_files",
-      "confidence_score": 1.0
+      "target": "agency_patching_extract_all_files"
     },
     {
       "relation": "calls",
@@ -5670,9 +5837,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L413",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_phase_2_b_logic_expander",
-      "target": "agency_patching_extract_code_block",
-      "confidence_score": 1.0
+      "target": "agency_patching_extract_code_block"
     },
     {
       "relation": "calls",
@@ -5681,9 +5848,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L407",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_phase_2_b_logic_expander",
-      "target": "api_bridge_call_agent",
-      "confidence_score": 1.0
+      "target": "api_bridge_call_agent"
     },
     {
       "relation": "calls",
@@ -5692,9 +5859,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L856",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_phase_2b_logic_expander",
-      "target": "agency_orchestration_phase_2_b_logic_expander",
-      "confidence_score": 1.0
+      "target": "agency_orchestration_phase_2_b_logic_expander"
     },
     {
       "relation": "rationale_for",
@@ -5702,7 +5869,17 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L378",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_rationale_378",
+      "target": "agency_orchestration_phase_2_b_logic_expander"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L395",
+      "weight": 1.0,
+      "source": "agency_orchestration_rationale_395",
       "target": "agency_orchestration_phase_2_b_logic_expander",
       "confidence_score": 1.0
     },
@@ -5713,8 +5890,62 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L887",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_run_full_pipeline",
-      "target": "agency_orchestration_phase_2_b_logic_expander",
+      "target": "agency_orchestration_phase_2_b_logic_expander"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L523",
+      "weight": 1.0,
+      "source": "agency_orchestration_phase_2_d_quality_review",
+      "target": "agency_patching_extract_code_block",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L475",
+      "weight": 1.0,
+      "source": "agency_orchestration_phase_2_d_quality_review",
+      "target": "agency_testing_is_web_project",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L516",
+      "weight": 1.0,
+      "source": "agency_orchestration_phase_2_d_quality_review",
+      "target": "api_bridge_call_agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L468",
+      "weight": 1.0,
+      "source": "agency_orchestration_rationale_468",
+      "target": "agency_orchestration_phase_2_d_quality_review",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L1038",
+      "weight": 1.0,
+      "source": "agency_orchestration_run_full_pipeline",
+      "target": "agency_orchestration_phase_2_d_quality_review",
       "confidence_score": 1.0
     },
     {
@@ -5788,7 +6019,17 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L439",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_rationale_439",
+      "target": "agency_orchestration_phase_3_a_test_lead"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L570",
+      "weight": 1.0,
+      "source": "agency_orchestration_rationale_570",
       "target": "agency_orchestration_phase_3_a_test_lead",
       "confidence_score": 1.0
     },
@@ -5907,7 +6148,17 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L672",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_rationale_672",
+      "target": "agency_orchestration_phase_3_b_deep_tester"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L803",
+      "weight": 1.0,
+      "source": "agency_orchestration_rationale_803",
       "target": "agency_orchestration_phase_3_b_deep_tester",
       "confidence_score": 1.0
     },
@@ -5993,7 +6244,17 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L767",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_rationale_767",
+      "target": "agency_orchestration_phase_3_c_assistant_manager"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L898",
+      "weight": 1.0,
+      "source": "agency_orchestration_rationale_898",
       "target": "agency_orchestration_phase_3_c_assistant_manager",
       "confidence_score": 1.0
     },
@@ -6089,7 +6350,17 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L848",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_rationale_848",
+      "target": "agency_orchestration_phase_2b_logic_expander"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L979",
+      "weight": 1.0,
+      "source": "agency_orchestration_rationale_979",
       "target": "agency_orchestration_phase_2b_logic_expander",
       "confidence_score": 1.0
     },
@@ -6164,7 +6435,17 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L860",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_rationale_860",
+      "target": "agency_orchestration_run_full_pipeline"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
+      "source_location": "L991",
+      "weight": 1.0,
+      "source": "agency_orchestration_rationale_991",
       "target": "agency_orchestration_run_full_pipeline",
       "confidence_score": 1.0
     },
@@ -6249,6 +6530,16 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "agency/orchestration.py",
+      "source_location": "L1109",
+      "weight": 1.0,
+      "source": "agency_orchestration_rationale_1109",
+      "target": "agency_orchestration_subprocess_popen_safe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "agency/orchestration.py",
       "source_location": "L953",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -6261,9 +6552,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L955",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_rationale_955",
-      "target": "agency_orchestration_subprocess_popen_safe",
-      "confidence_score": 1.0
+      "target": "agency_orchestration_subprocess_popen_safe"
     },
     {
       "relation": "contains",
@@ -8215,9 +8506,9 @@
       "source_file": "api_bridge.py",
       "source_location": "L301",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_bridge",
-      "target": "api_bridge_call_agent_raw",
-      "confidence_score": 1.0
+      "target": "api_bridge_call_agent_raw"
     },
     {
       "relation": "contains",
@@ -8248,6 +8539,16 @@
       "confidence_score": 1.0,
       "source": "api_bridge",
       "target": "api_bridge_call_jina_search"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api_bridge.py",
+      "source_location": "L226",
+      "weight": 1.0,
+      "source": "api_bridge",
+      "target": "api_bridge_inject_quality_standards",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8428,9 +8729,9 @@
       "source_file": "api_bridge.py",
       "source_location": "L312",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_bridge_call_agent_raw",
-      "target": "api_bridge_inject_research_context",
-      "confidence_score": 1.0
+      "target": "api_bridge_inject_research_context"
     },
     {
       "relation": "rationale_for",
@@ -8447,11 +8748,32 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "api_bridge.py",
+      "source_location": "L325",
+      "weight": 1.0,
+      "source": "api_bridge_call_agent_raw",
+      "target": "api_bridge_inject_quality_standards",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "api_bridge.py",
+      "source_location": "L227",
+      "weight": 1.0,
+      "source": "api_bridge_rationale_227",
+      "target": "api_bridge_inject_quality_standards",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api_bridge.py",
       "source_location": "L265",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_bridge_call_agent",
-      "target": "api_bridge_call_agent_raw",
-      "confidence_score": 1.0
+      "target": "api_bridge_call_agent_raw"
     },
     {
       "relation": "rationale_for",
@@ -8462,6 +8784,16 @@
       "confidence_score": 1.0,
       "source": "api_bridge_rationale_227",
       "target": "api_bridge_call_agent"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "api_bridge.py",
+      "source_location": "L240",
+      "weight": 1.0,
+      "source": "api_bridge_rationale_240",
+      "target": "api_bridge_call_agent",
+      "confidence_score": 1.0
     },
     {
       "relation": "rationale_for",
@@ -8523,7 +8855,17 @@
       "source_file": "api_bridge.py",
       "source_location": "L302",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_bridge_rationale_302",
+      "target": "api_bridge_call_agent_raw"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "api_bridge.py",
+      "source_location": "L315",
+      "weight": 1.0,
+      "source": "api_bridge_rationale_315",
       "target": "api_bridge_call_agent_raw",
       "confidence_score": 1.0
     },
@@ -8977,9 +9319,9 @@
       "source_file": ".agents/rules/graphify.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_graphify",
-      "target": "rules_graphify_graphify",
-      "confidence_score": 1.0
+      "target": "rules_graphify_graphify"
     },
     {
       "relation": "contains",
@@ -8987,9 +9329,9 @@
       "source_file": ".agents/workflows/graphify.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workflows_graphify",
-      "target": "workflows_graphify_workflow_graphify",
-      "confidence_score": 1.0
+      "target": "workflows_graphify_workflow_graphify"
     },
     {
       "relation": "contains",
@@ -8997,9 +9339,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude",
-      "target": "claude_claude_md",
-      "confidence_score": 1.0
+      "target": "claude_claude_md"
     },
     {
       "relation": "contains",
@@ -9007,9 +9349,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md",
-      "target": "claude_1_think_before_coding",
-      "confidence_score": 1.0
+      "target": "claude_1_think_before_coding"
     },
     {
       "relation": "contains",
@@ -9017,9 +9359,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md",
-      "target": "claude_2_simplicity_first",
-      "confidence_score": 1.0
+      "target": "claude_2_simplicity_first"
     },
     {
       "relation": "contains",
@@ -9027,9 +9369,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md",
-      "target": "claude_3_surgical_changes",
-      "confidence_score": 1.0
+      "target": "claude_3_surgical_changes"
     },
     {
       "relation": "contains",
@@ -9037,9 +9379,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md",
-      "target": "claude_4_goal_driven_execution",
-      "confidence_score": 1.0
+      "target": "claude_4_goal_driven_execution"
     },
     {
       "relation": "contains",
@@ -9047,9 +9389,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme",
-      "target": "readme_antigravity_multi_agent_agency_framework",
-      "confidence_score": 1.0
+      "target": "readme_antigravity_multi_agent_agency_framework"
     },
     {
       "relation": "contains",
@@ -9057,9 +9399,9 @@
       "source_file": "README.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_antigravity_multi_agent_agency_framework",
-      "target": "readme_core_component_registry",
-      "confidence_score": 1.0
+      "target": "readme_core_component_registry"
     },
     {
       "relation": "contains",
@@ -9067,9 +9409,9 @@
       "source_file": "README.md",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_antigravity_multi_agent_agency_framework",
-      "target": "readme_recent_improvements_resilience_fixes",
-      "confidence_score": 1.0
+      "target": "readme_recent_improvements_resilience_fixes"
     },
     {
       "relation": "contains",
@@ -9077,9 +9419,9 @@
       "source_file": "README.md",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_antigravity_multi_agent_agency_framework",
-      "target": "readme_running_the_framework",
-      "confidence_score": 1.0
+      "target": "readme_running_the_framework"
     },
     {
       "relation": "contains",
@@ -9087,9 +9429,9 @@
       "source_file": "README.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_antigravity_multi_agent_agency_framework",
-      "target": "readme_system_architecture_workflow",
-      "confidence_score": 1.0
+      "target": "readme_system_architecture_workflow"
     },
     {
       "relation": "contains",
@@ -9097,9 +9439,9 @@
       "source_file": "README.md",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_running_the_framework",
-      "target": "readme_1_requirements",
-      "confidence_score": 1.0
+      "target": "readme_1_requirements"
     },
     {
       "relation": "contains",
@@ -9107,9 +9449,9 @@
       "source_file": "README.md",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_running_the_framework",
-      "target": "readme_2_startup",
-      "confidence_score": 1.0
+      "target": "readme_2_startup"
     },
     {
       "relation": "contains",
@@ -9117,9 +9459,9 @@
       "source_file": "README.md",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_running_the_framework",
-      "target": "readme_3_running_framework_tests",
-      "confidence_score": 1.0
+      "target": "readme_3_running_framework_tests"
     },
     {
       "relation": "contains",
@@ -9127,9 +9469,9 @@
       "source_file": "framework_bug_report.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "framework_bug_report",
-      "target": "framework_bug_report_destructive_testing_bug_report_multi_agent_agency_framework",
-      "confidence_score": 1.0
+      "target": "framework_bug_report_destructive_testing_bug_report_multi_agent_agency_framework"
     },
     {
       "relation": "contains",
@@ -9137,9 +9479,9 @@
       "source_file": "framework_bug_report.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "framework_bug_report_destructive_testing_bug_report_multi_agent_agency_framework",
-      "target": "framework_bug_report_executive_summary",
-      "confidence_score": 1.0
+      "target": "framework_bug_report_executive_summary"
     },
     {
       "relation": "contains",
@@ -9147,9 +9489,9 @@
       "source_file": "framework_bug_report.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "framework_bug_report_destructive_testing_bug_report_multi_agent_agency_framework",
-      "target": "framework_bug_report_phase_1_core_utilities_api_bugs",
-      "confidence_score": 1.0
+      "target": "framework_bug_report_phase_1_core_utilities_api_bugs"
     },
     {
       "relation": "contains",
@@ -9157,9 +9499,9 @@
       "source_file": "framework_bug_report.md",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "framework_bug_report_destructive_testing_bug_report_multi_agent_agency_framework",
-      "target": "framework_bug_report_phase_2_sandbox_execution_bugs",
-      "confidence_score": 1.0
+      "target": "framework_bug_report_phase_2_sandbox_execution_bugs"
     },
     {
       "relation": "contains",
@@ -9167,9 +9509,9 @@
       "source_file": "framework_bug_report.md",
       "source_location": "L99",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "framework_bug_report_destructive_testing_bug_report_multi_agent_agency_framework",
-      "target": "framework_bug_report_phase_3_triage_routing_bugs",
-      "confidence_score": 1.0
+      "target": "framework_bug_report_phase_3_triage_routing_bugs"
     },
     {
       "relation": "contains",
@@ -9177,9 +9519,9 @@
       "source_file": "framework_bug_report.md",
       "source_location": "L127",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "framework_bug_report_destructive_testing_bug_report_multi_agent_agency_framework",
-      "target": "framework_bug_report_phase_4_patching_ast_bugs",
-      "confidence_score": 1.0
+      "target": "framework_bug_report_phase_4_patching_ast_bugs"
     },
     {
       "relation": "contains",
@@ -9187,9 +9529,9 @@
       "source_file": "framework_bug_report.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "framework_bug_report_phase_1_core_utilities_api_bugs",
-      "target": "framework_bug_report_bug_1_1_token_tracker_crash_on_null_inputs_critical",
-      "confidence_score": 1.0
+      "target": "framework_bug_report_bug_1_1_token_tracker_crash_on_null_inputs_critical"
     },
     {
       "relation": "contains",
@@ -9197,9 +9539,9 @@
       "source_file": "framework_bug_report.md",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "framework_bug_report_phase_1_core_utilities_api_bugs",
-      "target": "framework_bug_report_bug_1_2_read_states_json_corruption_crash_high",
-      "confidence_score": 1.0
+      "target": "framework_bug_report_bug_1_2_read_states_json_corruption_crash_high"
     },
     {
       "relation": "contains",
@@ -9207,9 +9549,9 @@
       "source_file": "framework_bug_report.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "framework_bug_report_phase_1_core_utilities_api_bugs",
-      "target": "framework_bug_report_bug_1_3_jina_ai_search_fallback_failure_medium",
-      "confidence_score": 1.0
+      "target": "framework_bug_report_bug_1_3_jina_ai_search_fallback_failure_medium"
     },
     {
       "relation": "contains",
@@ -9217,9 +9559,9 @@
       "source_file": "framework_bug_report.md",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "framework_bug_report_phase_1_core_utilities_api_bugs",
-      "target": "framework_bug_report_bug_1_4_double_google_font_imports_low",
-      "confidence_score": 1.0
+      "target": "framework_bug_report_bug_1_4_double_google_font_imports_low"
     },
     {
       "relation": "contains",
@@ -9227,9 +9569,9 @@
       "source_file": "framework_bug_report.md",
       "source_location": "L67",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "framework_bug_report_phase_2_sandbox_execution_bugs",
-      "target": "framework_bug_report_bug_2_1_timeout_error_message_inconsistency_medium",
-      "confidence_score": 1.0
+      "target": "framework_bug_report_bug_2_1_timeout_error_message_inconsistency_medium"
     },
     {
       "relation": "contains",
@@ -9237,9 +9579,9 @@
       "source_file": "framework_bug_report.md",
       "source_location": "L79",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "framework_bug_report_phase_2_sandbox_execution_bugs",
-      "target": "framework_bug_report_bug_2_2_non_portable_python_command_invocations_medium",
-      "confidence_score": 1.0
+      "target": "framework_bug_report_bug_2_2_non_portable_python_command_invocations_medium"
     },
     {
       "relation": "contains",
@@ -9247,9 +9589,9 @@
       "source_file": "framework_bug_report.md",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "framework_bug_report_phase_2_sandbox_execution_bugs",
-      "target": "framework_bug_report_bug_2_3_unbounded_infinite_loop_execution_in_sandbox_high",
-      "confidence_score": 1.0
+      "target": "framework_bug_report_bug_2_3_unbounded_infinite_loop_execution_in_sandbox_high"
     },
     {
       "relation": "contains",
@@ -9257,9 +9599,9 @@
       "source_file": "framework_bug_report.md",
       "source_location": "L101",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "framework_bug_report_phase_3_triage_routing_bugs",
-      "target": "framework_bug_report_bug_3_1_greedy_regex_handoff_json_parser_bug_high",
-      "confidence_score": 1.0
+      "target": "framework_bug_report_bug_3_1_greedy_regex_handoff_json_parser_bug_high"
     },
     {
       "relation": "contains",
@@ -9267,9 +9609,9 @@
       "source_file": "framework_bug_report.md",
       "source_location": "L109",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "framework_bug_report_phase_3_triage_routing_bugs",
-      "target": "framework_bug_report_bug_3_2_ollama_thinking_tag_triage_vulnerability_medium",
-      "confidence_score": 1.0
+      "target": "framework_bug_report_bug_3_2_ollama_thinking_tag_triage_vulnerability_medium"
     },
     {
       "relation": "contains",
@@ -9277,9 +9619,9 @@
       "source_file": "framework_bug_report.md",
       "source_location": "L117",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "framework_bug_report_phase_3_triage_routing_bugs",
-      "target": "framework_bug_report_bug_3_3_empty_input_hang_in_manual_triage_fallback_low",
-      "confidence_score": 1.0
+      "target": "framework_bug_report_bug_3_3_empty_input_hang_in_manual_triage_fallback_low"
     },
     {
       "relation": "contains",
@@ -9287,9 +9629,9 @@
       "source_file": "framework_bug_report.md",
       "source_location": "L129",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "framework_bug_report_phase_4_patching_ast_bugs",
-      "target": "framework_bug_report_bug_4_1_broken_test_function_extraction_logic_medium",
-      "confidence_score": 1.0
+      "target": "framework_bug_report_bug_4_1_broken_test_function_extraction_logic_medium"
     },
     {
       "relation": "contains",
@@ -9297,9 +9639,9 @@
       "source_file": "framework_bug_report.md",
       "source_location": "L137",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "framework_bug_report_phase_4_patching_ast_bugs",
-      "target": "framework_bug_report_bug_4_2_ast_syntax_error_crash_in_patch_extraction_medium",
-      "confidence_score": 1.0
+      "target": "framework_bug_report_bug_4_2_ast_syntax_error_crash_in_patch_extraction_medium"
     },
     {
       "relation": "conceptually_related_to",
@@ -9453,5 +9795,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "42b0eda28798bd68c54c48fc00ee9475ad46af33"
+  "built_at_commit": "9f655804f18b83b16d9e0fc3e82032a7773c83bd"
 }

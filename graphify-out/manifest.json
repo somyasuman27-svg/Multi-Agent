@@ -20,8 +20,8 @@
     "semantic_hash": "fb498d10022eb2e2ef5ff35cd367ee15"
   },
   "E:\\Mult_agent\\agency\\orchestration.py": {
-    "mtime": 1780394913.2141178,
-    "ast_hash": "d4e64f96967278aa7922e614e9283ba1",
+    "mtime": 1780476235.9920812,
+    "ast_hash": "a1db636419ce98492121860234ba3e9b",
     "semantic_hash": ""
   },
   "E:\\Mult_agent\\agency\\patching.py": {
@@ -50,9 +50,9 @@
     "semantic_hash": "0a99ffdb630492cb2d23cf235163f5c8"
   },
   "E:\\Mult_agent\\api_bridge.py": {
-    "mtime": 1780391987.8982246,
-    "ast_hash": "5910102e6c4fd7b936471b1aefed1a10",
-    "semantic_hash": "5910102e6c4fd7b936471b1aefed1a10"
+    "mtime": 1780476143.766881,
+    "ast_hash": "040832d078110eced7eac5722ed3aeff",
+    "semantic_hash": ""
   },
   "E:\\Mult_agent\\auto_run.py": {
     "mtime": 1780103406.8929346,
@@ -60,9 +60,9 @@
     "semantic_hash": "2f8f7a1008fc4fdd08c6b54d6e18c385"
   },
   "E:\\Mult_agent\\config.py": {
-    "mtime": 1780391999.6643655,
-    "ast_hash": "79235441f2ec6d24dce732fbdcb0ba97",
-    "semantic_hash": "79235441f2ec6d24dce732fbdcb0ba97"
+    "mtime": 1780476122.8266563,
+    "ast_hash": "303883c1c5699f6e2905f6b88eb212d8",
+    "semantic_hash": ""
   },
   "E:\\Mult_agent\\destructive_framework_tests.py": {
     "mtime": 1780391030.023231,
