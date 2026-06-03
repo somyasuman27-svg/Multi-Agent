@@ -4,7 +4,6 @@
   "2": "Router & Framework Infrastructure",
   "3": "Code block patching & Triage",
   "4": "Function patching & destructive framework tests",
-  "5": "API Bridge & Search Fallbacks",
   "6": "Token Tracker & Foundation Tests",
   "7": "Memory Utilities",
   "8": "Agency Initialization",
@@ -15,11 +14,8 @@
   "13": "Update Dump Utility",
   "14": "Update Dump All Utility",
   "15": "Community 15",
-  "16": "Community 16",
   "17": "Community 17",
   "18": "Community 18",
   "19": "Community 19",
-  "20": "Community 20",
-  "21": "Community 21",
-  "22": "Community 22"
+  "20": "Community 20"
 }

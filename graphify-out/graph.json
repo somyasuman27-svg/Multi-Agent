@@ -27,7 +27,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L9",
       "id": "agency_execution_log_langfuse_event",
-      "community": 4,
+      "community": 2,
       "norm_label": "log_langfuse_event()"
     },
     {
@@ -36,7 +36,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L9",
       "id": "agency_execution_py_str",
-      "community": 21,
+      "community": 0,
       "norm_label": "str"
     },
     {
@@ -45,7 +45,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L25",
       "id": "agency_execution_read_file",
-      "community": 4,
+      "community": 3,
       "norm_label": "read_file()"
     },
     {
@@ -54,7 +54,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L50",
       "id": "agency_execution_write_file",
-      "community": 4,
+      "community": 0,
       "norm_label": "write_file()"
     },
     {
@@ -90,7 +90,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L115",
       "id": "agency_execution_extract_handoff",
-      "community": 2,
+      "community": 0,
       "norm_label": "extract_handoff()"
     },
     {
@@ -99,7 +99,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L161",
       "id": "agency_execution_management_log_path",
-      "community": 21,
+      "community": 0,
       "norm_label": "_management_log_path()"
     },
     {
@@ -108,7 +108,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L165",
       "id": "agency_execution_get_unread_delta",
-      "community": 21,
+      "community": 0,
       "norm_label": "get_unread_delta()"
     },
     {
@@ -117,7 +117,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L192",
       "id": "agency_execution_update_read_state",
-      "community": 21,
+      "community": 0,
       "norm_label": "update_read_state()"
     },
     {
@@ -126,7 +126,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L216",
       "id": "agency_execution_append_delta_log",
-      "community": 2,
+      "community": 0,
       "norm_label": "append_delta_log()"
     },
     {
@@ -135,7 +135,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L10",
       "id": "agency_execution_rationale_10",
-      "community": 4,
+      "community": 2,
       "norm_label": "helper to log miscellaneous events to langfuse if enabled."
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L26",
       "id": "agency_execution_rationale_26",
-      "community": 4,
+      "community": 3,
       "norm_label": "robust utf-8 file reader with optional langfuse tracking."
     },
     {
@@ -153,7 +153,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L51",
       "id": "agency_execution_rationale_51",
-      "community": 4,
+      "community": 0,
       "norm_label": "robust utf-8 file writer with directory auto-creation and langfuse tracking."
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L116",
       "id": "agency_execution_rationale_116",
-      "community": 2,
+      "community": 0,
       "norm_label": "extracts the handoff json from agent output using regex and pydantic validation."
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L166",
       "id": "agency_execution_rationale_166",
-      "community": 21,
+      "community": 0,
       "norm_label": "seeks to the last read byte offset for the agent and returns only new text."
     },
     {
@@ -189,7 +189,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L193",
       "id": "agency_execution_rationale_193",
-      "community": 21,
+      "community": 0,
       "norm_label": "updates the byte offset to the current end of the master log.     only call this"
     },
     {
@@ -198,7 +198,7 @@
       "source_file": "agency/execution.py",
       "source_location": "L217",
       "id": "agency_execution_rationale_217",
-      "community": 2,
+      "community": 0,
       "norm_label": "appends a standardized 3-line template to the master log."
     },
     {
@@ -216,7 +216,7 @@
       "source_file": "agency/governance.py",
       "source_location": "L9",
       "id": "agency_governance_human_checkpoint",
-      "community": 7,
+      "community": 0,
       "norm_label": "human_checkpoint()"
     },
     {
@@ -225,7 +225,7 @@
       "source_file": "agency/governance.py",
       "source_location": "L30",
       "id": "agency_governance_complexity_classifier",
-      "community": 7,
+      "community": 0,
       "norm_label": "complexity_classifier()"
     },
     {
@@ -324,7 +324,7 @@
       "source_file": "agency/governance.py",
       "source_location": "L10",
       "id": "agency_governance_rationale_10",
-      "community": 7,
+      "community": 0,
       "norm_label": "pauses execution for critical decisions."
     },
     {
@@ -342,7 +342,7 @@
       "source_file": "agency/memory.py",
       "source_location": "L8",
       "id": "agency_memory_get_memory_path",
-      "community": 22,
+      "community": 2,
       "norm_label": "get_memory_path()"
     },
     {
@@ -351,7 +351,7 @@
       "source_file": "agency/memory.py",
       "source_location": "L8",
       "id": "agency_memory_py_str",
-      "community": 22,
+      "community": 2,
       "norm_label": "str"
     },
     {
@@ -360,7 +360,7 @@
       "source_file": "agency/memory.py",
       "source_location": "L33",
       "id": "agency_memory_read_agent_memory",
-      "community": 22,
+      "community": 2,
       "norm_label": "read_agent_memory()"
     },
     {
@@ -369,7 +369,7 @@
       "source_file": "agency/memory.py",
       "source_location": "L48",
       "id": "agency_memory_update_agent_memory",
-      "community": 22,
+      "community": 2,
       "norm_label": "update_agent_memory()"
     },
     {
@@ -378,7 +378,7 @@
       "source_file": "agency/memory.py",
       "source_location": "L68",
       "id": "agency_memory_inject_memory_into_prompt",
-      "community": 22,
+      "community": 0,
       "norm_label": "inject_memory_into_prompt()"
     },
     {
@@ -387,7 +387,7 @@
       "source_file": "agency/memory.py",
       "source_location": "L9",
       "id": "agency_memory_rationale_9",
-      "community": 22,
+      "community": 2,
       "norm_label": "returns path to agent memory file. scope = 'global' or 'local"
     },
     {
@@ -396,7 +396,7 @@
       "source_file": "agency/memory.py",
       "source_location": "L34",
       "id": "agency_memory_rationale_34",
-      "community": 22,
+      "community": 2,
       "norm_label": "reads both global and local memory for an agent. returns combined context."
     },
     {
@@ -405,7 +405,7 @@
       "source_file": "agency/memory.py",
       "source_location": "L51",
       "id": "agency_memory_rationale_51",
-      "community": 22,
+      "community": 2,
       "norm_label": "updates both global and local memory after task completion."
     },
     {
@@ -414,7 +414,7 @@
       "source_file": "agency/memory.py",
       "source_location": "L70",
       "id": "agency_memory_rationale_70",
-      "community": 22,
+      "community": 0,
       "norm_label": "injects agent memory at the start of every agent prompt."
     },
     {
@@ -432,7 +432,7 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L31",
       "id": "agency_orchestration_tests_passed",
-      "community": 0,
+      "community": 4,
       "norm_label": "_tests_passed()"
     },
     {
@@ -441,7 +441,7 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L31",
       "id": "agency_orchestration_py_str",
-      "community": 0,
+      "community": 4,
       "norm_label": "str"
     },
     {
@@ -450,7 +450,7 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L31",
       "id": "agency_orchestration_py_bool",
-      "community": 0,
+      "community": 4,
       "norm_label": "bool"
     },
     {
@@ -468,7 +468,7 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L40",
       "id": "agency_orchestration_phase_2_c_post_coding_smoke_gate",
-      "community": 0,
+      "community": 1,
       "norm_label": "phase_2_c_post_coding_smoke_gate()"
     },
     {
@@ -477,7 +477,7 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L76",
       "id": "agency_orchestration_auto_fix_coding",
-      "community": 0,
+      "community": 3,
       "norm_label": "_auto_fix_coding()"
     },
     {
@@ -486,7 +486,7 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L76",
       "id": "agency_orchestration_py_int",
-      "community": 0,
+      "community": 3,
       "norm_label": "int"
     },
     {
@@ -495,7 +495,7 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L94",
       "id": "agency_orchestration_dequeue_completed_task",
-      "community": 0,
+      "community": 4,
       "norm_label": "dequeue_completed_task()"
     },
     {
@@ -504,7 +504,7 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L115",
       "id": "agency_orchestration_update_pipeline_memories",
-      "community": 0,
+      "community": 4,
       "norm_label": "_update_pipeline_memories()"
     },
     {
@@ -513,7 +513,7 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L142",
       "id": "agency_orchestration_phase_0_briefing",
-      "community": 7,
+      "community": 0,
       "norm_label": "phase_0_briefing()"
     },
     {
@@ -558,7 +558,7 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L569",
       "id": "agency_orchestration_phase_3_a_test_lead",
-      "community": 1,
+      "community": 0,
       "norm_label": "phase_3_a_test_lead()"
     },
     {
@@ -576,7 +576,7 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L897",
       "id": "agency_orchestration_phase_3_c_assistant_manager",
-      "community": 21,
+      "community": 0,
       "norm_label": "phase_3_c_assistant_manager()"
     },
     {
@@ -585,7 +585,7 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L941",
       "id": "agency_orchestration_save_localized_markdown_log",
-      "community": 0,
+      "community": 4,
       "norm_label": "save_localized_markdown_log()"
     },
     {
@@ -594,7 +594,7 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L958",
       "id": "agency_orchestration_update_cross_project_memory",
-      "community": 0,
+      "community": 4,
       "norm_label": "update_cross_project_memory()"
     },
     {
@@ -612,7 +612,7 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L990",
       "id": "agency_orchestration_run_full_pipeline",
-      "community": 0,
+      "community": 4,
       "norm_label": "run_full_pipeline()"
     },
     {
@@ -630,7 +630,7 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L41",
       "id": "agency_orchestration_rationale_41",
-      "community": 0,
+      "community": 1,
       "norm_label": "quick validation after phase 2 \u2014 catches broken imports/paths before test genera"
     },
     {
@@ -639,7 +639,7 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L95",
       "id": "agency_orchestration_rationale_95",
-      "community": 0,
+      "community": 4,
       "norm_label": "remove the completed task from task_queue.json."
     },
     {
@@ -648,7 +648,7 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L116",
       "id": "agency_orchestration_rationale_116",
-      "community": 0,
+      "community": 4,
       "norm_label": "record honest outcomes \u2014 no 'success' for coders when tests failed."
     },
     {
@@ -657,7 +657,7 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L143",
       "id": "agency_orchestration_rationale_143",
-      "community": 7,
+      "community": 0,
       "norm_label": "ceo reads the next task from the queue, creates an execution plan,     and assig"
     },
     {
@@ -702,7 +702,7 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L570",
       "id": "agency_orchestration_rationale_570",
-      "community": 1,
+      "community": 0,
       "norm_label": "step 3a: test_lead executes a smoke test, reviews execution logs,     and compil"
     },
     {
@@ -720,7 +720,7 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L898",
       "id": "agency_orchestration_rationale_898",
-      "community": 21,
+      "community": 0,
       "norm_label": "step 3c: assistant_manager compiles the final delivery report."
     },
     {
@@ -738,7 +738,7 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L991",
       "id": "agency_orchestration_rationale_991",
-      "community": 0,
+      "community": 4,
       "norm_label": "executes the full pipeline for a project run."
     },
     {
@@ -765,7 +765,7 @@
       "source_file": "agency/patching.py",
       "source_location": "L9",
       "id": "agency_patching_prune_error",
-      "community": 4,
+      "community": 3,
       "norm_label": "prune_error()"
     },
     {
@@ -774,7 +774,7 @@
       "source_file": "agency/patching.py",
       "source_location": "L9",
       "id": "agency_patching_py_str",
-      "community": 4,
+      "community": 3,
       "norm_label": "str"
     },
     {
@@ -783,7 +783,7 @@
       "source_file": "agency/patching.py",
       "source_location": "L9",
       "id": "agency_patching_py_int",
-      "community": 4,
+      "community": 3,
       "norm_label": "int"
     },
     {
@@ -792,7 +792,7 @@
       "source_file": "agency/patching.py",
       "source_location": "L18",
       "id": "agency_patching_extract_code_block",
-      "community": 4,
+      "community": 0,
       "norm_label": "extract_code_block()"
     },
     {
@@ -810,7 +810,7 @@
       "source_file": "agency/patching.py",
       "source_location": "L47",
       "id": "agency_patching_extract_function_block",
-      "community": 4,
+      "community": 3,
       "norm_label": "extract_function_block()"
     },
     {
@@ -819,7 +819,7 @@
       "source_file": "agency/patching.py",
       "source_location": "L90",
       "id": "agency_patching_apply_function_patch",
-      "community": 4,
+      "community": 3,
       "norm_label": "apply_function_patch()"
     },
     {
@@ -828,7 +828,7 @@
       "source_file": "agency/patching.py",
       "source_location": "L90",
       "id": "agency_patching_py_bool",
-      "community": 4,
+      "community": 3,
       "norm_label": "bool"
     },
     {
@@ -837,7 +837,7 @@
       "source_file": "agency/patching.py",
       "source_location": "L140",
       "id": "agency_patching_identify_broken_functions",
-      "community": 4,
+      "community": 3,
       "norm_label": "identify_broken_functions()"
     },
     {
@@ -846,7 +846,7 @@
       "source_file": "agency/patching.py",
       "source_location": "L198",
       "id": "agency_patching_phase_patch_draft_coder",
-      "community": 4,
+      "community": 3,
       "norm_label": "phase_patch_draft_coder()"
     },
     {
@@ -855,7 +855,7 @@
       "source_file": "agency/patching.py",
       "source_location": "L10",
       "id": "agency_patching_rationale_10",
-      "community": 4,
+      "community": 3,
       "norm_label": "prunes long error logs or stack traces to save tokens."
     },
     {
@@ -864,7 +864,7 @@
       "source_file": "agency/patching.py",
       "source_location": "L19",
       "id": "agency_patching_rationale_19",
-      "community": 4,
+      "community": 0,
       "norm_label": "extracts raw code from markdown blocks."
     },
     {
@@ -882,7 +882,7 @@
       "source_file": "agency/patching.py",
       "source_location": "L48",
       "id": "agency_patching_rationale_48",
-      "community": 4,
+      "community": 3,
       "norm_label": "extracts the complete source code of a specific function from a file.     uses a"
     },
     {
@@ -891,7 +891,7 @@
       "source_file": "agency/patching.py",
       "source_location": "L92",
       "id": "agency_patching_rationale_92",
-      "community": 4,
+      "community": 3,
       "norm_label": "replaces a specific function in a file with new code.     uses ast to find exact"
     },
     {
@@ -900,7 +900,7 @@
       "source_file": "agency/patching.py",
       "source_location": "L141",
       "id": "agency_patching_rationale_141",
-      "community": 4,
+      "community": 3,
       "norm_label": "parses deep_tester error report to identify broken function names.     cross-ref"
     },
     {
@@ -909,7 +909,7 @@
       "source_file": "agency/patching.py",
       "source_location": "L201",
       "id": "agency_patching_rationale_201",
-      "community": 4,
+      "community": 3,
       "norm_label": "targeted patch phase.     identifies broken functions from error report.     sen"
     },
     {
@@ -927,7 +927,7 @@
       "source_file": "agency/router.py",
       "source_location": "L10",
       "id": "agency_router_call_ollama_direct",
-      "community": 16,
+      "community": 3,
       "norm_label": "call_ollama_direct()"
     },
     {
@@ -936,7 +936,7 @@
       "source_file": "agency/router.py",
       "source_location": "L10",
       "id": "agency_router_py_str",
-      "community": 16,
+      "community": 3,
       "norm_label": "str"
     },
     {
@@ -945,7 +945,7 @@
       "source_file": "agency/router.py",
       "source_location": "L30",
       "id": "agency_router_ollama_classify_action",
-      "community": 16,
+      "community": 3,
       "norm_label": "ollama_classify_action()"
     },
     {
@@ -954,7 +954,7 @@
       "source_file": "agency/router.py",
       "source_location": "L72",
       "id": "agency_router_update_change_log",
-      "community": 16,
+      "community": 3,
       "norm_label": "update_change_log()"
     },
     {
@@ -963,7 +963,7 @@
       "source_file": "agency/router.py",
       "source_location": "L72",
       "id": "agency_router_py_int",
-      "community": 16,
+      "community": 3,
       "norm_label": "int"
     },
     {
@@ -972,7 +972,7 @@
       "source_file": "agency/router.py",
       "source_location": "L88",
       "id": "agency_router_startup_menu",
-      "community": 16,
+      "community": 3,
       "norm_label": "startup_menu()"
     },
     {
@@ -990,7 +990,7 @@
       "source_file": "agency/router.py",
       "source_location": "L285",
       "id": "agency_router_run_existing_project_pipeline",
-      "community": 16,
+      "community": 3,
       "norm_label": "run_existing_project_pipeline()"
     },
     {
@@ -999,7 +999,7 @@
       "source_file": "agency/router.py",
       "source_location": "L11",
       "id": "agency_router_rationale_11",
-      "community": 16,
+      "community": 3,
       "norm_label": "direct ollama api call for routing decisions."
     },
     {
@@ -1008,7 +1008,7 @@
       "source_file": "agency/router.py",
       "source_location": "L31",
       "id": "agency_router_rationale_31",
-      "community": 16,
+      "community": 3,
       "norm_label": "ollama classifies what action to take on existing project.     returns: patch /"
     },
     {
@@ -1017,7 +1017,7 @@
       "source_file": "agency/router.py",
       "source_location": "L74",
       "id": "agency_router_rationale_74",
-      "community": 16,
+      "community": 3,
       "norm_label": "appends entry to project change_log.md"
     },
     {
@@ -1026,7 +1026,7 @@
       "source_file": "agency/router.py",
       "source_location": "L89",
       "id": "agency_router_rationale_89",
-      "community": 16,
+      "community": 3,
       "norm_label": "ollama-powered interactive startup menu.     returns routing decision: new proje"
     },
     {
@@ -1044,7 +1044,7 @@
       "source_file": "agency/router.py",
       "source_location": "L286",
       "id": "agency_router_rationale_286",
-      "community": 16,
+      "community": 3,
       "norm_label": "runs the correct pipeline for existing project changes.     patch  \u2192 draft_coder"
     },
     {
@@ -1062,7 +1062,7 @@
       "source_file": "agency/testing.py",
       "source_location": "L11",
       "id": "agency_testing_is_web_project",
-      "community": 0,
+      "community": 1,
       "norm_label": "is_web_project()"
     },
     {
@@ -1071,7 +1071,7 @@
       "source_file": "agency/testing.py",
       "source_location": "L11",
       "id": "agency_testing_py_bool",
-      "community": 3,
+      "community": 1,
       "norm_label": "bool"
     },
     {
@@ -1080,7 +1080,7 @@
       "source_file": "agency/testing.py",
       "source_location": "L36",
       "id": "agency_testing_check_playwright_available",
-      "community": 3,
+      "community": 1,
       "norm_label": "check_playwright_available()"
     },
     {
@@ -1089,7 +1089,7 @@
       "source_file": "agency/testing.py",
       "source_location": "L45",
       "id": "agency_testing_create_local_project_dir",
-      "community": 16,
+      "community": 2,
       "norm_label": "create_local_project_dir()"
     },
     {
@@ -1107,7 +1107,7 @@
       "source_file": "agency/testing.py",
       "source_location": "L181",
       "id": "agency_testing_run_tests_safe",
-      "community": 3,
+      "community": 2,
       "norm_label": "run_tests_safe()"
     },
     {
@@ -1116,7 +1116,7 @@
       "source_file": "agency/testing.py",
       "source_location": "L181",
       "id": "agency_testing_py_str",
-      "community": 3,
+      "community": 2,
       "norm_label": "str"
     },
     {
@@ -1125,7 +1125,7 @@
       "source_file": "agency/testing.py",
       "source_location": "L12",
       "id": "agency_testing_rationale_12",
-      "community": 0,
+      "community": 1,
       "norm_label": "ollama-powered web project detector.     checks production code for web framewor"
     },
     {
@@ -1134,7 +1134,7 @@
       "source_file": "agency/testing.py",
       "source_location": "L37",
       "id": "agency_testing_rationale_37",
-      "community": 3,
+      "community": 1,
       "norm_label": "checks if playwright is installed and chromium is available."
     },
     {
@@ -1143,7 +1143,7 @@
       "source_file": "agency/testing.py",
       "source_location": "L46",
       "id": "agency_testing_rationale_46",
-      "community": 16,
+      "community": 2,
       "norm_label": "creates an isolated local directory for the project."
     },
     {
@@ -1161,7 +1161,7 @@
       "source_file": "agency/testing.py",
       "source_location": "L182",
       "id": "agency_testing_rationale_182",
-      "community": 3,
+      "community": 2,
       "norm_label": "runs test cases in an isolated temp directory.     strictly follows: shell=false"
     },
     {
@@ -1242,7 +1242,7 @@
       "source_file": "agency/triage.py",
       "source_location": "L226",
       "id": "agency_triage_run_uiux_pipeline",
-      "community": 3,
+      "community": 0,
       "norm_label": "run_uiux_pipeline()"
     },
     {
@@ -1323,7 +1323,7 @@
       "source_file": "agency/triage.py",
       "source_location": "L227",
       "id": "agency_triage_rationale_227",
-      "community": 3,
+      "community": 0,
       "norm_label": "runs the ui/ux design-fix pipeline:     targets only css/html/template files \u2014 n"
     },
     {
@@ -1350,7 +1350,7 @@
       "source_file": "antigravity.py",
       "source_location": "L30",
       "id": "antigravity_print_banner",
-      "community": 16,
+      "community": 2,
       "norm_label": "print_banner()"
     },
     {
@@ -1359,7 +1359,7 @@
       "source_file": "antigravity.py",
       "source_location": "L48",
       "id": "antigravity_main",
-      "community": 16,
+      "community": 2,
       "norm_label": "main()"
     },
     {
@@ -1377,7 +1377,7 @@
       "source_file": "antigravity.py",
       "source_location": "L31",
       "id": "antigravity_rationale_31",
-      "community": 16,
+      "community": 2,
       "norm_label": "print the antigravity cli startup banner."
     },
     {
@@ -1467,7 +1467,7 @@
       "source_file": "api_bridge.py",
       "source_location": "L239",
       "id": "api_bridge_call_agent",
-      "community": 7,
+      "community": 0,
       "norm_label": "call_agent()"
     },
     {
@@ -1503,7 +1503,7 @@
       "source_file": "api_bridge.py",
       "source_location": "L240",
       "id": "api_bridge_rationale_240",
-      "community": 7,
+      "community": 0,
       "norm_label": "langfuse-wrapped agent caller."
     },
     {
@@ -1534,348 +1534,6 @@
       "norm_label": "config.py"
     },
     {
-      "label": "destructive_framework_tests.py",
-      "file_type": "code",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L1",
-      "id": "destructive_framework_tests",
-      "community": 2,
-      "norm_label": "destructive_framework_tests.py"
-    },
-    {
-      "label": "test_token_tracker_null_input_crash()",
-      "file_type": "code",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L20",
-      "id": "destructive_framework_tests_test_token_tracker_null_input_crash",
-      "community": 6,
-      "norm_label": "test_token_tracker_null_input_crash()"
-    },
-    {
-      "label": "test_extract_handoff_greedy_regex_bug()",
-      "file_type": "code",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L27",
-      "id": "destructive_framework_tests_test_extract_handoff_greedy_regex_bug",
-      "community": 2,
-      "norm_label": "test_extract_handoff_greedy_regex_bug()"
-    },
-    {
-      "label": "test_get_unread_delta_corruption_crash()",
-      "file_type": "code",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L40",
-      "id": "destructive_framework_tests_test_get_unread_delta_corruption_crash",
-      "community": 21,
-      "norm_label": "test_get_unread_delta_corruption_crash()"
-    },
-    {
-      "label": "test_execute_in_sandbox_timeout_message_inconsistency()",
-      "file_type": "code",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L65",
-      "id": "destructive_framework_tests_test_execute_in_sandbox_timeout_message_inconsistency",
-      "community": 1,
-      "norm_label": "test_execute_in_sandbox_timeout_message_inconsistency()"
-    },
-    {
-      "label": "test_api_bridge_unsupported_role()",
-      "file_type": "code",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L74",
-      "id": "destructive_framework_tests_test_api_bridge_unsupported_role",
-      "community": 7,
-      "norm_label": "test_api_bridge_unsupported_role()"
-    },
-    {
-      "label": "test_ollama_direct_server_down()",
-      "file_type": "code",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L80",
-      "id": "destructive_framework_tests_test_ollama_direct_server_down",
-      "community": 16,
-      "norm_label": "test_ollama_direct_server_down()"
-    },
-    {
-      "label": "test_extract_function_block_syntax_error()",
-      "file_type": "code",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L87",
-      "id": "destructive_framework_tests_test_extract_function_block_syntax_error",
-      "community": 4,
-      "norm_label": "test_extract_function_block_syntax_error()"
-    },
-    {
-      "label": "test_apply_function_patch_missing_function()",
-      "file_type": "code",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L96",
-      "id": "destructive_framework_tests_test_apply_function_patch_missing_function",
-      "community": 4,
-      "norm_label": "test_apply_function_patch_missing_function()"
-    },
-    {
-      "label": "Verify that TokenTracker.log_call crashes with TypeError when text inputs are No",
-      "file_type": "rationale",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L21",
-      "id": "destructive_framework_tests_rationale_21",
-      "community": 6,
-      "norm_label": "verify that tokentracker.log_call crashes with typeerror when text inputs are no"
-    },
-    {
-      "label": "Verify that extract_handoff fails when multiple JSON blocks exist due to greedy",
-      "file_type": "rationale",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L28",
-      "id": "destructive_framework_tests_rationale_28",
-      "community": 2,
-      "norm_label": "verify that extract_handoff fails when multiple json blocks exist due to greedy"
-    },
-    {
-      "label": "Verify that get_unread_delta crashes with JSONDecodeError when read states file",
-      "file_type": "rationale",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L41",
-      "id": "destructive_framework_tests_rationale_41",
-      "community": 21,
-      "norm_label": "verify that get_unread_delta crashes with jsondecodeerror when read states file"
-    },
-    {
-      "label": "Verify execute_in_sandbox reports a 10s timeout error message even though it run",
-      "file_type": "rationale",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L66",
-      "id": "destructive_framework_tests_rationale_66",
-      "community": 1,
-      "norm_label": "verify execute_in_sandbox reports a 10s timeout error message even though it run"
-    },
-    {
-      "label": "Verify calling an unconfigured agent role returns an error string rather than ra",
-      "file_type": "rationale",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L75",
-      "id": "destructive_framework_tests_rationale_75",
-      "community": 7,
-      "norm_label": "verify calling an unconfigured agent role returns an error string rather than ra"
-    },
-    {
-      "label": "Verify call_ollama_direct falls back to 'UNSURE' gracefully when Ollama is down.",
-      "file_type": "rationale",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L81",
-      "id": "destructive_framework_tests_rationale_81",
-      "community": 16,
-      "norm_label": "verify call_ollama_direct falls back to 'unsure' gracefully when ollama is down."
-    },
-    {
-      "label": "Verify extract_function_block returns empty string when parsing a file with synt",
-      "file_type": "rationale",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L88",
-      "id": "destructive_framework_tests_rationale_88",
-      "community": 4,
-      "norm_label": "verify extract_function_block returns empty string when parsing a file with synt"
-    },
-    {
-      "label": "Verify apply_function_patch returns False when function to patch does not exist",
-      "file_type": "rationale",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L97",
-      "id": "destructive_framework_tests_rationale_97",
-      "community": 4,
-      "norm_label": "verify apply_function_patch returns false when function to patch does not exist"
-    },
-    {
-      "label": "extreme_destructive_tests.py",
-      "file_type": "code",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L1",
-      "id": "extreme_destructive_tests",
-      "community": 3,
-      "norm_label": "extreme_destructive_tests.py"
-    },
-    {
-      "label": "test_token_tracker_extreme_nulls_and_empty_types()",
-      "file_type": "code",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L22",
-      "id": "extreme_destructive_tests_test_token_tracker_extreme_nulls_and_empty_types",
-      "community": 6,
-      "norm_label": "test_token_tracker_extreme_nulls_and_empty_types()"
-    },
-    {
-      "label": "test_extract_handoff_nested_brackets_and_malformed()",
-      "file_type": "code",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L37",
-      "id": "extreme_destructive_tests_test_extract_handoff_nested_brackets_and_malformed",
-      "community": 3,
-      "norm_label": "test_extract_handoff_nested_brackets_and_malformed()"
-    },
-    {
-      "label": "test_get_unread_delta_extreme_empty_file()",
-      "file_type": "code",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L45",
-      "id": "extreme_destructive_tests_test_get_unread_delta_extreme_empty_file",
-      "community": 21,
-      "norm_label": "test_get_unread_delta_extreme_empty_file()"
-    },
-    {
-      "label": "test_execute_in_sandbox_dynamic_timeout_verification()",
-      "file_type": "code",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L71",
-      "id": "extreme_destructive_tests_test_execute_in_sandbox_dynamic_timeout_verification",
-      "community": 1,
-      "norm_label": "test_execute_in_sandbox_dynamic_timeout_verification()"
-    },
-    {
-      "label": "test_execute_in_sandbox_infinite_loop_timeout()",
-      "file_type": "code",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L80",
-      "id": "extreme_destructive_tests_test_execute_in_sandbox_infinite_loop_timeout",
-      "community": 1,
-      "norm_label": "test_execute_in_sandbox_infinite_loop_timeout()"
-    },
-    {
-      "label": "test_ollama_triage_unclosed_think_tag()",
-      "file_type": "code",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L104",
-      "id": "extreme_destructive_tests_test_ollama_triage_unclosed_think_tag",
-      "community": 3,
-      "norm_label": "test_ollama_triage_unclosed_think_tag()"
-    },
-    {
-      "label": "test_ask_user_triage_loop_resilience()",
-      "file_type": "code",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L120",
-      "id": "extreme_destructive_tests_test_ask_user_triage_loop_resilience",
-      "community": 3,
-      "norm_label": "test_ask_user_triage_loop_resilience()"
-    },
-    {
-      "label": "test_extract_function_block_regex_fallback()",
-      "file_type": "code",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L129",
-      "id": "extreme_destructive_tests_test_extract_function_block_regex_fallback",
-      "community": 4,
-      "norm_label": "test_extract_function_block_regex_fallback()"
-    },
-    {
-      "label": "test_identify_broken_functions_smart_mapping()",
-      "file_type": "code",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L155",
-      "id": "extreme_destructive_tests_test_identify_broken_functions_smart_mapping",
-      "community": 4,
-      "norm_label": "test_identify_broken_functions_smart_mapping()"
-    },
-    {
-      "label": "test_jina_search_fallback_trigger()",
-      "file_type": "code",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L185",
-      "id": "extreme_destructive_tests_test_jina_search_fallback_trigger",
-      "community": 7,
-      "norm_label": "test_jina_search_fallback_trigger()"
-    },
-    {
-      "label": "Verify TokenTracker log_call handles completely polluted inputs defensively with",
-      "file_type": "rationale",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L23",
-      "id": "extreme_destructive_tests_rationale_23",
-      "community": 6,
-      "norm_label": "verify tokentracker log_call handles completely polluted inputs defensively with"
-    },
-    {
-      "label": "Verify extract_handoff handles nested brackets and random braces gracefully with",
-      "file_type": "rationale",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L38",
-      "id": "extreme_destructive_tests_rationale_38",
-      "community": 3,
-      "norm_label": "verify extract_handoff handles nested brackets and random braces gracefully with"
-    },
-    {
-      "label": "Verify get_unread_delta recovers gracefully when read states file contains garba",
-      "file_type": "rationale",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L46",
-      "id": "extreme_destructive_tests_rationale_46",
-      "community": 21,
-      "norm_label": "verify get_unread_delta recovers gracefully when read states file contains garba"
-    },
-    {
-      "label": "Verify execute_in_sandbox reports correct timeout duration in its error response",
-      "file_type": "rationale",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L72",
-      "id": "extreme_destructive_tests_rationale_72",
-      "community": 1,
-      "norm_label": "verify execute_in_sandbox reports correct timeout duration in its error response"
-    },
-    {
-      "label": "Verify execute_in_sandbox aborts an infinite loop in 15 seconds instead of hangi",
-      "file_type": "rationale",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L81",
-      "id": "extreme_destructive_tests_rationale_81",
-      "community": 1,
-      "norm_label": "verify execute_in_sandbox aborts an infinite loop in 15 seconds instead of hangi"
-    },
-    {
-      "label": "Verify triage removes unclosed <think> tags when output is truncated and closing",
-      "file_type": "rationale",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L105",
-      "id": "extreme_destructive_tests_rationale_105",
-      "community": 3,
-      "norm_label": "verify triage removes unclosed <think> tags when output is truncated and closing"
-    },
-    {
-      "label": "Verify ask_user_triage loops on bad/empty inputs and only returns on a valid cho",
-      "file_type": "rationale",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L121",
-      "id": "extreme_destructive_tests_rationale_121",
-      "community": 3,
-      "norm_label": "verify ask_user_triage loops on bad/empty inputs and only returns on a valid cho"
-    },
-    {
-      "label": "Verify extract_function_block falls back to indentation-based regex parsing when",
-      "file_type": "rationale",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L130",
-      "id": "extreme_destructive_tests_rationale_130",
-      "community": 4,
-      "norm_label": "verify extract_function_block falls back to indentation-based regex parsing when"
-    },
-    {
-      "label": "Verify identify_broken_functions maps test signatures to correct production func",
-      "file_type": "rationale",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L156",
-      "id": "extreme_destructive_tests_rationale_156",
-      "community": 4,
-      "norm_label": "verify identify_broken_functions maps test signatures to correct production func"
-    },
-    {
-      "label": "Verify Jina Search triggers DDG fallback if no search content is retrieved (only",
-      "file_type": "rationale",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L186",
-      "id": "extreme_destructive_tests_rationale_186",
-      "community": 7,
-      "norm_label": "verify jina search triggers ddg fallback if no search content is retrieved (only"
-    },
-    {
       "label": "manager.py",
       "file_type": "code",
       "source_file": "manager.py",
@@ -1883,24 +1541,6 @@
       "id": "manager",
       "community": 2,
       "norm_label": "manager.py"
-    },
-    {
-      "label": "sanity_check_v2.py",
-      "file_type": "code",
-      "source_file": "sanity_check_v2.py",
-      "source_location": "L1",
-      "id": "sanity_check_v2",
-      "community": 6,
-      "norm_label": "sanity_check_v2.py"
-    },
-    {
-      "label": "run_foundation_tests()",
-      "file_type": "code",
-      "source_file": "sanity_check_v2.py",
-      "source_location": "L6",
-      "id": "sanity_check_v2_run_foundation_tests",
-      "community": 6,
-      "norm_label": "run_foundation_tests()"
     },
     {
       "label": "test_draft_coder.py",
@@ -2312,7 +1952,7 @@
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
       "source_location": "L439",
-      "community": 1,
+      "community": 0,
       "norm_label": "step 3a: test_lead executes a smoke test, reviews execution logs,     and compil",
       "id": "agency_orchestration_rationale_439"
     },
@@ -2330,7 +1970,7 @@
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
       "source_location": "L767",
-      "community": 21,
+      "community": 0,
       "norm_label": "step 3c: assistant_manager compiles the final delivery report.",
       "id": "agency_orchestration_rationale_767"
     },
@@ -2348,7 +1988,7 @@
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
       "source_location": "L860",
-      "community": 0,
+      "community": 4,
       "norm_label": "executes the full pipeline for a project run.",
       "id": "agency_orchestration_rationale_860"
     },
@@ -2375,7 +2015,7 @@
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
       "source_location": "L437",
-      "community": 1,
+      "community": 0,
       "norm_label": "step 3a: test_lead executes a smoke test, reviews execution logs,     and compil",
       "id": "agency_orchestration_rationale_437"
     },
@@ -2393,7 +2033,7 @@
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
       "source_location": "L765",
-      "community": 21,
+      "community": 0,
       "norm_label": "step 3c: assistant_manager compiles the final delivery report.",
       "id": "agency_orchestration_rationale_765"
     },
@@ -2411,7 +2051,7 @@
       "file_type": "rationale",
       "source_file": "agency/orchestration.py",
       "source_location": "L858",
-      "community": 0,
+      "community": 4,
       "norm_label": "executes the full pipeline for a project run.",
       "id": "agency_orchestration_rationale_858"
     },
@@ -2459,7 +2099,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "surgical changes",
       "id": "claude_surgical_changes"
     },
@@ -2485,7 +2125,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "antigravity multi-agent agency framework",
       "id": "readme_antigravity_framework"
     },
@@ -2498,7 +2138,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "agency/orchestration.py",
       "id": "orchestration_py"
     },
@@ -2511,7 +2151,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "agency/triage.py",
       "id": "triage_py"
     },
@@ -2524,7 +2164,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "agency/testing.py",
       "id": "testing_py"
     },
@@ -2537,7 +2177,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "agency/patching.py",
       "id": "patching_py"
     },
@@ -2550,7 +2190,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "agency/memory.py",
       "id": "memory_py"
     },
@@ -2563,7 +2203,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "agency/governance.py",
       "id": "governance_py"
     },
@@ -2576,7 +2216,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "agency/execution.py",
       "id": "execution_py"
     },
@@ -2589,7 +2229,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "norm_label": "destructive testing bug report",
       "id": "bug_report_destructive_testing"
     }
@@ -2803,28 +2443,6 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "auto_run",
-      "target": "agency_execution"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests",
-      "target": "agency_execution"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
       "target": "agency_execution"
     },
     {
@@ -3129,9 +2747,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L487",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_phase_2_d_quality_review",
-      "target": "agency_execution_read_file",
-      "confidence_score": 1.0
+      "target": "agency_execution_read_file"
     },
     {
       "relation": "calls",
@@ -3757,50 +3375,6 @@
       "target": "agency_execution_extract_handoff"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests",
-      "target": "agency_execution_extract_handoff"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L33",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests_test_extract_handoff_greedy_regex_bug",
-      "target": "agency_execution_extract_handoff"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "agency_execution_extract_handoff"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L40",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests_test_extract_handoff_nested_brackets_and_malformed",
-      "target": "agency_execution_extract_handoff"
-    },
-    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -3841,50 +3415,6 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "agency_execution_rationale_166",
-      "target": "agency_execution_get_unread_delta"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests",
-      "target": "agency_execution_get_unread_delta"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L55",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests_test_get_unread_delta_corruption_crash",
-      "target": "agency_execution_get_unread_delta"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "agency_execution_get_unread_delta"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L60",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests_test_get_unread_delta_extreme_empty_file",
       "target": "agency_execution_get_unread_delta"
     },
     {
@@ -4271,28 +3801,6 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests",
-      "target": "agency_governance"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "agency_governance"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "manager.py",
       "source_location": "L10",
       "weight": 1.0,
@@ -4445,72 +3953,6 @@
       "confidence_score": 1.0,
       "source": "agency_governance_tokentracker",
       "target": "agency_governance_tokentracker_print_final_report"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests",
-      "target": "agency_governance_tokentracker"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L22",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests_test_token_tracker_null_input_crash",
-      "target": "agency_governance_tokentracker"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "agency_governance_tokentracker"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests_test_token_tracker_extreme_nulls_and_empty_types",
-      "target": "agency_governance_tokentracker"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "sanity_check_v2.py",
-      "source_location": "L497",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sanity_check_v2",
-      "target": "agency_governance_tokentracker"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "sanity_check_v2.py",
-      "source_location": "L498",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sanity_check_v2_run_foundation_tests",
-      "target": "agency_governance_tokentracker"
     },
     {
       "relation": "references",
@@ -5063,9 +4505,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L467",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration",
-      "target": "agency_orchestration_phase_2_d_quality_review",
-      "confidence_score": 1.0
+      "target": "agency_orchestration_phase_2_d_quality_review"
     },
     {
       "relation": "contains",
@@ -5740,9 +5182,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L242",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_rationale_242",
-      "target": "agency_orchestration_phase_1_a_research_collection",
-      "confidence_score": 1.0
+      "target": "agency_orchestration_phase_1_a_research_collection"
     },
     {
       "relation": "calls",
@@ -5804,9 +5246,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L332",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_rationale_332",
-      "target": "agency_orchestration_phase_2_a_draft_coder",
-      "confidence_score": 1.0
+      "target": "agency_orchestration_phase_2_a_draft_coder"
     },
     {
       "relation": "calls",
@@ -5879,9 +5321,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L395",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_rationale_395",
-      "target": "agency_orchestration_phase_2_b_logic_expander",
-      "confidence_score": 1.0
+      "target": "agency_orchestration_phase_2_b_logic_expander"
     },
     {
       "relation": "calls",
@@ -5901,9 +5343,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L523",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_phase_2_d_quality_review",
-      "target": "agency_patching_extract_code_block",
-      "confidence_score": 1.0
+      "target": "agency_patching_extract_code_block"
     },
     {
       "relation": "calls",
@@ -5912,9 +5354,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L475",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_phase_2_d_quality_review",
-      "target": "agency_testing_is_web_project",
-      "confidence_score": 1.0
+      "target": "agency_testing_is_web_project"
     },
     {
       "relation": "calls",
@@ -5923,9 +5365,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L516",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_phase_2_d_quality_review",
-      "target": "api_bridge_call_agent",
-      "confidence_score": 1.0
+      "target": "api_bridge_call_agent"
     },
     {
       "relation": "rationale_for",
@@ -5933,9 +5375,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L468",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_rationale_468",
-      "target": "agency_orchestration_phase_2_d_quality_review",
-      "confidence_score": 1.0
+      "target": "agency_orchestration_phase_2_d_quality_review"
     },
     {
       "relation": "calls",
@@ -5944,9 +5386,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L1038",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_run_full_pipeline",
-      "target": "agency_orchestration_phase_2_d_quality_review",
-      "confidence_score": 1.0
+      "target": "agency_orchestration_phase_2_d_quality_review"
     },
     {
       "relation": "calls",
@@ -6029,9 +5471,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L570",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_rationale_570",
-      "target": "agency_orchestration_phase_3_a_test_lead",
-      "confidence_score": 1.0
+      "target": "agency_orchestration_phase_3_a_test_lead"
     },
     {
       "relation": "calls",
@@ -6158,9 +5600,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L803",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_rationale_803",
-      "target": "agency_orchestration_phase_3_b_deep_tester",
-      "confidence_score": 1.0
+      "target": "agency_orchestration_phase_3_b_deep_tester"
     },
     {
       "relation": "calls",
@@ -6254,9 +5696,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L898",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_rationale_898",
-      "target": "agency_orchestration_phase_3_c_assistant_manager",
-      "confidence_score": 1.0
+      "target": "agency_orchestration_phase_3_c_assistant_manager"
     },
     {
       "relation": "calls",
@@ -6360,9 +5802,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L979",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_rationale_979",
-      "target": "agency_orchestration_phase_2b_logic_expander",
-      "confidence_score": 1.0
+      "target": "agency_orchestration_phase_2b_logic_expander"
     },
     {
       "relation": "calls",
@@ -6445,9 +5887,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L991",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_rationale_991",
-      "target": "agency_orchestration_run_full_pipeline",
-      "confidence_score": 1.0
+      "target": "agency_orchestration_run_full_pipeline"
     },
     {
       "relation": "calls",
@@ -6532,9 +5974,9 @@
       "source_file": "agency/orchestration.py",
       "source_location": "L1109",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agency_orchestration_rationale_1109",
-      "target": "agency_orchestration_subprocess_popen_safe",
-      "confidence_score": 1.0
+      "target": "agency_orchestration_subprocess_popen_safe"
     },
     {
       "relation": "rationale_for",
@@ -6690,28 +6132,6 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "auto_run",
-      "target": "agency_patching"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests",
-      "target": "agency_patching"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
       "target": "agency_patching"
     },
     {
@@ -6986,50 +6406,6 @@
       "target": "agency_patching_extract_function_block"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests",
-      "target": "agency_patching_extract_function_block"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L92",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests_test_extract_function_block_syntax_error",
-      "target": "agency_patching_extract_function_block"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "agency_patching_extract_function_block"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L146",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests_test_extract_function_block_regex_fallback",
-      "target": "agency_patching_extract_function_block"
-    },
-    {
       "relation": "references",
       "context": "return_type",
       "confidence": "EXTRACTED",
@@ -7062,39 +6438,6 @@
       "target": "agency_patching_apply_function_patch"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests",
-      "target": "agency_patching_apply_function_patch"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L101",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests_test_apply_function_patch_missing_function",
-      "target": "agency_patching_apply_function_patch"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "agency_patching_apply_function_patch"
-    },
-    {
       "relation": "references",
       "context": "return_type",
       "confidence": "EXTRACTED",
@@ -7124,28 +6467,6 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "agency_patching_rationale_141",
-      "target": "agency_patching_identify_broken_functions"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "agency_patching_identify_broken_functions"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L176",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests_test_identify_broken_functions_smart_mapping",
       "target": "agency_patching_identify_broken_functions"
     },
     {
@@ -7409,28 +6730,6 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests",
-      "target": "agency_router"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "agency_router"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "manager.py",
       "source_location": "L12",
       "weight": 1.0,
@@ -7468,39 +6767,6 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "agency_router_rationale_11",
-      "target": "agency_router_call_ollama_direct"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests",
-      "target": "agency_router_call_ollama_direct"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L83",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests_test_ollama_direct_server_down",
-      "target": "agency_router_call_ollama_direct"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
       "target": "agency_router_call_ollama_direct"
     },
     {
@@ -7849,28 +7115,6 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests",
-      "target": "agency_testing"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "agency_testing"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "manager.py",
       "source_location": "L8",
       "weight": 1.0,
@@ -7952,61 +7196,6 @@
       "target": "agency_testing_execute_in_sandbox"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests",
-      "target": "agency_testing_execute_in_sandbox"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L68",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests_test_execute_in_sandbox_timeout_message_inconsistency",
-      "target": "agency_testing_execute_in_sandbox"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "agency_testing_execute_in_sandbox"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L75",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests_test_execute_in_sandbox_dynamic_timeout_verification",
-      "target": "agency_testing_execute_in_sandbox"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L91",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests_test_execute_in_sandbox_infinite_loop_timeout",
-      "target": "agency_testing_execute_in_sandbox"
-    },
-    {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "agency/testing.py",
@@ -8026,17 +7215,6 @@
       "confidence_score": 1.0,
       "source": "agency_testing_run_tests_safe",
       "target": "agency_testing_py_str"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "agency_testing_run_tests_safe"
     },
     {
       "relation": "contains",
@@ -8151,17 +7329,6 @@
       "target": "agency_triage"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "agency_triage"
-    },
-    {
       "relation": "references",
       "context": "return_type",
       "confidence": "EXTRACTED",
@@ -8180,28 +7347,6 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "agency_triage_rationale_24",
-      "target": "agency_triage_ollama_triage_issue"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "agency_triage_ollama_triage_issue"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L116",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests_test_ollama_triage_unclosed_think_tag",
       "target": "agency_triage_ollama_triage_issue"
     },
     {
@@ -8278,28 +7423,6 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "agency_triage_rationale_80",
-      "target": "agency_triage_ask_user_triage"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "agency_triage_ask_user_triage"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L124",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests_test_ask_user_triage_loop_resilience",
       "target": "agency_triage_ask_user_triage"
     },
     {
@@ -8546,9 +7669,9 @@
       "source_file": "api_bridge.py",
       "source_location": "L226",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_bridge",
-      "target": "api_bridge_inject_quality_standards",
-      "confidence_score": 1.0
+      "target": "api_bridge_inject_quality_standards"
     },
     {
       "relation": "contains",
@@ -8589,28 +7712,6 @@
       "source_location": null,
       "weight": 1.0,
       "source": "bug_report_destructive_testing",
-      "target": "api_bridge"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests",
-      "target": "api_bridge"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
       "target": "api_bridge"
     },
     {
@@ -8690,28 +7791,6 @@
       "target": "api_bridge_call_ddg_search"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "api_bridge_call_jina_search"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L195",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests_test_jina_search_fallback_trigger",
-      "target": "api_bridge_call_jina_search"
-    },
-    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -8750,9 +7829,9 @@
       "source_file": "api_bridge.py",
       "source_location": "L325",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_bridge_call_agent_raw",
-      "target": "api_bridge_inject_quality_standards",
-      "confidence_score": 1.0
+      "target": "api_bridge_inject_quality_standards"
     },
     {
       "relation": "rationale_for",
@@ -8760,9 +7839,9 @@
       "source_file": "api_bridge.py",
       "source_location": "L227",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_bridge_rationale_227",
-      "target": "api_bridge_inject_quality_standards",
-      "confidence_score": 1.0
+      "target": "api_bridge_inject_quality_standards"
     },
     {
       "relation": "calls",
@@ -8791,9 +7870,9 @@
       "source_file": "api_bridge.py",
       "source_location": "L240",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_bridge_rationale_240",
-      "target": "api_bridge_call_agent",
-      "confidence_score": 1.0
+      "target": "api_bridge_call_agent"
     },
     {
       "relation": "rationale_for",
@@ -8803,39 +7882,6 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "api_bridge_rationale_302",
-      "target": "api_bridge_call_agent"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests",
-      "target": "api_bridge_call_agent"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L76",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests_test_api_bridge_unsupported_role",
-      "target": "api_bridge_call_agent"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
       "target": "api_bridge_call_agent"
     },
     {
@@ -8865,9 +7911,9 @@
       "source_file": "api_bridge.py",
       "source_location": "L315",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_bridge_rationale_315",
-      "target": "api_bridge_call_agent_raw",
-      "confidence_score": 1.0
+      "target": "api_bridge_call_agent_raw"
     },
     {
       "relation": "imports_from",
@@ -8923,366 +7969,6 @@
       "target": "config"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L74",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests",
-      "target": "destructive_framework_tests_test_api_bridge_unsupported_role"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L96",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests",
-      "target": "destructive_framework_tests_test_apply_function_patch_missing_function"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L65",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests",
-      "target": "destructive_framework_tests_test_execute_in_sandbox_timeout_message_inconsistency"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L87",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests",
-      "target": "destructive_framework_tests_test_extract_function_block_syntax_error"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L27",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests",
-      "target": "destructive_framework_tests_test_extract_handoff_greedy_regex_bug"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L40",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests",
-      "target": "destructive_framework_tests_test_get_unread_delta_corruption_crash"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L80",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests",
-      "target": "destructive_framework_tests_test_ollama_direct_server_down"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests",
-      "target": "destructive_framework_tests_test_token_tracker_null_input_crash"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests_rationale_21",
-      "target": "destructive_framework_tests_test_token_tracker_null_input_crash"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L28",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests_rationale_28",
-      "target": "destructive_framework_tests_test_extract_handoff_greedy_regex_bug"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L41",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests_rationale_41",
-      "target": "destructive_framework_tests_test_get_unread_delta_corruption_crash"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L66",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests_rationale_66",
-      "target": "destructive_framework_tests_test_execute_in_sandbox_timeout_message_inconsistency"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L75",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests_rationale_75",
-      "target": "destructive_framework_tests_test_api_bridge_unsupported_role"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L81",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests_rationale_81",
-      "target": "destructive_framework_tests_test_ollama_direct_server_down"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L88",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests_rationale_88",
-      "target": "destructive_framework_tests_test_extract_function_block_syntax_error"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "destructive_framework_tests.py",
-      "source_location": "L97",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "destructive_framework_tests_rationale_97",
-      "target": "destructive_framework_tests_test_apply_function_patch_missing_function"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L120",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "extreme_destructive_tests_test_ask_user_triage_loop_resilience"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L71",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "extreme_destructive_tests_test_execute_in_sandbox_dynamic_timeout_verification"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L80",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "extreme_destructive_tests_test_execute_in_sandbox_infinite_loop_timeout"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L129",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "extreme_destructive_tests_test_extract_function_block_regex_fallback"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L37",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "extreme_destructive_tests_test_extract_handoff_nested_brackets_and_malformed"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L45",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "extreme_destructive_tests_test_get_unread_delta_extreme_empty_file"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L155",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "extreme_destructive_tests_test_identify_broken_functions_smart_mapping"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L185",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "extreme_destructive_tests_test_jina_search_fallback_trigger"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L104",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "extreme_destructive_tests_test_ollama_triage_unclosed_think_tag"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L22",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests",
-      "target": "extreme_destructive_tests_test_token_tracker_extreme_nulls_and_empty_types"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L23",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests_rationale_23",
-      "target": "extreme_destructive_tests_test_token_tracker_extreme_nulls_and_empty_types"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L38",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests_rationale_38",
-      "target": "extreme_destructive_tests_test_extract_handoff_nested_brackets_and_malformed"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L46",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests_rationale_46",
-      "target": "extreme_destructive_tests_test_get_unread_delta_extreme_empty_file"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L72",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests_rationale_72",
-      "target": "extreme_destructive_tests_test_execute_in_sandbox_dynamic_timeout_verification"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L81",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests_rationale_81",
-      "target": "extreme_destructive_tests_test_execute_in_sandbox_infinite_loop_timeout"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L105",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests_rationale_105",
-      "target": "extreme_destructive_tests_test_ollama_triage_unclosed_think_tag"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L121",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests_rationale_121",
-      "target": "extreme_destructive_tests_test_ask_user_triage_loop_resilience"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L130",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests_rationale_130",
-      "target": "extreme_destructive_tests_test_extract_function_block_regex_fallback"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L156",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests_rationale_156",
-      "target": "extreme_destructive_tests_test_identify_broken_functions_smart_mapping"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "extreme_destructive_tests.py",
-      "source_location": "L186",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extreme_destructive_tests_rationale_186",
-      "target": "extreme_destructive_tests_test_jina_search_fallback_trigger"
-    },
-    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -9291,27 +7977,6 @@
       "weight": 1.0,
       "source": "readme_antigravity_framework",
       "target": "manager"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "sanity_check_v2.py",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sanity_check_v2",
-      "target": "manager"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sanity_check_v2.py",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sanity_check_v2",
-      "target": "sanity_check_v2_run_foundation_tests"
     },
     {
       "relation": "contains",
@@ -9795,5 +8460,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "9f655804f18b83b16d9e0fc3e82032a7773c83bd"
+  "built_at_commit": "7f02f9d09bea31213b2927563eca26584899aa7d"
 }

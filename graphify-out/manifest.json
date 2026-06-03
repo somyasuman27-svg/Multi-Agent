@@ -64,25 +64,10 @@
     "ast_hash": "303883c1c5699f6e2905f6b88eb212d8",
     "semantic_hash": ""
   },
-  "E:\\Mult_agent\\destructive_framework_tests.py": {
-    "mtime": 1780391030.023231,
-    "ast_hash": "f308862809c6f926d722e7c566335f89",
-    "semantic_hash": "f308862809c6f926d722e7c566335f89"
-  },
-  "E:\\Mult_agent\\extreme_destructive_tests.py": {
-    "mtime": 1780392041.667592,
-    "ast_hash": "efeb4295b7fc23e49007abfbff209c56",
-    "semantic_hash": "efeb4295b7fc23e49007abfbff209c56"
-  },
   "E:\\Mult_agent\\manager.py": {
     "mtime": 1780239602.890561,
     "ast_hash": "b9264a5e1b980b28b32a0b2afde0e7cf",
     "semantic_hash": "b9264a5e1b980b28b32a0b2afde0e7cf"
-  },
-  "E:\\Mult_agent\\sanity_check_v2.py": {
-    "mtime": 1780242566.8542283,
-    "ast_hash": "a4d255a8ddf47289486a3f3e9b7d09fe",
-    "semantic_hash": "a4d255a8ddf47289486a3f3e9b7d09fe"
   },
   "E:\\Mult_agent\\test_draft_coder.py": {
     "mtime": 1780104034.3663607,
